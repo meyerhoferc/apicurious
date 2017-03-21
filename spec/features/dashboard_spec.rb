@@ -20,5 +20,8 @@ describe "user dashboard path" do
   end
 
   it "a user not logged in is redirected to the root path" do
+    Fabricate(:user)
+    visit dashboard_path
+    expect(current_path).to eq(root_path)
   end
 end
