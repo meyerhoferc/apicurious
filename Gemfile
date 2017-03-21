@@ -36,7 +36,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'faraday'
 gem 'figaro'
-gem 'omniauth'
+gem 'omniauth-reddit', :git => 'git://github.com/jackdempsey/omniauth-reddit.git'
 gem 'simplecov', :require => false, :group => :test
 
 group :development, :test do
@@ -44,6 +44,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'fabricator'
 end
 
 group :development do
