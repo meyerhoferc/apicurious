@@ -44,7 +44,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'rspec-rails'
   gem 'capybara'
-  gem 'fabricator'
+  gem 'fabrication'
 end
 
 group :development do
