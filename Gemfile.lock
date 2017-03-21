@@ -98,6 +98,8 @@ GEM
     hashie (3.5.5)
     hoe (3.16.0)
       rake (>= 0.8, < 13.0)
+    httparty (0.14.0)
+      multi_xml (>= 0.5.2)
     i18n (0.8.1)
     jbuilder (2.6.3)
       activesupport (>= 3.0.0, < 5.2)
@@ -254,8 +256,8 @@ DEPENDENCIES
   capybara
   coffee-rails (~> 4.2)
   fabricator
-  faraday
   figaro
+  httparty
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
