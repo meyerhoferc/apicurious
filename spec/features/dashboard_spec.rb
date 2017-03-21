@@ -9,9 +9,16 @@ describe "user dashboard path" do
     within("h1") do
       expect(page).to have_content("Welcome, d117")
     end
-    within(".karma") do
+
+    within(".comment_karma") do
       expect(page).to have_content("Comment Karma: 12")
+    end
+
+    within(".link_karma") do
       expect(page).to have_content("Link Karma: 10")
     end
+  end
+
+  it "a user not logged in is redirected to the root path" do
   end
 end
