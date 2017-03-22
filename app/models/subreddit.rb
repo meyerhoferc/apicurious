@@ -25,6 +25,6 @@ class Subreddit
   end
 
   def welcome_message
-    @reddit_service.get_welcome_message
+   @reddit_service.get_subreddit_about(@title)
   end
 end
