@@ -7,7 +7,7 @@ describe RedditService do
   end
 
   describe "#subreddits" do
-    it "finds all subreddits for a user" do
+    xit "finds all subreddits for a user" do
       subreddits = service.subreddits
       subreddit = subreddits.first
       expect(subreddit.class).to eq(Subreddit)

@@ -16,8 +16,10 @@ class User < ApplicationRecord
   end
 
   def subreddit_subscriptions
-     reddit_service.subreddits.map do |subreddit|
-       Subreddit.new(subreddit[:data][:title], subreddit[:data][:url], subreddit[:data][:public_description])
-     end
+    if reddit_service.subreddits
+      reddit_service.subreddits.map do |subreddit|
+        Subreddit.new(subreddit[:data][:title], subreddit[:data][:url], subreddit[:data][:public_description])
+      end
+    end
   end
 end

@@ -1,14 +1,16 @@
 <% unless current_user? %>
 <h1>Login with Reddit to view your Reddit feed</h1>
-<%= link_to "Login with Reddit", "https://www.reddit.com/api/v1/authorize?client_id=#{ENV['REDDIT_KEY']}&response_type=code&state=RANDOM_STRING&redirect_uri=#{ENV['REDIRECT_URI']}&duration=permanent&scope=identity,mysubreddits,read" %>
+<%= link_to "Login with Reddit", "https://www.reddit.com/api/v1/authorize?client_id=#{ENV['REDDIT_KEY']}&response_type=code&state=RANDOM_STRING&redirect_uri=#{ENV['REDIRECT_URI']}&duration=permanent&scope=identity,mysubreddits,read", class: "button" %>
 <% else %>
 <h1><%= current_user.username %>'s Subreddits</h1>
 <div class="subreddits">
+  <% if current_user.subreddit_subscriptions %>
   <% current_user.subreddit_subscriptions.each do |subreddit| %>
   <div>
     <h4><%= subreddit.title %> <%= subreddit.url %></h4>
     <p><%= subreddit.description %></p>
   </div>
+  <% end %>
   <% end %>
 </div>
 <% end %>
