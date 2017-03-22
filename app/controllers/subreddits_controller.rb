@@ -3,6 +3,7 @@ class SubredditsController < ApplicationController
     @subreddit = Subreddit.new(params[:id])
     @subreddit.update_url
     @subreddit.update_description
+    @subreddit.get_rules
     @subreddit
   end
 end

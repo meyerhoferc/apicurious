@@ -35,4 +35,13 @@ describe Subreddit do
       end
     end
   end
+
+  describe "#welcome" do
+    it "returns the about message for a subreddit" do
+      subreddit = Subreddit.new("tucson")
+      message = subreddit.welcome_message
+      expected = "###\n\n###\n\n***\n\nWelcome to /r/Tucson, the subreddit for content pertaining to the Tucson Metropolitan area including: *Tucson, Marana, Vail, Oro Valley, Green Valley &amp; Sahuarita*."
+      expect(message).to eq(expected)
+    end
+  end
 end

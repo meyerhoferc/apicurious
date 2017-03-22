@@ -23,7 +23,7 @@ describe "user can view a subreddit" do
       expect(page).to have_content("Not a credible news source OR misleading title")
     end
 
-    within(".about") do
+    within(".welcome") do
       expect(page).to have_content("###\n\n###\n\n***\n\nWelcome to /r/Tucson, the subreddit for content pertaining to the Tucson Metropolitan area including: *Tucson, Marana, Vail, Oro Valley, Green Valley &amp; Sahuarita*.")
     end
   end

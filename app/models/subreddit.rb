@@ -20,8 +20,11 @@ class Subreddit
 
   def get_rules
     @reddit_service.get_subreddit_rules(@title).each do |rule|
-      # byebug
       @rules << Rule.new(rule[:description])
     end
+  end
+
+  def welcome_message
+    @reddit_service.get_welcome_message
   end
 end
