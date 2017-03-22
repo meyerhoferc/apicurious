@@ -8,10 +8,6 @@ describe "homepage" do
       within("h1") do
         expect(page).to have_content("Login with Reddit to view your Reddit feed")
       end
-
-      within(".button") do
-        expect(page).to have_content("Login with Reddit")
-      end
     end
   end
 

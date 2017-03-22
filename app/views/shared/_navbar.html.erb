@@ -1,0 +1,11 @@
+<% if current_user? %>
+<% else %>
+<nav>
+  <div class="nav-wrapper">
+    <a href="<%= root_path %>" class="brand-logo">Reddit Curious</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="<%= "https://www.reddit.com/api/v1/authorize?client_id=#{ENV['REDDIT_KEY']}&response_type=code&state=RANDOM_STRING&redirect_uri=#{ENV['REDIRECT_URI']}&duration=permanent&scope=identity,mysubreddits,read" %>">Login with Reddit</a></li>
+    </ul>
+  </div>
+</nav>
+<% end %>
