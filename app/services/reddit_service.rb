@@ -9,6 +9,13 @@ class RedditService
     parse(response)[:data][:children] if response["error"] == 200
   end
 
+  def refresh_access_token(refresh_token)
+    response = HTTParty.post("https://www.reddit.com/api/v1/access_token",
+                            body: "grant_type=refresh_token&refresh_token=#{refresh_token}&redirect_uri=#{ENV['REDIRECT_URI']}",
+                            basic_auth: { username: ENV['REDDIT_KEY'], password: ENV['REDDIT_SECRET'] })
+    parse(response)
+  end
+
   private
 
   def parse(response)

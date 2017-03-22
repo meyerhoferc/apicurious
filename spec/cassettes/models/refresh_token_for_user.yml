@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://www.reddit.com/api/v1/access_token
+    body:
+      encoding: UTF-8
+      string: grant_type=refresh_token&refresh_token=71227529-WzgF-IgwDl98WpQNL1TQtC-V_j4&redirect_uri=http://localhost:3000/auth/reddit/callback
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Authorization:
+      - Basic V3l6ZlNQVWljVy1IV3c6LTNmNFdEY250bHozaFA4cVhxb0NNNk1lU3Jz
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - edgebucket=6uzyKaJWJiImh0FYck; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loid=HCZs32iXnMqAQFNZ8f.1.1490201546210.Z0FBQUFBQlkwcXZLOXhlbHFpVEVPaHozcFlaUUdEX1pjR2pMYUsxdmYyRVAxUHlrOEtPVVlBdnp3eVI0M2ZuQnlsRHdObWlWRG5tNWt1Zk15dThNTEdPTmtIZmo0VzhXU2ZNM25XcV9Uc2oxdWlQaklRSjlRMDFvM3ZETXlOdEpqeHo4U0EtTzVKSHE;
+        Domain=reddit.com; Max-Age=63071999; Path=/; expires=Fri, 22-Mar-2019 16:52:26
+        GMT; secure
+      Cache-Control:
+      - max-age=0, must-revalidate
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '151'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 22 Mar 2017 16:52:26 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-den6020-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1490201546.158439,VS0,VE73
+      Server:
+      - snooserv
+    body:
+      encoding: UTF-8
+      string: '{"access_token": "GI19Wc4rYy_ATpJ-Lbe23O17bd0", "token_type": "bearer",
+        "device_id": "None", "expires_in": 3600, "scope": "identity mysubreddits read"}'
+    http_version: 
+  recorded_at: Wed, 22 Mar 2017 16:52:25 GMT
+recorded_with: VCR 3.0.3

@@ -22,4 +22,8 @@ class User < ApplicationRecord
       end
     end
   end
+
+  def refresh_tokens
+    reddit_service.refresh_access_token(self.refresh_token)[:access_token]
+  end
 end

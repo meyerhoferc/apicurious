@@ -17,7 +17,8 @@ describe "homepage" do
 
   describe "a logged in user visits the homepage" do
     it "they see a list of their subscribed subreddits" do
-      user = Fabricate(:user)
+      token = user.refresh_token
+      user = Fabricate(:user, access_token: token)
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
       visit root_path
 
