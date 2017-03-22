@@ -35,6 +35,8 @@ describe "navbar" do
 
     click_on "/u/#{user.username}"
 
+    expect(current_path).to eq(dashboard_path)
+
     within(".nav-wrapper") do
       expect(page).to have_link("Reddit Curious")
       expect(page).to have_link("Logout")

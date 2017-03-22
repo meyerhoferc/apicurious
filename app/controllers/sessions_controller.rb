@@ -9,6 +9,12 @@ class SessionsController < ApplicationController
     redirect_to dashboard_path
   end
 
+  def destroy
+    session.clear
+    flash[:notice] = "Successfully logged out"
+    redirect_to root_path
+  end
+
   private
 
   def reddit_login_params
