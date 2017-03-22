@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+
+ /*navbar styling*/
+ .nav-wrapper {
+   background-color: #cee3f8;
+ }
+
+ .nav-wrapper a {
+   color: #393e41;
+ }
+
+ body a {
+   color: #5f99cf;
+ }
+
+ a:hover {
+   color: #e7bb41;
+ }
+
+/*color palette*/
+
+/*Reddit light blue: #cee3f8
+Reddit dark blue: #5f99cf
+Reddit red: #ff4500*/
+
+/*#393e41 dark grey
+#d3d0cb light grey
+#e7e5df off white
+#44bba4 ocean green
+#e7bb41 mustard*/
