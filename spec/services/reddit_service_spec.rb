@@ -15,4 +15,13 @@ describe RedditService do
       end
     end
   end
+
+  describe "#get_subreddit_url(title)" do
+    it "returns the title for a subreddit" do
+      subreddit = Subreddit.new("tucson")
+      service = RedditService.new()
+      url = service.get_subreddit_url(subreddit.title)
+      expect(url).to eq("/r/Tucson/")
+    end
+  end
 end

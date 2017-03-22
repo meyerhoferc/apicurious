@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get "/dashboard", to: "dashboard#show"
   get '/logout', to: 'sessions#destroy'
   root "home#index"
+  resources :subreddits, only: [:show]
 end

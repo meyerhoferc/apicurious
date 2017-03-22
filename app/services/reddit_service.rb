@@ -1,5 +1,5 @@
 class RedditService
-  def initialize(token)
+  def initialize(token = nil)
     @token = token
     @headers = {Authorization: "bearer #{@token}", "User-Agent": "apicurious by razzpudding"}
   end
@@ -14,6 +14,11 @@ class RedditService
                             body: "grant_type=refresh_token&refresh_token=#{refresh_token}&redirect_uri=#{ENV['REDIRECT_URI']}",
                             basic_auth: { username: ENV['REDDIT_KEY'], password: ENV['REDDIT_SECRET'] })
     parse(response)
+  end
+
+  def get_subreddit_url(title)
+    response = HTTParty.get("https://www.reddit.com/r/#{title}/about.json")
+    parse(response)[:data][:url]
   end
 
   private
