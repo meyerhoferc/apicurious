@@ -1,0 +1,88 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.reddit.com/r/tucson/about/rules.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - edgebucket=IZRMNajYD3HkXCgFdt; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loid=t2CYtXVkFG9gYtBxp5.1.1490215532719.Z0FBQUFBQlkwdUpzMmlQdTgydy1jeHl4WmhzYlRPTFRVdDZLei05SDJMVnlxdE5Tb0pnYlNnVnVxNy16aE1WV0pHQ2gySXpXaEFSbUY5b0ZNMDgtYVdCVks3X1JtNW9ENFNWYXE1Nnh3UWZqYXJFYjZvNmNvVHdwa19hTzN1TEQ5WXdCanNFV1lWSlU;
+        Domain=reddit.com; Max-Age=63071999; Path=/; expires=Fri, 22-Mar-2019 20:45:32
+        GMT; secure
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Reddit-Tracking, X-Moose
+      X-Reddit-Tracking:
+      - https://pixel.redditmedia.com/pixel/of_destiny.png?v=OeOYbNms7o9BCUZQVLpBCora2FhytQVVPtx29cz9InlfPFJOjqiQLrZMM6b%2B7lj0z8LluM4V4K4%3D
+      Cache-Control:
+      - max-age=0, must-revalidate
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '1632'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 22 Mar 2017 20:45:32 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-den6021-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1490215532.685826,VS0,VE69
+      Vary:
+      - accept-encoding
+      Server:
+      - snooserv
+    body:
+      encoding: UTF-8
+      string: '{"rules": [{"kind": "all", "description": "No posting anything that
+        violates reddit''s spam or advertising policies.", "short_name": "No advertising
+        spam", "violation_reason": "Advertising Spam", "created_utc": 1453791676.0,
+        "priority": 0, "description_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;No
+        posting anything that violates reddit&amp;#39;s spam or advertising policies.&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;"}, {"kind": "all", "description": "Being abusive", "short_name":
+        "Abusive", "violation_reason": "Abuse", "created_utc": 1487815589.0, "priority":
+        1, "description_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Being
+        abusive&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;"}, {"kind": "all", "description":
+        "No identifying info or attempts to find info on someone else.", "short_name":
+        "ID", "violation_reason": "Identifying info/seeking identifying info", "created_utc":
+        1487815771.0, "priority": 2, "description_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;No identifying info or attempts to find info on someone
+        else.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;"}, {"kind": "all", "description":
+        "Not a credible news source OR misleading title", "short_name": "News", "violation_reason":
+        "Not a credible news source OR misleading title", "created_utc": 1487815826.0,
+        "priority": 3, "description_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Not
+        a credible news source OR misleading title&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;"}], "site_rules": ["Spam", "Personal and confidential information",
+        "Threatening, harassing, or inciting violence"]}'
+    http_version: 
+  recorded_at: Wed, 22 Mar 2017 20:45:32 GMT
+recorded_with: VCR 3.0.3

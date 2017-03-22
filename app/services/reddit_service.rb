@@ -26,6 +26,11 @@ class RedditService
     parse(response)[:data][:public_description]
   end
 
+  def get_subreddit_rules(title)
+    response = HTTParty.get("https://www.reddit.com/r/#{title}/about/rules.json")
+    parse(response)[:rules]
+  end
+
   private
 
   def parse(response)
