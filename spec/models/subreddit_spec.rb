@@ -19,4 +19,14 @@ describe Subreddit do
       expect(subreddit.description).to eq(description)
     end
   end
+
+  describe "#rules" do
+    it "returns a collection of rules for that subreddit" do
+      subreddit = Subreddit.new("tucson")
+      rules = subreddit.rules
+      rule = rules.first
+      expect(rules.count).to eq(4)
+      expect(rule.content).to eq("No posting anything that violates reddit's spam or advertising policies.")
+    end
+  end
 end

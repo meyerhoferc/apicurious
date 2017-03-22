@@ -1,2 +1,8 @@
 <h1><%= @subreddit.url %></h1>
 <h3><%= @subreddit.description %></h3>
+
+<div class="rules">
+  <% @subreddit.rules.each do |rule| %>
+    <p>rule.content</p>
+  <% end %>
+</div>
