@@ -12,4 +12,8 @@ class Subreddit
   def update_url
     @url = @reddit_service.get_subreddit_url(@title)
   end
+
+  def update_description
+    @description = @reddit_service.get_subreddit_description(@title)
+  end
 end

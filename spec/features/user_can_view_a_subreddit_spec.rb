@@ -9,12 +9,12 @@ describe "user can view a subreddit" do
     allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
     allow_any_instance_of(User).to receive(:subreddit_subscriptions).and_return(subreddits)
     visit root_path
-    expect(page).to have_link("/r/Tucson")
+    expect(page).to have_link("/r/tucson")
     expect(page).to have_link("/r/pics")
 
-    click_on "/r/Tucson"
+    click_on "/r/tucson"
 
-    expect(current_path).to eq(subreddit_path(tucson_subreddit))
+    expect(current_path).to eq(subreddit_path(tucson_subreddit.title))
 
     within(".rules") do
       expect(page).to have_content("No posting anything that violates reddit's spam or advertising policies.")

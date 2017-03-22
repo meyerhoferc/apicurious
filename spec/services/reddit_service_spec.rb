@@ -17,11 +17,25 @@ describe RedditService do
   end
 
   describe "#get_subreddit_url(title)" do
-    it "returns the title for a subreddit" do
-      subreddit = Subreddit.new("tucson")
-      service = RedditService.new()
-      url = service.get_subreddit_url(subreddit.title)
-      expect(url).to eq("/r/Tucson/")
+    it "returns the url for a subreddit" do
+      VCR.use_cassette("/services/get_subreddit_url") do
+        subreddit = Subreddit.new("tucson")
+        service = RedditService.new()
+        url = service.get_subreddit_url(subreddit.title)
+        expect(url).to eq("/r/Tucson/")
+      end
+    end
+  end
+
+  describe "#get_subreddit_description(title)" do
+    it "returns the description for a subreddit" do
+      VCR.use_cassette("/services/get_subreddit_description") do
+        subreddit = Subreddit.new("tucson")
+        service = RedditService.new()
+        description = service.get_subreddit_description(subreddit.title)
+        expected = "The subreddit for Tucson, Arizona; located in the Southwestern part of the US.  Southern Arizona is 70 miles north of Mexico, on I-10 between California and New Mexico. We have plenty of cacti and beautiful scenery to enjoy!"
+        expect(description).to eq(expected)
+      end
     end
   end
 end
