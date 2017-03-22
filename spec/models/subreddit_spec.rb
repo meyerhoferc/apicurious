@@ -6,7 +6,7 @@ describe Subreddit do
       subreddit = Subreddit.new("tucson")
       expect(subreddit.url).to eq(nil)
       subreddit.update_url
-      expect(subreddit.url).to eq("/r/Tucson")
+      expect(subreddit.url).to eq("/r/Tucson/")
     end
   end
 end

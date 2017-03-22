@@ -6,13 +6,10 @@ class Subreddit
     @title = title
     @url = url
     @description = description
-  end
-
-  def reddit_service
     @reddit_service = RedditService.new()
   end
 
   def update_url
-    @reddit_service.get_subreddit_url(@title)
+    @url = @reddit_service.get_subreddit_url(@title)
   end
 end
