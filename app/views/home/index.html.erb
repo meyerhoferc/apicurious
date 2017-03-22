@@ -6,7 +6,7 @@
 <div class="subreddits">
   <% current_user.subreddit_subscriptions.each do |subreddit| %>
   <div>
-    <h4><%= subreddit.title %></h4> <h4><%= subreddit.url %></h4><br>
+    <h4><%= subreddit.title %> <%= subreddit.url %></h4>
     <p><%= subreddit.description %></p>
   </div>
   <% end %>
