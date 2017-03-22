@@ -10,4 +10,14 @@ class User < ApplicationRecord
 
     user
   end
+
+  def reddit_service
+    @reddit_service ||= RedditService.new(self.access_token)
+  end
+
+  def subreddit_subscriptions
+     reddit_service.subreddits.map do |subreddit|
+       Subreddit.new(subreddit[:data][:title], subreddit[:data][:url], subreddit[:data][:public_description])
+     end
+  end
 end
