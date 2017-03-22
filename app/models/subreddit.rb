@@ -1,5 +1,5 @@
 class Subreddit
-  attr_reader :title
+  attr_reader :title, :rules
   attr_accessor :url, :description
 
   def initialize(title, url = nil, description = nil)
@@ -7,6 +7,7 @@ class Subreddit
     @url = url
     @description = description
     @reddit_service = RedditService.new()
+    @rules = []
   end
 
   def update_url
@@ -17,7 +18,10 @@ class Subreddit
     @description = @reddit_service.get_subreddit_description(@title)
   end
 
-  def rules
-    @reddit_service.get_subreddit_rules(@title)
+  def get_rules
+    @reddit_service.get_subreddit_rules(@title).each do |rule|
+      # byebug
+      @rules << Rule.new(rule[:description])
+    end
   end
 end
