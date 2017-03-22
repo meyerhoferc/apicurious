@@ -1,0 +1,544 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.reddit.com/r/tucson/about.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - edgebucket=Q615JdpOIPPPvpK1B8; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loid=EltMLmpGD2s1kWM4zz.1.1490219225055.Z0FBQUFBQlkwdkRaY0RGZmJxOVduaHZxWTdoOXowZjNPbzFQcDNkMEg5UHk0Y2RadElNa0FwQjlhTm4yNDFWRGdEMGpmc1VQaWZkeFIteG1PUWxUN0xvLS1ZV3ZRQ2k5dXlCS3huWGdBOF8tcW8zTTAzR0ZlZzdOSUgwNG91M1phUU9hbk83SjVseWI;
+        Domain=reddit.com; Max-Age=63071999; Path=/; expires=Fri, 22-Mar-2019 21:47:05
+        GMT; secure
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Reddit-Tracking, X-Moose
+      X-Reddit-Tracking:
+      - https://pixel.redditmedia.com/pixel/of_destiny.png?v=Bm0QvxYgH39RyMlwBvlZbJk8LpFAMeosYrt4QMf4Jbanas6j%2FLsceeeQApy7N3dUeUJ7mzl972Q%3D
+      Cache-Control:
+      - max-age=0, must-revalidate
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '8258'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 22 Mar 2017 21:47:05 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-den6022-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1490219224.973574,VS0,VE123
+      Vary:
+      - accept-encoding
+      Server:
+      - snooserv
+    body:
+      encoding: UTF-8
+      string: '{"kind": "t5", "data": {"user_is_contributor": null, "banner_img":
+        "", "submit_text_html": null, "user_is_banned": null, "wiki_enabled": true,
+        "show_media": true, "id": "2qmno", "description": "###\n\n###\n\n***\n\nWelcome
+        to /r/Tucson, the subreddit for content pertaining to the Tucson Metropolitan
+        area including: *Tucson, Marana, Vail, Oro Valley, Green Valley &amp; Sahuarita*.
+        \n\n###\n\n###\n\n***\n\n#**Please follow some basic rules:**\n\n&gt;#**(*Hover
+        to expand*)**\n\n&gt;* **Please always follow [**Redditquette**](http://www.reddit.com/wiki/reddiquette)!**  \n\n&gt;
+        * **Racism, sexism, homophobia, abuse, or any other hatred or trolling will
+        result in a ban.**\n\n&gt;* **No advertising spam.**  *See [reddit''s rules](https://www.reddit.com/rules)
+        for more information.  If you stand to profit from anything you post in any
+        way, shape, or form, it violates reddit''s rules and our rules.*\n\n&gt;*
+        **News should come from actual news sources, not blogs or Facebook.**  Please
+        use the article''s actual title for your post title.\n\n&gt;* **Do not post
+        any personal information.**  *That includes yours or anyone else''s and license
+        plates should be blurred.*\n\n&gt;* **No stolen goods posts, please.**  *Make
+        sure you file a police report if your item(s) go missing.*\n\n&gt;* **Missing
+        Persons posts are allowed only when accompanied by a credible news source.**  Charity
+        fundraisers must go directly to the charity via their website.  No personal
+        fundraisers.\n\n&gt;* **Moderators reserve the right to remove any post or
+        comment at our discretion.**\n\n****\n\n###**Tucson Reddit**\n\n####[Monthly
+        Buy/Sell/Trade](http://www.reddit.com/r/Tucson/search?q=buy%2Fsell%2Ftrade&amp;restrict_sr=on&amp;sort=relevance&amp;t=all)\n\n####[/r/TucsonMeetup](http://www.reddit.com/r/TucsonMeetup)\n\n####[/r/TucsonJobs](http://www.reddit.com/r/TucsonJobs)\n\n\n****\n\n###**Tucson
+        Social Groups**\n\n####[/r/Tucson Facebook page](http://www.facebook.com/home.php?sk=group_185849614764493)\n\n####[Arizona
+        IRC chat](https://kiwiirc.com/client/irc.freenode.net/?nick=Arizonan%7C?##arizona)\n\n****\n\n###**Arizona
+        State and Regional Subreddits**\n\n####/r/arizona \n####/r/UofArizona \n####/r/phoenix
+        \n####/r/Flagstaff \n####/r/Prescott \n\n****\n\n###**Resources**\n\n####[/r/Tucson
+        Traffic &amp; Visitor Stats](http://www.reddit.com/r/Tucson/about/traffic/)\n\n####[TEP
+        Outage Map](https://www.tep.com/outage/map/)\n\n####[TPD Crime Mapping](http://www.tucsonaz.gov/police/statistics)\n\n***",
+        "submit_text": "", "display_name": "Tucson", "header_img": "https://e.thumbs.redditmedia.com/ZMX1wZnvOVbvme-F.png",
+        "description_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;hr/&gt;\n\n&lt;p&gt;Welcome
+        to &lt;a href=\"/r/Tucson\"&gt;/r/Tucson&lt;/a&gt;, the subreddit for content
+        pertaining to the Tucson Metropolitan area including: &lt;em&gt;Tucson, Marana,
+        Vail, Oro Valley, Green Valley &amp;amp; Sahuarita&lt;/em&gt;. &lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;h1&gt;&lt;strong&gt;Please
+        follow some basic rules:&lt;/strong&gt;&lt;/h1&gt;\n\n&lt;blockquote&gt;\n&lt;h1&gt;&lt;strong&gt;(&lt;em&gt;Hover
+        to expand&lt;/em&gt;)&lt;/strong&gt;&lt;/h1&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;Please
+        always follow &lt;a href=\"http://www.reddit.com/wiki/reddiquette\"&gt;&lt;strong&gt;Redditquette&lt;/strong&gt;&lt;/a&gt;!&lt;/strong&gt;  &lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;Racism,
+        sexism, homophobia, abuse, or any other hatred or trolling will result in
+        a ban.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;No
+        advertising spam.&lt;/strong&gt;  &lt;em&gt;See &lt;a href=\"https://www.reddit.com/rules\"&gt;reddit&amp;#39;s
+        rules&lt;/a&gt; for more information.  If you stand to profit from anything
+        you post in any way, shape, or form, it violates reddit&amp;#39;s rules and
+        our rules.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;News
+        should come from actual news sources, not blogs or Facebook.&lt;/strong&gt;  Please
+        use the article&amp;#39;s actual title for your post title.&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;Do
+        not post any personal information.&lt;/strong&gt;  &lt;em&gt;That includes
+        yours or anyone else&amp;#39;s and license plates should be blurred.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;No
+        stolen goods posts, please.&lt;/strong&gt;  &lt;em&gt;Make sure you file a
+        police report if your item(s) go missing.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;Missing
+        Persons posts are allowed only when accompanied by a credible news source.&lt;/strong&gt;  Charity
+        fundraisers must go directly to the charity via their website.  No personal
+        fundraisers.&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;Moderators
+        reserve the right to remove any post or comment at our discretion.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/blockquote&gt;\n\n&lt;hr/&gt;\n\n&lt;h3&gt;&lt;strong&gt;Tucson
+        Reddit&lt;/strong&gt;&lt;/h3&gt;\n\n&lt;h4&gt;&lt;a href=\"http://www.reddit.com/r/Tucson/search?q=buy%2Fsell%2Ftrade&amp;amp;restrict_sr=on&amp;amp;sort=relevance&amp;amp;t=all\"&gt;Monthly
+        Buy/Sell/Trade&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a href=\"http://www.reddit.com/r/TucsonMeetup\"&gt;/r/TucsonMeetup&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"http://www.reddit.com/r/TucsonJobs\"&gt;/r/TucsonJobs&lt;/a&gt;&lt;/h4&gt;\n\n&lt;hr/&gt;\n\n&lt;h3&gt;&lt;strong&gt;Tucson
+        Social Groups&lt;/strong&gt;&lt;/h3&gt;\n\n&lt;h4&gt;&lt;a href=\"http://www.facebook.com/home.php?sk=group_185849614764493\"&gt;/r/Tucson
+        Facebook page&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a href=\"https://kiwiirc.com/client/irc.freenode.net/?nick=Arizonan%7C?##arizona\"&gt;Arizona
+        IRC chat&lt;/a&gt;&lt;/h4&gt;\n\n&lt;hr/&gt;\n\n&lt;h3&gt;&lt;strong&gt;Arizona
+        State and Regional Subreddits&lt;/strong&gt;&lt;/h3&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"/r/arizona\"&gt;/r/arizona&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"/r/UofArizona\"&gt;/r/UofArizona&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"/r/phoenix\"&gt;/r/phoenix&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"/r/Flagstaff\"&gt;/r/Flagstaff&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"/r/Prescott\"&gt;/r/Prescott&lt;/a&gt;&lt;/h4&gt;\n\n&lt;hr/&gt;\n\n&lt;h3&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/h3&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"http://www.reddit.com/r/Tucson/about/traffic/\"&gt;/r/Tucson Traffic
+        &amp;amp; Visitor Stats&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a href=\"https://www.tep.com/outage/map/\"&gt;TEP
+        Outage Map&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a href=\"http://www.tucsonaz.gov/police/statistics\"&gt;TPD
+        Crime Mapping&lt;/a&gt;&lt;/h4&gt;\n\n&lt;hr/&gt;\n&lt;/div&gt;&lt;!-- SC_ON
+        --&gt;", "title": "Tucson, Arizona", "collapse_deleted_comments": false, "public_description":
+        "The subreddit for Tucson, Arizona; located in the Southwestern part of the
+        US.  Southern Arizona is 70 miles north of Mexico, on I-10 between California
+        and New Mexico. We have plenty of cacti and beautiful scenery to enjoy!",
+        "over18": false, "public_description_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;The subreddit for Tucson, Arizona; located in the
+        Southwestern part of the US.  Southern Arizona is 70 miles north of Mexico,
+        on I-10 between California and New Mexico. We have plenty of cacti and beautiful
+        scenery to enjoy!&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "spoilers_enabled":
+        true, "icon_size": null, "suggested_comment_sort": null, "icon_img": "", "header_title":
+        "Tucson, Arizona", "display_name_prefixed": "r/Tucson", "user_is_muted": null,
+        "submit_link_label": null, "accounts_active": 25, "public_traffic": true,
+        "header_size": [125, 40], "subscribers": 8926, "submit_text_label": null,
+        "key_color": "#46d160", "lang": "en", "whitelist_status": "all_ads", "name":
+        "t5_2qmno", "created": 1221826794.0, "url": "/r/Tucson/", "quarantine": false,
+        "hide_ads": false, "created_utc": 1221797994.0, "banner_size": null, "user_is_moderator":
+        null, "accounts_active_is_fuzzed": true, "advertiser_category": null, "user_sr_theme_enabled":
+        true, "allow_images": true, "show_media_preview": false, "comment_score_hide_mins":
+        30, "subreddit_type": "public", "submission_type": "any", "user_is_subscriber":
+        null}}'
+    http_version: 
+  recorded_at: Wed, 22 Mar 2017 21:47:04 GMT
+- request:
+    method: get
+    uri: https://www.reddit.com/r/tucson/about.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - edgebucket=spVAML4H2LVFgCDf2y; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loid=s87m9DzwQ1WGTIb8qa.1.1490219225477.Z0FBQUFBQlkwdkRacjBYc1ZONVJGNl92a0NTLTV3NFJMamlBMjlxV0hWdFBQaHlNUkhqZHBxNF9NQTB3UjlEVDdEX3FiLUExTjhHZEVmRW1ZcTB1TFRlOWdOM2VFY09EV3EwUFJaNm9kX3BkSWpJdUFBSFcwNTN1U053U0h2clhaU3k1eFVhWVVfQjE;
+        Domain=reddit.com; Max-Age=63071999; Path=/; expires=Fri, 22-Mar-2019 21:47:05
+        GMT; secure
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Reddit-Tracking, X-Moose
+      X-Reddit-Tracking:
+      - https://pixel.redditmedia.com/pixel/of_destiny.png?v=ySGydMcRQ7V2KbZFdKQt9gl54k3ruNXJ6PIVEptB7X7w90YwvWO6RbeYIk43bbavgWLLKbSpipI%3D
+      Cache-Control:
+      - max-age=0, must-revalidate
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '8258'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 22 Mar 2017 21:47:05 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-den6027-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1490219225.126464,VS0,VE389
+      Vary:
+      - accept-encoding
+      Server:
+      - snooserv
+    body:
+      encoding: UTF-8
+      string: '{"kind": "t5", "data": {"user_is_contributor": null, "banner_img":
+        "", "submit_text_html": null, "user_is_banned": null, "wiki_enabled": true,
+        "show_media": true, "id": "2qmno", "description": "###\n\n###\n\n***\n\nWelcome
+        to /r/Tucson, the subreddit for content pertaining to the Tucson Metropolitan
+        area including: *Tucson, Marana, Vail, Oro Valley, Green Valley &amp; Sahuarita*.
+        \n\n###\n\n###\n\n***\n\n#**Please follow some basic rules:**\n\n&gt;#**(*Hover
+        to expand*)**\n\n&gt;* **Please always follow [**Redditquette**](http://www.reddit.com/wiki/reddiquette)!**  \n\n&gt;
+        * **Racism, sexism, homophobia, abuse, or any other hatred or trolling will
+        result in a ban.**\n\n&gt;* **No advertising spam.**  *See [reddit''s rules](https://www.reddit.com/rules)
+        for more information.  If you stand to profit from anything you post in any
+        way, shape, or form, it violates reddit''s rules and our rules.*\n\n&gt;*
+        **News should come from actual news sources, not blogs or Facebook.**  Please
+        use the article''s actual title for your post title.\n\n&gt;* **Do not post
+        any personal information.**  *That includes yours or anyone else''s and license
+        plates should be blurred.*\n\n&gt;* **No stolen goods posts, please.**  *Make
+        sure you file a police report if your item(s) go missing.*\n\n&gt;* **Missing
+        Persons posts are allowed only when accompanied by a credible news source.**  Charity
+        fundraisers must go directly to the charity via their website.  No personal
+        fundraisers.\n\n&gt;* **Moderators reserve the right to remove any post or
+        comment at our discretion.**\n\n****\n\n###**Tucson Reddit**\n\n####[Monthly
+        Buy/Sell/Trade](http://www.reddit.com/r/Tucson/search?q=buy%2Fsell%2Ftrade&amp;restrict_sr=on&amp;sort=relevance&amp;t=all)\n\n####[/r/TucsonMeetup](http://www.reddit.com/r/TucsonMeetup)\n\n####[/r/TucsonJobs](http://www.reddit.com/r/TucsonJobs)\n\n\n****\n\n###**Tucson
+        Social Groups**\n\n####[/r/Tucson Facebook page](http://www.facebook.com/home.php?sk=group_185849614764493)\n\n####[Arizona
+        IRC chat](https://kiwiirc.com/client/irc.freenode.net/?nick=Arizonan%7C?##arizona)\n\n****\n\n###**Arizona
+        State and Regional Subreddits**\n\n####/r/arizona \n####/r/UofArizona \n####/r/phoenix
+        \n####/r/Flagstaff \n####/r/Prescott \n\n****\n\n###**Resources**\n\n####[/r/Tucson
+        Traffic &amp; Visitor Stats](http://www.reddit.com/r/Tucson/about/traffic/)\n\n####[TEP
+        Outage Map](https://www.tep.com/outage/map/)\n\n####[TPD Crime Mapping](http://www.tucsonaz.gov/police/statistics)\n\n***",
+        "submit_text": "", "display_name": "Tucson", "header_img": "https://e.thumbs.redditmedia.com/ZMX1wZnvOVbvme-F.png",
+        "description_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;hr/&gt;\n\n&lt;p&gt;Welcome
+        to &lt;a href=\"/r/Tucson\"&gt;/r/Tucson&lt;/a&gt;, the subreddit for content
+        pertaining to the Tucson Metropolitan area including: &lt;em&gt;Tucson, Marana,
+        Vail, Oro Valley, Green Valley &amp;amp; Sahuarita&lt;/em&gt;. &lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;h1&gt;&lt;strong&gt;Please
+        follow some basic rules:&lt;/strong&gt;&lt;/h1&gt;\n\n&lt;blockquote&gt;\n&lt;h1&gt;&lt;strong&gt;(&lt;em&gt;Hover
+        to expand&lt;/em&gt;)&lt;/strong&gt;&lt;/h1&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;Please
+        always follow &lt;a href=\"http://www.reddit.com/wiki/reddiquette\"&gt;&lt;strong&gt;Redditquette&lt;/strong&gt;&lt;/a&gt;!&lt;/strong&gt;  &lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;Racism,
+        sexism, homophobia, abuse, or any other hatred or trolling will result in
+        a ban.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;No
+        advertising spam.&lt;/strong&gt;  &lt;em&gt;See &lt;a href=\"https://www.reddit.com/rules\"&gt;reddit&amp;#39;s
+        rules&lt;/a&gt; for more information.  If you stand to profit from anything
+        you post in any way, shape, or form, it violates reddit&amp;#39;s rules and
+        our rules.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;News
+        should come from actual news sources, not blogs or Facebook.&lt;/strong&gt;  Please
+        use the article&amp;#39;s actual title for your post title.&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;Do
+        not post any personal information.&lt;/strong&gt;  &lt;em&gt;That includes
+        yours or anyone else&amp;#39;s and license plates should be blurred.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;No
+        stolen goods posts, please.&lt;/strong&gt;  &lt;em&gt;Make sure you file a
+        police report if your item(s) go missing.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;Missing
+        Persons posts are allowed only when accompanied by a credible news source.&lt;/strong&gt;  Charity
+        fundraisers must go directly to the charity via their website.  No personal
+        fundraisers.&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;Moderators
+        reserve the right to remove any post or comment at our discretion.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/blockquote&gt;\n\n&lt;hr/&gt;\n\n&lt;h3&gt;&lt;strong&gt;Tucson
+        Reddit&lt;/strong&gt;&lt;/h3&gt;\n\n&lt;h4&gt;&lt;a href=\"http://www.reddit.com/r/Tucson/search?q=buy%2Fsell%2Ftrade&amp;amp;restrict_sr=on&amp;amp;sort=relevance&amp;amp;t=all\"&gt;Monthly
+        Buy/Sell/Trade&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a href=\"http://www.reddit.com/r/TucsonMeetup\"&gt;/r/TucsonMeetup&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"http://www.reddit.com/r/TucsonJobs\"&gt;/r/TucsonJobs&lt;/a&gt;&lt;/h4&gt;\n\n&lt;hr/&gt;\n\n&lt;h3&gt;&lt;strong&gt;Tucson
+        Social Groups&lt;/strong&gt;&lt;/h3&gt;\n\n&lt;h4&gt;&lt;a href=\"http://www.facebook.com/home.php?sk=group_185849614764493\"&gt;/r/Tucson
+        Facebook page&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a href=\"https://kiwiirc.com/client/irc.freenode.net/?nick=Arizonan%7C?##arizona\"&gt;Arizona
+        IRC chat&lt;/a&gt;&lt;/h4&gt;\n\n&lt;hr/&gt;\n\n&lt;h3&gt;&lt;strong&gt;Arizona
+        State and Regional Subreddits&lt;/strong&gt;&lt;/h3&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"/r/arizona\"&gt;/r/arizona&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"/r/UofArizona\"&gt;/r/UofArizona&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"/r/phoenix\"&gt;/r/phoenix&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"/r/Flagstaff\"&gt;/r/Flagstaff&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"/r/Prescott\"&gt;/r/Prescott&lt;/a&gt;&lt;/h4&gt;\n\n&lt;hr/&gt;\n\n&lt;h3&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/h3&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"http://www.reddit.com/r/Tucson/about/traffic/\"&gt;/r/Tucson Traffic
+        &amp;amp; Visitor Stats&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a href=\"https://www.tep.com/outage/map/\"&gt;TEP
+        Outage Map&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a href=\"http://www.tucsonaz.gov/police/statistics\"&gt;TPD
+        Crime Mapping&lt;/a&gt;&lt;/h4&gt;\n\n&lt;hr/&gt;\n&lt;/div&gt;&lt;!-- SC_ON
+        --&gt;", "title": "Tucson, Arizona", "collapse_deleted_comments": false, "public_description":
+        "The subreddit for Tucson, Arizona; located in the Southwestern part of the
+        US.  Southern Arizona is 70 miles north of Mexico, on I-10 between California
+        and New Mexico. We have plenty of cacti and beautiful scenery to enjoy!",
+        "over18": false, "public_description_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;The subreddit for Tucson, Arizona; located in the
+        Southwestern part of the US.  Southern Arizona is 70 miles north of Mexico,
+        on I-10 between California and New Mexico. We have plenty of cacti and beautiful
+        scenery to enjoy!&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "spoilers_enabled":
+        true, "icon_size": null, "suggested_comment_sort": null, "icon_img": "", "header_title":
+        "Tucson, Arizona", "display_name_prefixed": "r/Tucson", "user_is_muted": null,
+        "submit_link_label": null, "accounts_active": 25, "public_traffic": true,
+        "header_size": [125, 40], "subscribers": 8926, "submit_text_label": null,
+        "key_color": "#46d160", "lang": "en", "whitelist_status": "all_ads", "name":
+        "t5_2qmno", "created": 1221826794.0, "url": "/r/Tucson/", "quarantine": false,
+        "hide_ads": false, "created_utc": 1221797994.0, "banner_size": null, "user_is_moderator":
+        null, "accounts_active_is_fuzzed": true, "advertiser_category": null, "user_sr_theme_enabled":
+        true, "allow_images": true, "show_media_preview": false, "comment_score_hide_mins":
+        30, "subreddit_type": "public", "submission_type": "any", "user_is_subscriber":
+        null}}'
+    http_version: 
+  recorded_at: Wed, 22 Mar 2017 21:47:04 GMT
+- request:
+    method: get
+    uri: https://www.reddit.com/r/tucson/about/rules.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - edgebucket=mG3tUrLpChTHogkSU9; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loid=rxCSR202yCnAIoYGod.1.1490219225907.Z0FBQUFBQlkwdkRad3A4Y1B6SkpvaTVGSHFwSXF0RGk2ZFVSWnpKdkxEVVN3REhQbW50U21NdFdNSHRhUUdlbjVYMU4zZVZ1aGJRTFMwNE5XRHJobVlwckNJaXZxTWhRYmdHUFJ0NHlGYXB0T0FzNXBLLXdOYlNLMkxqbmdTbTF5OXV2Y0NmaUMzLWk;
+        Domain=reddit.com; Max-Age=63071999; Path=/; expires=Fri, 22-Mar-2019 21:47:05
+        GMT; secure
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Reddit-Tracking, X-Moose
+      X-Reddit-Tracking:
+      - https://pixel.redditmedia.com/pixel/of_destiny.png?v=bsaxWP3fcu2uboSjgeWRi%2FdK5z%2B%2B3LFRtCff%2BUzSjF6HLMyPQ%2Bt9emsCrX5mi6eBQQRsM1c4H2I%3D
+      Cache-Control:
+      - max-age=0, must-revalidate
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '1632'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 22 Mar 2017 21:47:05 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-den6024-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1490219225.597681,VS0,VE342
+      Vary:
+      - accept-encoding
+      Server:
+      - snooserv
+    body:
+      encoding: UTF-8
+      string: '{"rules": [{"kind": "all", "description": "No posting anything that
+        violates reddit''s spam or advertising policies.", "short_name": "No advertising
+        spam", "violation_reason": "Advertising Spam", "created_utc": 1453791676.0,
+        "priority": 0, "description_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;No
+        posting anything that violates reddit&amp;#39;s spam or advertising policies.&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;"}, {"kind": "all", "description": "Being abusive", "short_name":
+        "Abusive", "violation_reason": "Abuse", "created_utc": 1487815589.0, "priority":
+        1, "description_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Being
+        abusive&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;"}, {"kind": "all", "description":
+        "No identifying info or attempts to find info on someone else.", "short_name":
+        "ID", "violation_reason": "Identifying info/seeking identifying info", "created_utc":
+        1487815771.0, "priority": 2, "description_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;No identifying info or attempts to find info on someone
+        else.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;"}, {"kind": "all", "description":
+        "Not a credible news source OR misleading title", "short_name": "News", "violation_reason":
+        "Not a credible news source OR misleading title", "created_utc": 1487815826.0,
+        "priority": 3, "description_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Not
+        a credible news source OR misleading title&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;"}], "site_rules": ["Spam", "Personal and confidential information",
+        "Threatening, harassing, or inciting violence"]}'
+    http_version: 
+  recorded_at: Wed, 22 Mar 2017 21:47:05 GMT
+- request:
+    method: get
+    uri: https://www.reddit.com/r/tucson/about.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - edgebucket=pVS5wMFOxMcUUXXPJG; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loid=VsYFl7K5MnPWCHDpHK.1.1490219226059.Z0FBQUFBQlkwdkRhMlMxY1dWczRJVmN6NktVUUhQLVdYRlFpRFBrZUpQaVZEeG16VWZvay1KUkVtUFduTmgtUV92dzlQYmRzZVB5OUlYTzk4eHdSdjRzbmJoOEM3Tkp3S29nOU9kMXAwNnNaaWJ2dHk2VFA1N0dZZ01Ra2NTOW84QzlCU0h1anpHWEw;
+        Domain=reddit.com; Max-Age=63071999; Path=/; expires=Fri, 22-Mar-2019 21:47:06
+        GMT; secure
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Reddit-Tracking, X-Moose
+      X-Reddit-Tracking:
+      - https://pixel.redditmedia.com/pixel/of_destiny.png?v=6z78%2FIK1q7cxeAf6pSJgdC5cipDtLoYvd7US5nlNOniqhkJAcRkilVt5sw3dCwEnXtMyigb1NUY%3D
+      Cache-Control:
+      - max-age=0, must-revalidate
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '8258'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 22 Mar 2017 21:47:06 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-den6021-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1490219226.024755,VS0,VE73
+      Vary:
+      - accept-encoding
+      Server:
+      - snooserv
+    body:
+      encoding: UTF-8
+      string: '{"kind": "t5", "data": {"user_is_contributor": null, "banner_img":
+        "", "submit_text_html": null, "user_is_banned": null, "wiki_enabled": true,
+        "show_media": true, "id": "2qmno", "description": "###\n\n###\n\n***\n\nWelcome
+        to /r/Tucson, the subreddit for content pertaining to the Tucson Metropolitan
+        area including: *Tucson, Marana, Vail, Oro Valley, Green Valley &amp; Sahuarita*.
+        \n\n###\n\n###\n\n***\n\n#**Please follow some basic rules:**\n\n&gt;#**(*Hover
+        to expand*)**\n\n&gt;* **Please always follow [**Redditquette**](http://www.reddit.com/wiki/reddiquette)!**  \n\n&gt;
+        * **Racism, sexism, homophobia, abuse, or any other hatred or trolling will
+        result in a ban.**\n\n&gt;* **No advertising spam.**  *See [reddit''s rules](https://www.reddit.com/rules)
+        for more information.  If you stand to profit from anything you post in any
+        way, shape, or form, it violates reddit''s rules and our rules.*\n\n&gt;*
+        **News should come from actual news sources, not blogs or Facebook.**  Please
+        use the article''s actual title for your post title.\n\n&gt;* **Do not post
+        any personal information.**  *That includes yours or anyone else''s and license
+        plates should be blurred.*\n\n&gt;* **No stolen goods posts, please.**  *Make
+        sure you file a police report if your item(s) go missing.*\n\n&gt;* **Missing
+        Persons posts are allowed only when accompanied by a credible news source.**  Charity
+        fundraisers must go directly to the charity via their website.  No personal
+        fundraisers.\n\n&gt;* **Moderators reserve the right to remove any post or
+        comment at our discretion.**\n\n****\n\n###**Tucson Reddit**\n\n####[Monthly
+        Buy/Sell/Trade](http://www.reddit.com/r/Tucson/search?q=buy%2Fsell%2Ftrade&amp;restrict_sr=on&amp;sort=relevance&amp;t=all)\n\n####[/r/TucsonMeetup](http://www.reddit.com/r/TucsonMeetup)\n\n####[/r/TucsonJobs](http://www.reddit.com/r/TucsonJobs)\n\n\n****\n\n###**Tucson
+        Social Groups**\n\n####[/r/Tucson Facebook page](http://www.facebook.com/home.php?sk=group_185849614764493)\n\n####[Arizona
+        IRC chat](https://kiwiirc.com/client/irc.freenode.net/?nick=Arizonan%7C?##arizona)\n\n****\n\n###**Arizona
+        State and Regional Subreddits**\n\n####/r/arizona \n####/r/UofArizona \n####/r/phoenix
+        \n####/r/Flagstaff \n####/r/Prescott \n\n****\n\n###**Resources**\n\n####[/r/Tucson
+        Traffic &amp; Visitor Stats](http://www.reddit.com/r/Tucson/about/traffic/)\n\n####[TEP
+        Outage Map](https://www.tep.com/outage/map/)\n\n####[TPD Crime Mapping](http://www.tucsonaz.gov/police/statistics)\n\n***",
+        "submit_text": "", "display_name": "Tucson", "header_img": "https://e.thumbs.redditmedia.com/ZMX1wZnvOVbvme-F.png",
+        "description_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;hr/&gt;\n\n&lt;p&gt;Welcome
+        to &lt;a href=\"/r/Tucson\"&gt;/r/Tucson&lt;/a&gt;, the subreddit for content
+        pertaining to the Tucson Metropolitan area including: &lt;em&gt;Tucson, Marana,
+        Vail, Oro Valley, Green Valley &amp;amp; Sahuarita&lt;/em&gt;. &lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;h1&gt;&lt;strong&gt;Please
+        follow some basic rules:&lt;/strong&gt;&lt;/h1&gt;\n\n&lt;blockquote&gt;\n&lt;h1&gt;&lt;strong&gt;(&lt;em&gt;Hover
+        to expand&lt;/em&gt;)&lt;/strong&gt;&lt;/h1&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;Please
+        always follow &lt;a href=\"http://www.reddit.com/wiki/reddiquette\"&gt;&lt;strong&gt;Redditquette&lt;/strong&gt;&lt;/a&gt;!&lt;/strong&gt;  &lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;Racism,
+        sexism, homophobia, abuse, or any other hatred or trolling will result in
+        a ban.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;No
+        advertising spam.&lt;/strong&gt;  &lt;em&gt;See &lt;a href=\"https://www.reddit.com/rules\"&gt;reddit&amp;#39;s
+        rules&lt;/a&gt; for more information.  If you stand to profit from anything
+        you post in any way, shape, or form, it violates reddit&amp;#39;s rules and
+        our rules.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;News
+        should come from actual news sources, not blogs or Facebook.&lt;/strong&gt;  Please
+        use the article&amp;#39;s actual title for your post title.&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;Do
+        not post any personal information.&lt;/strong&gt;  &lt;em&gt;That includes
+        yours or anyone else&amp;#39;s and license plates should be blurred.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;No
+        stolen goods posts, please.&lt;/strong&gt;  &lt;em&gt;Make sure you file a
+        police report if your item(s) go missing.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;Missing
+        Persons posts are allowed only when accompanied by a credible news source.&lt;/strong&gt;  Charity
+        fundraisers must go directly to the charity via their website.  No personal
+        fundraisers.&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;Moderators
+        reserve the right to remove any post or comment at our discretion.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/blockquote&gt;\n\n&lt;hr/&gt;\n\n&lt;h3&gt;&lt;strong&gt;Tucson
+        Reddit&lt;/strong&gt;&lt;/h3&gt;\n\n&lt;h4&gt;&lt;a href=\"http://www.reddit.com/r/Tucson/search?q=buy%2Fsell%2Ftrade&amp;amp;restrict_sr=on&amp;amp;sort=relevance&amp;amp;t=all\"&gt;Monthly
+        Buy/Sell/Trade&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a href=\"http://www.reddit.com/r/TucsonMeetup\"&gt;/r/TucsonMeetup&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"http://www.reddit.com/r/TucsonJobs\"&gt;/r/TucsonJobs&lt;/a&gt;&lt;/h4&gt;\n\n&lt;hr/&gt;\n\n&lt;h3&gt;&lt;strong&gt;Tucson
+        Social Groups&lt;/strong&gt;&lt;/h3&gt;\n\n&lt;h4&gt;&lt;a href=\"http://www.facebook.com/home.php?sk=group_185849614764493\"&gt;/r/Tucson
+        Facebook page&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a href=\"https://kiwiirc.com/client/irc.freenode.net/?nick=Arizonan%7C?##arizona\"&gt;Arizona
+        IRC chat&lt;/a&gt;&lt;/h4&gt;\n\n&lt;hr/&gt;\n\n&lt;h3&gt;&lt;strong&gt;Arizona
+        State and Regional Subreddits&lt;/strong&gt;&lt;/h3&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"/r/arizona\"&gt;/r/arizona&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"/r/UofArizona\"&gt;/r/UofArizona&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"/r/phoenix\"&gt;/r/phoenix&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"/r/Flagstaff\"&gt;/r/Flagstaff&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"/r/Prescott\"&gt;/r/Prescott&lt;/a&gt;&lt;/h4&gt;\n\n&lt;hr/&gt;\n\n&lt;h3&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/h3&gt;\n\n&lt;h4&gt;&lt;a
+        href=\"http://www.reddit.com/r/Tucson/about/traffic/\"&gt;/r/Tucson Traffic
+        &amp;amp; Visitor Stats&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a href=\"https://www.tep.com/outage/map/\"&gt;TEP
+        Outage Map&lt;/a&gt;&lt;/h4&gt;\n\n&lt;h4&gt;&lt;a href=\"http://www.tucsonaz.gov/police/statistics\"&gt;TPD
+        Crime Mapping&lt;/a&gt;&lt;/h4&gt;\n\n&lt;hr/&gt;\n&lt;/div&gt;&lt;!-- SC_ON
+        --&gt;", "title": "Tucson, Arizona", "collapse_deleted_comments": false, "public_description":
+        "The subreddit for Tucson, Arizona; located in the Southwestern part of the
+        US.  Southern Arizona is 70 miles north of Mexico, on I-10 between California
+        and New Mexico. We have plenty of cacti and beautiful scenery to enjoy!",
+        "over18": false, "public_description_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;The subreddit for Tucson, Arizona; located in the
+        Southwestern part of the US.  Southern Arizona is 70 miles north of Mexico,
+        on I-10 between California and New Mexico. We have plenty of cacti and beautiful
+        scenery to enjoy!&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "spoilers_enabled":
+        true, "icon_size": null, "suggested_comment_sort": null, "icon_img": "", "header_title":
+        "Tucson, Arizona", "display_name_prefixed": "r/Tucson", "user_is_muted": null,
+        "submit_link_label": null, "accounts_active": 25, "public_traffic": true,
+        "header_size": [125, 40], "subscribers": 8926, "submit_text_label": null,
+        "key_color": "#46d160", "lang": "en", "whitelist_status": "all_ads", "name":
+        "t5_2qmno", "created": 1221826794.0, "url": "/r/Tucson/", "quarantine": false,
+        "hide_ads": false, "created_utc": 1221797994.0, "banner_size": null, "user_is_moderator":
+        null, "accounts_active_is_fuzzed": true, "advertiser_category": null, "user_sr_theme_enabled":
+        true, "allow_images": true, "show_media_preview": false, "comment_score_hide_mins":
+        30, "subreddit_type": "public", "submission_type": "any", "user_is_subscriber":
+        null}}'
+    http_version: 
+  recorded_at: Wed, 22 Mar 2017 21:47:05 GMT
+recorded_with: VCR 3.0.3
