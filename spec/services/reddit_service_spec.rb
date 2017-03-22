@@ -38,4 +38,14 @@ describe RedditService do
       end
     end
   end
+
+  describe "#get_subreddit_rules(title)" do
+    it "returns a collection of rules for a subreddit" do
+      subreddit = Subreddit.new("tucson")
+      service = RedditService.new()
+      rules = service.get_subreddit_rules(subreddit.title)
+      expect(rules.count).to eq(4)
+      expect(rules.first[:description]).to eq("No posting anything that violates reddit's spam or advertising policies.")
+    end
+  end
 end

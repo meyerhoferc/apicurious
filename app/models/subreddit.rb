@@ -16,4 +16,8 @@ class Subreddit
   def update_description
     @description = @reddit_service.get_subreddit_description(@title)
   end
+
+  def rules
+    @reddit_service.get_subreddit_rules(@title)
+  end
 end
