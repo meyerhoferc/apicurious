@@ -5,12 +5,12 @@
 <h1><%= current_user.username %>'s Subreddits</h1>
 <div class="subreddits">
   <% if current_user.subreddit_subscriptions %>
-  <% current_user.subreddit_subscriptions.each do |subreddit| %>
-  <div>
-    <h4><%= subreddit.title %> <%= subreddit.url %></h4>
-    <p><%= subreddit.description %></p>
-  </div>
-  <% end %>
+    <% current_user.subreddit_subscriptions.each do |subreddit| %>
+    <div>
+      <h4><%= subreddit.title %> <%= subreddit.url %></h4>
+      <p><%= subreddit.description %></p>
+    </div>
+    <% end %>
   <% end %>
 </div>
 <% end %>

@@ -17,7 +17,7 @@ class User < ApplicationRecord
 
   def subreddit_subscriptions
     if reddit_service.subreddits
-      reddit_service.subreddits.map do |subreddit|
+      subreddits = reddit_service.subreddits.map do |subreddit|
         Subreddit.new(subreddit[:data][:title], subreddit[:data][:url], subreddit[:data][:public_description])
       end
     end
@@ -25,6 +25,7 @@ class User < ApplicationRecord
 
   def refresh_tokens
     access_token = reddit_service.refresh_access_token(self.refresh_token)[:access_token]
+    @reddit_service = RedditService.new(access_token)
     self.access_token = access_token
   end
 end

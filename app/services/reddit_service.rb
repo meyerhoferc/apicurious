@@ -6,7 +6,7 @@ class RedditService
 
   def subreddits
     response = HTTParty.get("https://oauth.reddit.com/subreddits/mine/subscriber", headers: @headers)
-    parse(response)[:data][:children] if response["error"] == 200
+    parse(response)[:data][:children] if response["error"] == nil
   end
 
   def refresh_access_token(refresh_token)
