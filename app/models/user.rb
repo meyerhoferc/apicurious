@@ -24,6 +24,7 @@ class User < ApplicationRecord
   end
 
   def refresh_tokens
-    reddit_service.refresh_access_token(self.refresh_token)[:access_token]
+    access_token = reddit_service.refresh_access_token(self.refresh_token)[:access_token]
+    self.access_token = access_token
   end
 end

@@ -12,6 +12,7 @@ RSpec.describe User, type: :model do
         expect(new_access_token.class).to eq(String)
         expect(new_access_token).to_not eq(access_token)
         expect(user.access_token).to_not eq(access_token)
+        expect(user.access_token).to eq(new_access_token)
       end
     end
   end
