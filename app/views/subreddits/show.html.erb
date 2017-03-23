@@ -3,7 +3,22 @@
 </div>
 
 <div class="row">
-  <div class="col s3 offset-s9 rules">
+  <div class="col s8 posts">
+    <h4>Hot Posts</h4>
+    <% @subreddit.posts.each do |post| %>
+    <div class="col s7">
+      <h5><%= post.title %></h5>
+      <div class="col s2">
+        <p><%= post.author %></p>
+      </div>
+      <div class="col s3">
+        <p><%#= link_to comments_path, "#{post.num_comments} comments" %></p>
+      </div>
+    </div>
+
+    <% end %>
+  </div>
+  <div class="col s3 offset-s1 rules">
     <h4><%= @subreddit.url %></h4>
     <p><%= @subreddit.description %></p>
     <h5>Rules</h5>

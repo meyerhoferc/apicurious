@@ -46,4 +46,15 @@ describe Subreddit do
       end
     end
   end
+
+  describe "#posts" do
+    it "returns the 15 most recent posts in the 'hot' category" do
+      subreddit = Subreddit.new("tucson")
+      posts = subreddit.posts
+      expect(posts.count).to eq(15)
+      expect(posts.first[:title]).to eq("Buy/Sell/Trade/Housing: March 2017")
+      expect(posts.first[:num_comments]).to eq(31)
+      expect(posts.first[:score]).to eq(12)
+    end
+  end
 end
