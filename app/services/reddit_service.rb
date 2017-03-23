@@ -37,7 +37,7 @@ class RedditService
   end
 
   def get_comments_for_post(id, subreddit)
-    response = HTTParty.get("https://www.reddit.com/#{subreddit.downcase}/comments/#{id}/.json")
+    response = HTTParty.get("https://www.reddit.com/#{format_subreddit(subreddit)}/comments/#{id}/.json")
     parse(response)[1][:data][:children]
   end
 
@@ -45,5 +45,13 @@ class RedditService
 
   def parse(response)
     JSON.parse(response.body, symbolize_names: true)
+  end
+
+  def format_subreddit(title)
+    if title[0..1] != "r/"
+      "r/" + title.downcase
+    else
+      title.downcase
+    end
   end
 end
