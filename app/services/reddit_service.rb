@@ -46,6 +46,11 @@ class RedditService
     post_information = parse(response).first[:data][:children].first[:data]
   end
 
+  def get_comments_for_post(id, subreddit)
+    response = HTTParty.get("https://www.reddit.com/r/#{subreddit}/comments/#{id}/.json")
+    parse(response)[1][:data][:children]
+  end
+
   private
 
   def parse(response)
