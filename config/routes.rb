@@ -3,5 +3,7 @@ Rails.application.routes.draw do
   get "/dashboard", to: "dashboard#show"
   get '/logout', to: 'sessions#destroy'
   root "home#index"
-  resources :subreddits, only: [:show]
+  resources :subreddits, only: [:show] do
+    resources :posts, only: [:show]
+  end
 end

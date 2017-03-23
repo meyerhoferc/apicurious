@@ -1,6 +1,11 @@
 class Post
   def initialize(contents)
     @contents = contents
+    @reddit_service = RedditService.new()
+  end
+
+  def update_attributes
+    @reddit_service.update_post_attributes(self.id, self.subreddit)
   end
 
   def title
