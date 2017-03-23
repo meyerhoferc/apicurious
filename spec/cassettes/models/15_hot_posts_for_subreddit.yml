@@ -29,16 +29,16 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       Set-Cookie:
-      - edgebucket=eq4gxFaAZAT9qJEODG; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
-      - loid=H3fuAnAdyn8Vo3j50a.1.1490235600432.Z0FBQUFBQlkwekRRbm1WUm95cXR0MDBCQ0g0b19aeS1qUEN2bXozZlRwb29Dd3V0NGxUN1Z4aU9WWjRlbWsyX01FQkp6UnVhWUUtYXVnRW85Znc5b2p6dDB2bll0bml1X0hQdWJyZlBIYVpWRkZibGxiNWJtZlI5OHNZMmM4ZXZieGQtX2JTeWJxVEY;
-        Domain=reddit.com; Max-Age=63071999; Path=/; expires=Sat, 23-Mar-2019 02:20:00
+      - edgebucket=lFF4DADcVHE71F26mP; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loid=MRfMA9YMKOaKreq0hW.1.1490307632470.Z0FBQUFBQlkxRW93Z0tpUHozMmtmaHFLTnB1ekwxV1VYSmEzVzNoT3JjXzctS05ZaWY4N2o4RDNOaE5CRDVaOG9sN1BYNU84OUhRTi1Dd0M1cl9XbmFVbG1xM2ZodlJmekk2TG9tejktNDZtdVRTMXVSMWNPLXR5clF3SnJJMGxmbFVhN1Npamlib2I;
+        Domain=reddit.com; Max-Age=63071999; Path=/; expires=Sat, 23-Mar-2019 22:20:32
         GMT; secure
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Expose-Headers:
       - X-Reddit-Tracking, X-Moose
       X-Reddit-Tracking:
-      - https://pixel.redditmedia.com/pixel/of_destiny.png?v=ENkYNceyzSxyj2wCVrwnajuhJj7D96VHoARjB%2BR5MpRXHiIx3ZFqR1lHmEWFgrLcJzA8S8vgjVo%3D
+      - https://pixel.redditmedia.com/pixel/of_destiny.png?v=Laa50AoEl135Uu0e0RY08ubH9ZgDj%2F8HZRjeXfylnseKdDYMhNhwC7CjHlChiPZjCCR7k7ZMklg%3D
       Cache-Control:
       - max-age=0, must-revalidate
       X-Moose:
@@ -46,23 +46,23 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=15552000; includeSubDomains; preload
       Content-Length:
-      - '17561'
+      - '16193'
       Accept-Ranges:
       - bytes
       Date:
-      - Thu, 23 Mar 2017 02:20:00 GMT
+      - Thu, 23 Mar 2017 22:20:32 GMT
       Via:
       - 1.1 varnish
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-dfw1823-DFW
+      - cache-den6027-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1490235600.406647,VS0,VE145
+      - S1490307632.437030,VS0,VE218
       Vary:
       - accept-encoding
       Server:
@@ -108,7 +108,7 @@ http_interactions:
         to post in the main sub, please message the mods and we will evaluate the
         request.  Thanks!", "likes": null, "suggested_sort": null, "user_reports":
         [], "secure_media": null, "link_flair_text": "Monthly Discussion", "id": "5wt8jd",
-        "gilded": 0, "secure_media_embed": {}, "clicked": false, "score": 11, "report_reasons":
+        "gilded": 0, "secure_media_embed": {}, "clicked": false, "score": 10, "report_reasons":
         null, "author": "CompletelyLurker", "saved": false, "mod_reports": [], "name":
         "t3_5wt8jd", "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "over_18":
         false, "domain": "self.Tucson", "hidden": false, "thumbnail": "self", "subreddit_id":
@@ -120,7 +120,7 @@ http_interactions:
         "author_flair_text": "\ud83c\udd91 Currently Lurking", "quarantine": false,
         "title": "Buy/Sell/Trade/Housing: March 2017", "created_utc": 1488344202.0,
         "distinguished": "moderator", "media": null, "num_comments": 31, "visited":
-        false, "subreddit_type": "public", "ups": 11}}, {"kind": "t3", "data": {"contest_mode":
+        false, "subreddit_type": "public", "ups": 10}}, {"kind": "t3", "data": {"contest_mode":
         false, "banned_by": null, "media_embed": {}, "subreddit": "Tucson", "selftext_html":
         "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Greetings, &lt;a href=\"/r/Tucson\"&gt;/r/Tucson&lt;/a&gt;!  It&amp;#39;s
         the &lt;strong&gt;MARCH 2017&lt;/strong&gt; edition of the &lt;em&gt;Stuff
@@ -284,7 +284,7 @@ http_interactions:
         Club - at Himmel Park, behind the library - 4PM*", "likes": null, "suggested_sort":
         null, "user_reports": [], "secure_media": null, "link_flair_text": "Monthly
         Discussion", "id": "5wta3j", "gilded": 0, "secure_media_embed": {}, "clicked":
-        false, "score": 32, "report_reasons": null, "author": "CompletelyLurker",
+        false, "score": 30, "report_reasons": null, "author": "CompletelyLurker",
         "saved": false, "mod_reports": [], "name": "t3_5wta3j", "subreddit_name_prefixed":
         "r/Tucson", "approved_by": null, "over_18": false, "domain": "self.Tucson",
         "hidden": false, "preview": {"images": [{"source": {"url": "https://i.redditmedia.com/EYRNT0pQxMdKt0-e96RyTzs3STS6YE4MkIctoc-V19g.jpg?s=162822dfa85213cffd70a7636ebfc9dd",
@@ -305,15 +305,152 @@ http_interactions:
         "author_flair_text": "\ud83c\udd91 Currently Lurking", "quarantine": false,
         "title": "Stuff To Do in Tucson: March 2017", "created_utc": 1488344593.0,
         "distinguished": "moderator", "media": null, "num_comments": 19, "visited":
-        false, "subreddit_type": "public", "ups": 32}}, {"kind": "t3", "data": {"contest_mode":
+        false, "subreddit_type": "public", "ups": 30}}, {"kind": "t3", "data": {"contest_mode":
         false, "banned_by": null, "media_embed": {}, "subreddit": "Tucson", "selftext_html":
-        null, "selftext": "", "likes": null, "suggested_sort": null, "user_reports":
-        [], "secure_media": null, "link_flair_text": null, "id": "60t3bd", "gilded":
-        0, "secure_media_embed": {}, "clicked": false, "score": 92, "report_reasons":
-        null, "author": "chezazarng", "saved": false, "mod_reports": [], "name": "t3_60t3bd",
-        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "over_18": false,
-        "domain": "tucson.com", "hidden": false, "preview": {"images": [{"source":
-        {"url": "https://i.redditmedia.com/BLsvGJd23dS_caaF9mp3_GvSrNM61ypoAIUt6MRsODA.jpg?s=e81c8e9804dbf1534b79b4aba86df201",
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Looking for a place
+        to watch the Aussie GP this weekend. I don&amp;#39;t have cable, so would
+        love to find a place that would play it while eating lunch and/or drinking
+        a beer. &lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext": "Looking
+        for a place to watch the Aussie GP this weekend. I don''t have cable, so would
+        love to find a place that would play it while eating lunch and/or drinking
+        a beer. ", "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
+        null, "link_flair_text": null, "id": "614mv6", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "score": 5, "report_reasons": null, "author": "Sidecarguy",
+        "saved": false, "mod_reports": [], "name": "t3_614mv6", "subreddit_name_prefixed":
+        "r/Tucson", "approved_by": null, "over_18": false, "domain": "self.Tucson",
+        "hidden": false, "thumbnail": "self", "subreddit_id": "t5_2qmno", "edited":
+        false, "link_flair_css_class": null, "author_flair_css_class": null, "downs":
+        0, "brand_safe": true, "archived": false, "removal_reason": null, "is_self":
+        true, "hide_score": true, "spoiler": false, "permalink": "/r/Tucson/comments/614mv6/formula_1_friendly_places/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1490331725.0,
+        "url": "https://www.reddit.com/r/Tucson/comments/614mv6/formula_1_friendly_places/",
+        "author_flair_text": null, "quarantine": false, "title": "Formula 1 Friendly
+        Places", "created_utc": 1490302925.0, "distinguished": null, "media": null,
+        "num_comments": 1, "visited": false, "subreddit_type": "public", "ups": 5}},
+        {"kind": "t3", "data": {"contest_mode": false, "banned_by": null, "media_embed":
+        {}, "subreddit": "Tucson", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;We had several oleander plants (poisonous) removed
+        from the yard of a rental property. A chain link fence separates that yard
+        from the neighbor&amp;#39;s. The oleander grew along the fence and provided
+        some privacy. &lt;/p&gt;\n\n&lt;p&gt;What other kind of leafy green plant
+        can we plant along that fence that will give some privacy back and is also
+        safe for dogs? It should be low maintenance and have low water usage once
+        established. No cactus or anything else with pointy sharp parts or stickers.&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "We had several oleander plants (poisonous) removed
+        from the yard of a rental property. A chain link fence separates that yard
+        from the neighbor''s. The oleander grew along the fence and provided some
+        privacy. \n\nWhat other kind of leafy green plant can we plant along that
+        fence that will give some privacy back and is also safe for dogs? It should
+        be low maintenance and have low water usage once established. No cactus or
+        anything else with pointy sharp parts or stickers.", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "6140xn", "gilded": 0, "secure_media_embed": {}, "clicked": false, "score":
+        3, "report_reasons": null, "author": "tapony", "saved": false, "mod_reports":
+        [], "name": "t3_6140xn", "subreddit_name_prefixed": "r/Tucson", "approved_by":
+        null, "over_18": false, "domain": "self.Tucson", "hidden": false, "thumbnail":
+        "self", "subreddit_id": "t5_2qmno", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "brand_safe": true, "archived":
+        false, "removal_reason": null, "is_self": true, "hide_score": false, "spoiler":
+        false, "permalink": "/r/Tucson/comments/6140xn/best_plant_for_privacy_along_a_chain_link_fence/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1490326005.0,
+        "url": "https://www.reddit.com/r/Tucson/comments/6140xn/best_plant_for_privacy_along_a_chain_link_fence/",
+        "author_flair_text": null, "quarantine": false, "title": "Best plant for privacy
+        along a chain link fence?", "created_utc": 1490297205.0, "distinguished":
+        null, "media": null, "num_comments": 3, "visited": false, "subreddit_type":
+        "public", "ups": 3}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by":
+        null, "media_embed": {}, "subreddit": "Tucson", "selftext_html": null, "selftext":
+        "", "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
+        null, "link_flair_text": null, "id": "60z2sr", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "score": 24, "report_reasons": null, "author": "2040ojis",
+        "saved": false, "mod_reports": [], "name": "t3_60z2sr", "subreddit_name_prefixed":
+        "r/Tucson", "approved_by": null, "over_18": false, "domain": "i.redd.it",
+        "hidden": false, "preview": {"images": [{"source": {"url": "https://i.redditmedia.com/IXcach_6JpaQ75YXkXNSs8cBAYyM0W_Su_UlZSjWsUQ.jpg?s=b66414c90415639a92b6c90dfe5fdb80",
+        "width": 2448, "height": 3264}, "resolutions": [{"url": "https://i.redditmedia.com/IXcach_6JpaQ75YXkXNSs8cBAYyM0W_Su_UlZSjWsUQ.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=6336cf696f2050b945d8e8fe7660b4f8",
+        "width": 108, "height": 144}, {"url": "https://i.redditmedia.com/IXcach_6JpaQ75YXkXNSs8cBAYyM0W_Su_UlZSjWsUQ.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=d010786d992e63c0f31aee0fc5da797b",
+        "width": 216, "height": 288}, {"url": "https://i.redditmedia.com/IXcach_6JpaQ75YXkXNSs8cBAYyM0W_Su_UlZSjWsUQ.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=debc3c33abe923e489dce1a662fe6eee",
+        "width": 320, "height": 426}, {"url": "https://i.redditmedia.com/IXcach_6JpaQ75YXkXNSs8cBAYyM0W_Su_UlZSjWsUQ.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=6776cb1941299564cf24703cdb41d3f3",
+        "width": 640, "height": 853}, {"url": "https://i.redditmedia.com/IXcach_6JpaQ75YXkXNSs8cBAYyM0W_Su_UlZSjWsUQ.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=960&amp;s=7cbf7dd540d53fc053b93840dd42eb8d",
+        "width": 960, "height": 1280}, {"url": "https://i.redditmedia.com/IXcach_6JpaQ75YXkXNSs8cBAYyM0W_Su_UlZSjWsUQ.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=1080&amp;s=82cf7fc9df800f218624478b81af6618",
+        "width": 1080, "height": 1440}], "variants": {}, "id": "dGMKs3y1EOAiwagrIszH4ibIpT6UDqFIWWj2h548WLI"}],
+        "enabled": true}, "thumbnail": "https://b.thumbs.redditmedia.com/T_sFYEgomZRnFzpt8B9PeCUiAhbcpooLRkuBJzTAPbU.jpg",
+        "subreddit_id": "t5_2qmno", "edited": false, "link_flair_css_class": null,
+        "author_flair_css_class": null, "downs": 0, "brand_safe": true, "archived":
+        false, "removal_reason": null, "post_hint": "image", "is_self": false, "hide_score":
+        false, "spoiler": false, "permalink": "/r/Tucson/comments/60z2sr/ive_seen_this_posted_on_a_few_mexican_restaurants/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1490262869.0,
+        "url": "https://i.redd.it/flkr9n9ed2ny.jpg", "author_flair_text": null, "quarantine":
+        false, "title": "I''ve seen this posted on a few Mexican restaurants. What''s
+        going on?", "created_utc": 1490234069.0, "distinguished": null, "media": null,
+        "num_comments": 11, "visited": false, "subreddit_type": "public", "ups": 24}},
+        {"kind": "t3", "data": {"contest_mode": false, "banned_by": null, "media_embed":
+        {}, "subreddit": "Tucson", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;Going off right now.  Anyone know what it&amp;#39;s
+        for?&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext": "Going off
+        right now.  Anyone know what it''s for?", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "60z6qx", "gilded": 0, "secure_media_embed": {}, "clicked": false, "score":
+        13, "report_reasons": null, "author": "cookiehead_jenkins", "saved": false,
+        "mod_reports": [], "name": "t3_60z6qx", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "over_18": false, "domain": "self.Tucson", "hidden":
+        false, "thumbnail": "self", "subreddit_id": "t5_2qmno", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "brand_safe": true, "archived":
+        false, "removal_reason": null, "is_self": true, "hide_score": false, "spoiler":
+        false, "permalink": "/r/Tucson/comments/60z6qx/fireworks_tonight/", "num_reports":
+        null, "locked": false, "stickied": false, "created": 1490264087.0, "url":
+        "https://www.reddit.com/r/Tucson/comments/60z6qx/fireworks_tonight/", "author_flair_text":
+        null, "quarantine": false, "title": "Fireworks tonight", "created_utc": 1490235287.0,
+        "distinguished": null, "media": null, "num_comments": 6, "visited": false,
+        "subreddit_type": "public", "ups": 13}}, {"kind": "t3", "data": {"contest_mode":
+        false, "banned_by": null, "media_embed": {}, "subreddit": "Tucson", "selftext_html":
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;What are the best places/locations
+        to photograph around the Tucson area? I&amp;#39;m in town for a couple of
+        days from Minneapolis and would love to shoot a couple of good spots.  &lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "What are the best places/locations to photograph
+        around the Tucson area? I''m in town for a couple of days from Minneapolis
+        and would love to shoot a couple of good spots.  ", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "6107ge", "gilded": 0, "secure_media_embed": {}, "clicked": false, "score":
+        3, "report_reasons": null, "author": "stonebridgedapper", "saved": false,
+        "mod_reports": [], "name": "t3_6107ge", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "over_18": false, "domain": "self.Tucson", "hidden":
+        false, "thumbnail": "self", "subreddit_id": "t5_2qmno", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "brand_safe": true, "archived":
+        false, "removal_reason": null, "is_self": true, "hide_score": false, "spoiler":
+        false, "permalink": "/r/Tucson/comments/6107ge/photograph_help/", "num_reports":
+        null, "locked": false, "stickied": false, "created": 1490278152.0, "url":
+        "https://www.reddit.com/r/Tucson/comments/6107ge/photograph_help/", "author_flair_text":
+        null, "quarantine": false, "title": "Photograph Help!", "created_utc": 1490249352.0,
+        "distinguished": null, "media": null, "num_comments": 10, "visited": false,
+        "subreddit_type": "public", "ups": 3}}, {"kind": "t3", "data": {"contest_mode":
+        false, "banned_by": null, "media_embed": {}, "subreddit": "Tucson", "selftext_html":
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Just got a trail bike
+        and want to break her in.  I&amp;#39;m not new to riding but have never ridden
+        trails.  Anyone familiar with some good trails?  Also, who&amp;#39;s riding
+        dirt in general?&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext":
+        "Just got a trail bike and want to break her in.  I''m not new to riding but
+        have never ridden trails.  Anyone familiar with some good trails?  Also, who''s
+        riding dirt in general?", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "link_flair_text": null, "id": "60zr3x", "gilded":
+        0, "secure_media_embed": {}, "clicked": false, "score": 5, "report_reasons":
+        null, "author": "LowsideSlide", "saved": false, "mod_reports": [], "name":
+        "t3_60zr3x", "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "over_18":
+        false, "domain": "self.Tucson", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2qmno", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "is_self": true, "hide_score": false, "spoiler": false, "permalink":
+        "/r/Tucson/comments/60zr3x/trail_riders_moto_in_tucson/", "num_reports": null,
+        "locked": false, "stickied": false, "created": 1490271262.0, "url": "https://www.reddit.com/r/Tucson/comments/60zr3x/trail_riders_moto_in_tucson/",
+        "author_flair_text": null, "quarantine": false, "title": "Trail riders (moto)
+        in Tucson?", "created_utc": 1490242462.0, "distinguished": null, "media":
+        null, "num_comments": 4, "visited": false, "subreddit_type": "public", "ups":
+        5}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by": null, "media_embed":
+        {}, "subreddit": "Tucson", "selftext_html": null, "selftext": "", "likes":
+        null, "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "60t3bd", "gilded": 0, "secure_media_embed": {}, "clicked": false,
+        "score": 109, "report_reasons": null, "author": "chezazarng", "saved": false,
+        "mod_reports": [], "name": "t3_60t3bd", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "over_18": false, "domain": "tucson.com", "hidden": false,
+        "preview": {"images": [{"source": {"url": "https://i.redditmedia.com/BLsvGJd23dS_caaF9mp3_GvSrNM61ypoAIUt6MRsODA.jpg?s=e81c8e9804dbf1534b79b4aba86df201",
         "width": 1120, "height": 630}, "resolutions": [{"url": "https://i.redditmedia.com/BLsvGJd23dS_caaF9mp3_GvSrNM61ypoAIUt6MRsODA.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=ea38f8b374d1d937ec74a40afd1bd6bd",
         "width": 108, "height": 60}, {"url": "https://i.redditmedia.com/BLsvGJd23dS_caaF9mp3_GvSrNM61ypoAIUt6MRsODA.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=4d1c085a00f3d7007e6b14f96062c156",
         "width": 216, "height": 121}, {"url": "https://i.redditmedia.com/BLsvGJd23dS_caaF9mp3_GvSrNM61ypoAIUt6MRsODA.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=a76a09a1d3b55f2d56d88126cc8806cd",
@@ -330,8 +467,8 @@ http_interactions:
         "url": "http://tucson.com/news/local/govt-and-politics/tucson-city-council-approves-ban-on-cellphone-use-while-driving/article_63255e14-4c4c-59d9-ba22-c1e6f33233f8.html",
         "author_flair_text": null, "quarantine": false, "title": "City of Tucson bans
         cell phone use while driving, effective May 1", "created_utc": 1490164830.0,
-        "distinguished": null, "media": null, "num_comments": 26, "visited": false,
-        "subreddit_type": "public", "ups": 92}}, {"kind": "t3", "data": {"contest_mode":
+        "distinguished": null, "media": null, "num_comments": 33, "visited": false,
+        "subreddit_type": "public", "ups": 109}}, {"kind": "t3", "data": {"contest_mode":
         false, "banned_by": null, "media_embed": {}, "subreddit": "Tucson", "selftext_html":
         "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I know about seven
         falls, hoping to hear about any others. The 2-5 mile range is ideal, but I&amp;#39;d
@@ -340,7 +477,7 @@ http_interactions:
         any others. The 2-5 mile range is ideal, but I''d love to hear any trails
         or tips you guys know!\n\nThanks!", "likes": null, "suggested_sort": null,
         "user_reports": [], "secure_media": null, "link_flair_text": null, "id": "60vhcv",
-        "gilded": 0, "secure_media_embed": {}, "clicked": false, "score": 14, "report_reasons":
+        "gilded": 0, "secure_media_embed": {}, "clicked": false, "score": 20, "report_reasons":
         null, "author": "along87", "saved": false, "mod_reports": [], "name": "t3_60vhcv",
         "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "over_18": false,
         "domain": "self.Tucson", "hidden": false, "thumbnail": "self", "subreddit_id":
@@ -352,89 +489,17 @@ http_interactions:
         "https://www.reddit.com/r/Tucson/comments/60vhcv/hikers_what_are_your_favorite_trails_for/",
         "author_flair_text": null, "quarantine": false, "title": "Hikers, what are
         your favorite trails for waterfalls or swimming holes?", "created_utc": 1490198400.0,
-        "distinguished": null, "media": null, "num_comments": 10, "visited": false,
-        "subreddit_type": "public", "ups": 14}}, {"kind": "t3", "data": {"contest_mode":
+        "distinguished": null, "media": null, "num_comments": 21, "visited": false,
+        "subreddit_type": "public", "ups": 20}}, {"kind": "t3", "data": {"contest_mode":
         false, "banned_by": null, "media_embed": {}, "subreddit": "Tucson", "selftext_html":
-        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Going off right now.  Anyone
-        know what it&amp;#39;s for?&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-        "selftext": "Going off right now.  Anyone know what it''s for?", "likes":
-        null, "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
-        null, "id": "60z6qx", "gilded": 0, "secure_media_embed": {}, "clicked": false,
-        "score": 1, "report_reasons": null, "author": "cookiehead_jenkins", "saved":
-        false, "mod_reports": [], "name": "t3_60z6qx", "subreddit_name_prefixed":
-        "r/Tucson", "approved_by": null, "over_18": false, "domain": "self.Tucson",
-        "hidden": false, "thumbnail": "self", "subreddit_id": "t5_2qmno", "edited":
-        false, "link_flair_css_class": null, "author_flair_css_class": null, "downs":
-        0, "brand_safe": true, "archived": false, "removal_reason": null, "is_self":
-        true, "hide_score": true, "spoiler": false, "permalink": "/r/Tucson/comments/60z6qx/fireworks_tonight/",
-        "num_reports": null, "locked": false, "stickied": false, "created": 1490264087.0,
-        "url": "https://www.reddit.com/r/Tucson/comments/60z6qx/fireworks_tonight/",
-        "author_flair_text": null, "quarantine": false, "title": "Fireworks tonight",
-        "created_utc": 1490235287.0, "distinguished": null, "media": null, "num_comments":
-        0, "visited": false, "subreddit_type": "public", "ups": 1}}, {"kind": "t3",
-        "data": {"contest_mode": false, "banned_by": null, "media_embed": {}, "subreddit":
-        "Tucson", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hey
-        Tucson! I am interested in learning the basics in motorcycle maintenance.
-        Does any one of you know of a class that teaches such things? Through a search,
-        I can find maintenance classes available in other towns, but no luck here.
-        &lt;/p&gt;\n\n&lt;p&gt;Any other suggestions on learning basic motorcycle
-        maintenance? I realize youtube is a good resource, and I&amp;#39;ve been using
-        that. Interacting with someone with knowledge would be ideal. &lt;/p&gt;\n&lt;/div&gt;&lt;!--
-        SC_ON --&gt;", "selftext": "Hey Tucson! I am interested in learning the basics
-        in motorcycle maintenance. Does any one of you know of a class that teaches
-        such things? Through a search, I can find maintenance classes available in
-        other towns, but no luck here. \n\nAny other suggestions on learning basic
-        motorcycle maintenance? I realize youtube is a good resource, and I''ve been
-        using that. Interacting with someone with knowledge would be ideal. ", "likes":
-        null, "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
-        null, "id": "60wi6i", "gilded": 0, "secure_media_embed": {}, "clicked": false,
-        "score": 4, "report_reasons": null, "author": "pickle_pouch", "saved": false,
-        "mod_reports": [], "name": "t3_60wi6i", "subreddit_name_prefixed": "r/Tucson",
-        "approved_by": null, "over_18": false, "domain": "self.Tucson", "hidden":
-        false, "thumbnail": "self", "subreddit_id": "t5_2qmno", "edited": false, "link_flair_css_class":
-        null, "author_flair_css_class": null, "downs": 0, "brand_safe": true, "archived":
-        false, "removal_reason": null, "is_self": true, "hide_score": false, "spoiler":
-        false, "permalink": "/r/Tucson/comments/60wi6i/motorcycle_maintenance_class/",
-        "num_reports": null, "locked": false, "stickied": false, "created": 1490236779.0,
-        "url": "https://www.reddit.com/r/Tucson/comments/60wi6i/motorcycle_maintenance_class/",
-        "author_flair_text": null, "quarantine": false, "title": "Motorcycle maintenance
-        class", "created_utc": 1490207979.0, "distinguished": null, "media": null,
-        "num_comments": 1, "visited": false, "subreddit_type": "public", "ups": 4}},
-        {"kind": "t3", "data": {"contest_mode": false, "banned_by": null, "media_embed":
-        {}, "subreddit": "Tucson", "selftext_html": null, "selftext": "", "likes":
-        null, "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
-        null, "id": "60z2sr", "gilded": 0, "secure_media_embed": {}, "clicked": false,
-        "score": 0, "report_reasons": null, "author": "2040ojis", "saved": false,
-        "mod_reports": [], "name": "t3_60z2sr", "subreddit_name_prefixed": "r/Tucson",
-        "approved_by": null, "over_18": false, "domain": "i.redd.it", "hidden": false,
-        "preview": {"images": [{"source": {"url": "https://i.redditmedia.com/IXcach_6JpaQ75YXkXNSs8cBAYyM0W_Su_UlZSjWsUQ.jpg?s=b66414c90415639a92b6c90dfe5fdb80",
-        "width": 2448, "height": 3264}, "resolutions": [{"url": "https://i.redditmedia.com/IXcach_6JpaQ75YXkXNSs8cBAYyM0W_Su_UlZSjWsUQ.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=6336cf696f2050b945d8e8fe7660b4f8",
-        "width": 108, "height": 144}, {"url": "https://i.redditmedia.com/IXcach_6JpaQ75YXkXNSs8cBAYyM0W_Su_UlZSjWsUQ.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=d010786d992e63c0f31aee0fc5da797b",
-        "width": 216, "height": 288}, {"url": "https://i.redditmedia.com/IXcach_6JpaQ75YXkXNSs8cBAYyM0W_Su_UlZSjWsUQ.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=debc3c33abe923e489dce1a662fe6eee",
-        "width": 320, "height": 426}, {"url": "https://i.redditmedia.com/IXcach_6JpaQ75YXkXNSs8cBAYyM0W_Su_UlZSjWsUQ.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=6776cb1941299564cf24703cdb41d3f3",
-        "width": 640, "height": 853}, {"url": "https://i.redditmedia.com/IXcach_6JpaQ75YXkXNSs8cBAYyM0W_Su_UlZSjWsUQ.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=960&amp;s=7cbf7dd540d53fc053b93840dd42eb8d",
-        "width": 960, "height": 1280}, {"url": "https://i.redditmedia.com/IXcach_6JpaQ75YXkXNSs8cBAYyM0W_Su_UlZSjWsUQ.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=1080&amp;s=82cf7fc9df800f218624478b81af6618",
-        "width": 1080, "height": 1440}], "variants": {}, "id": "dGMKs3y1EOAiwagrIszH4ibIpT6UDqFIWWj2h548WLI"}],
-        "enabled": true}, "thumbnail": "https://b.thumbs.redditmedia.com/T_sFYEgomZRnFzpt8B9PeCUiAhbcpooLRkuBJzTAPbU.jpg",
-        "subreddit_id": "t5_2qmno", "edited": false, "link_flair_css_class": null,
-        "author_flair_css_class": null, "downs": 0, "brand_safe": true, "archived":
-        false, "removal_reason": null, "post_hint": "image", "is_self": false, "hide_score":
-        true, "spoiler": false, "permalink": "/r/Tucson/comments/60z2sr/ive_seen_this_posted_on_a_few_mexican_restaurants/",
-        "num_reports": null, "locked": false, "stickied": false, "created": 1490262869.0,
-        "url": "https://i.redd.it/flkr9n9ed2ny.jpg", "author_flair_text": null, "quarantine":
-        false, "title": "I''ve seen this posted on a few Mexican restaurants. What''s
-        going on?", "created_utc": 1490234069.0, "distinguished": null, "media": null,
-        "num_comments": 1, "visited": false, "subreddit_type": "public", "ups": 0}},
-        {"kind": "t3", "data": {"contest_mode": false, "banned_by": null, "media_embed":
-        {}, "subreddit": "Tucson", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
-        class=\"md\"&gt;&lt;p&gt;Heard it was someone that shot themselves in the
-        head? Does anyone know what happened? I haven&amp;#39;t seen anything on the
-        news or heard much on social media.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-        "selftext": "Heard it was someone that shot themselves in the head? Does anyone
-        know what happened? I haven''t seen anything on the news or heard much on
-        social media.", "likes": null, "suggested_sort": null, "user_reports": [],
-        "secure_media": null, "link_flair_text": null, "id": "60ydjs", "gilded": 0,
-        "secure_media_embed": {}, "clicked": false, "score": 1, "report_reasons":
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Heard it was someone
+        that shot themselves in the head? Does anyone know what happened? I haven&amp;#39;t
+        seen anything on the news or heard much on social media.&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "Heard it was someone that shot themselves in the
+        head? Does anyone know what happened? I haven''t seen anything on the news
+        or heard much on social media.", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "link_flair_text": null, "id": "60ydjs", "gilded":
+        0, "secure_media_embed": {}, "clicked": false, "score": 4, "report_reasons":
         null, "author": "MeOfAllTrades", "saved": false, "mod_reports": [], "name":
         "t3_60ydjs", "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "over_18":
         false, "domain": "self.Tucson", "hidden": false, "thumbnail": "self", "subreddit_id":
@@ -446,32 +511,86 @@ http_interactions:
         "url": "https://www.reddit.com/r/Tucson/comments/60ydjs/shooting_on_4th_ave_outside_ches_lounge_a_couple/",
         "author_flair_text": null, "quarantine": false, "title": "Shooting on 4th
         Ave outside che''s lounge a couple nights ago?", "created_utc": 1490226283.0,
-        "distinguished": null, "media": null, "num_comments": 0, "visited": false,
-        "subreddit_type": "public", "ups": 1}}, {"kind": "t3", "data": {"contest_mode":
+        "distinguished": null, "media": null, "num_comments": 8, "visited": false,
+        "subreddit_type": "public", "ups": 4}}, {"kind": "t3", "data": {"contest_mode":
         false, "banned_by": null, "media_embed": {}, "subreddit": "Tucson", "selftext_html":
-        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;After shopping for
-        a home in Tucson, I&amp;#39;m starting to lean towards buying something in
-        OV instead. &lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext": "After
-        shopping for a home in Tucson, I''m starting to lean towards buying something
-        in OV instead. ", "likes": null, "suggested_sort": null, "user_reports": [],
-        "secure_media": null, "link_flair_text": null, "id": "60xeyh", "gilded": 0,
-        "secure_media_embed": {}, "clicked": false, "score": 1, "report_reasons":
-        null, "author": "dan_kase", "saved": false, "mod_reports": [], "name": "t3_60xeyh",
-        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "over_18": false,
-        "domain": "self.Tucson", "hidden": false, "thumbnail": "self", "subreddit_id":
-        "t5_2qmno", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
-        "", "downs": 0, "brand_safe": true, "archived": false, "removal_reason": null,
-        "is_self": true, "hide_score": false, "spoiler": false, "permalink": "/r/Tucson/comments/60xeyh/why_do_you_prefer_to_live_in_oro_valley_instead/",
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hey Tucson! I am interested
+        in learning the basics in motorcycle maintenance. Does any one of you know
+        of a class that teaches such things? Through a search, I can find maintenance
+        classes available in other towns, but no luck here. &lt;/p&gt;\n\n&lt;p&gt;Any
+        other suggestions on learning basic motorcycle maintenance? I realize youtube
+        is a good resource, and I&amp;#39;ve been using that. Interacting with someone
+        with knowledge would be ideal. &lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+        "selftext": "Hey Tucson! I am interested in learning the basics in motorcycle
+        maintenance. Does any one of you know of a class that teaches such things?
+        Through a search, I can find maintenance classes available in other towns,
+        but no luck here. \n\nAny other suggestions on learning basic motorcycle maintenance?
+        I realize youtube is a good resource, and I''ve been using that. Interacting
+        with someone with knowledge would be ideal. ", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "60wi6i", "gilded": 0, "secure_media_embed": {}, "clicked": false, "score":
+        6, "report_reasons": null, "author": "pickle_pouch", "saved": false, "mod_reports":
+        [], "name": "t3_60wi6i", "subreddit_name_prefixed": "r/Tucson", "approved_by":
+        null, "over_18": false, "domain": "self.Tucson", "hidden": false, "thumbnail":
+        "self", "subreddit_id": "t5_2qmno", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "brand_safe": true, "archived":
+        false, "removal_reason": null, "is_self": true, "hide_score": false, "spoiler":
+        false, "permalink": "/r/Tucson/comments/60wi6i/motorcycle_maintenance_class/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1490236779.0,
+        "url": "https://www.reddit.com/r/Tucson/comments/60wi6i/motorcycle_maintenance_class/",
+        "author_flair_text": null, "quarantine": false, "title": "Motorcycle maintenance
+        class", "created_utc": 1490207979.0, "distinguished": null, "media": null,
+        "num_comments": 1, "visited": false, "subreddit_type": "public", "ups": 6}},
+        {"kind": "t3", "data": {"contest_mode": false, "banned_by": null, "media_embed":
+        {}, "subreddit": "Tucson", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;I&amp;#39;m not sure where to go. I want to get some
+        imperfections handled with a nice buff, clay or wax and have the car detailed.
+        &lt;/p&gt;\n\n&lt;p&gt;I don&amp;#39;t want some car wash like mr.whatever.
+        I want to get it done proper so I can resume my regular upkeep that I&amp;#39;ve
+        regrettably slacked on.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext":
+        "I''m not sure where to go. I want to get some imperfections handled with
+        a nice buff, clay or wax and have the car detailed. \n\nI don''t want some
+        car wash like mr.whatever. I want to get it done proper so I can resume my
+        regular upkeep that I''ve regrettably slacked on.", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "60uykj", "gilded": 0, "secure_media_embed": {}, "clicked": false, "score":
+        4, "report_reasons": null, "author": "dandan97", "saved": false, "mod_reports":
+        [], "name": "t3_60uykj", "subreddit_name_prefixed": "r/Tucson", "approved_by":
+        null, "over_18": false, "domain": "self.Tucson", "hidden": false, "thumbnail":
+        "self", "subreddit_id": "t5_2qmno", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "brand_safe": true, "archived":
+        false, "removal_reason": null, "is_self": true, "hide_score": false, "spoiler":
+        false, "permalink": "/r/Tucson/comments/60uykj/car_buff_wax_and_detail_suggestions/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1490222025.0,
+        "url": "https://www.reddit.com/r/Tucson/comments/60uykj/car_buff_wax_and_detail_suggestions/",
+        "author_flair_text": null, "quarantine": false, "title": "Car buff, wax and
+        detail suggestions?", "created_utc": 1490193225.0, "distinguished": null,
+        "media": null, "num_comments": 0, "visited": false, "subreddit_type": "public",
+        "ups": 4}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by": null,
+        "media_embed": {}, "subreddit": "Tucson", "selftext_html": "&lt;!-- SC_OFF
+        --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;After shopping for a home in Tucson,
+        I&amp;#39;m starting to lean towards buying something in OV instead. &lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "After shopping for a home in Tucson, I''m starting
+        to lean towards buying something in OV instead. ", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "60xeyh", "gilded": 0, "secure_media_embed": {}, "clicked": false, "score":
+        0, "report_reasons": null, "author": "dan_kase", "saved": false, "mod_reports":
+        [], "name": "t3_60xeyh", "subreddit_name_prefixed": "r/Tucson", "approved_by":
+        null, "over_18": false, "domain": "self.Tucson", "hidden": false, "thumbnail":
+        "self", "subreddit_id": "t5_2qmno", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": "", "downs": 0, "brand_safe": true, "archived":
+        false, "removal_reason": null, "is_self": true, "hide_score": false, "spoiler":
+        false, "permalink": "/r/Tucson/comments/60xeyh/why_do_you_prefer_to_live_in_oro_valley_instead/",
         "num_reports": null, "locked": false, "stickied": false, "created": 1490245378.0,
         "url": "https://www.reddit.com/r/Tucson/comments/60xeyh/why_do_you_prefer_to_live_in_oro_valley_instead/",
         "author_flair_text": "63 Dart Gt Convertible", "quarantine": false, "title":
         "Why do you prefer to live in Oro Valley instead of Tucson?", "created_utc":
-        1490216578.0, "distinguished": null, "media": null, "num_comments": 5, "visited":
-        false, "subreddit_type": "public", "ups": 1}}, {"kind": "t3", "data": {"contest_mode":
+        1490216578.0, "distinguished": null, "media": null, "num_comments": 9, "visited":
+        false, "subreddit_type": "public", "ups": 0}}, {"kind": "t3", "data": {"contest_mode":
         false, "banned_by": null, "media_embed": {}, "subreddit": "Tucson", "selftext_html":
         null, "selftext": "", "likes": null, "suggested_sort": null, "user_reports":
         [], "secure_media": null, "link_flair_text": null, "id": "60sahq", "gilded":
-        0, "secure_media_embed": {}, "clicked": false, "score": 23, "report_reasons":
+        0, "secure_media_embed": {}, "clicked": false, "score": 22, "report_reasons":
         null, "author": "uprootedme", "saved": false, "mod_reports": [], "name": "t3_60sahq",
         "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "over_18": false,
         "domain": "i.redd.it", "hidden": false, "preview": {"images": [{"source":
@@ -492,62 +611,38 @@ http_interactions:
         "url": "https://i.redd.it/vre53ctwmvmy.jpg", "author_flair_text": null, "quarantine":
         false, "title": "What are these? ( when not smooshed)", "created_utc": 1490152491.0,
         "distinguished": null, "media": null, "num_comments": 37, "visited": false,
-        "subreddit_type": "public", "ups": 23}}, {"kind": "t3", "data": {"contest_mode":
+        "subreddit_type": "public", "ups": 22}}, {"kind": "t3", "data": {"contest_mode":
         false, "banned_by": null, "media_embed": {}, "subreddit": "Tucson", "selftext_html":
-        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m not sure
-        where to go. I want to get some imperfections handled with a nice buff, clay
-        or wax and have the car detailed. &lt;/p&gt;\n\n&lt;p&gt;I don&amp;#39;t want
-        some car wash like mr.whatever. I want to get it done proper so I can resume
-        my regular upkeep that I&amp;#39;ve regrettably slacked on.&lt;/p&gt;\n&lt;/div&gt;&lt;!--
-        SC_ON --&gt;", "selftext": "I''m not sure where to go. I want to get some
-        imperfections handled with a nice buff, clay or wax and have the car detailed.
-        \n\nI don''t want some car wash like mr.whatever. I want to get it done proper
-        so I can resume my regular upkeep that I''ve regrettably slacked on.", "likes":
-        null, "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
-        null, "id": "60uykj", "gilded": 0, "secure_media_embed": {}, "clicked": false,
-        "score": 2, "report_reasons": null, "author": "dandan97", "saved": false,
-        "mod_reports": [], "name": "t3_60uykj", "subreddit_name_prefixed": "r/Tucson",
-        "approved_by": null, "over_18": false, "domain": "self.Tucson", "hidden":
-        false, "thumbnail": "self", "subreddit_id": "t5_2qmno", "edited": false, "link_flair_css_class":
-        null, "author_flair_css_class": null, "downs": 0, "brand_safe": true, "archived":
-        false, "removal_reason": null, "is_self": true, "hide_score": false, "spoiler":
-        false, "permalink": "/r/Tucson/comments/60uykj/car_buff_wax_and_detail_suggestions/",
-        "num_reports": null, "locked": false, "stickied": false, "created": 1490222025.0,
-        "url": "https://www.reddit.com/r/Tucson/comments/60uykj/car_buff_wax_and_detail_suggestions/",
-        "author_flair_text": null, "quarantine": false, "title": "Car buff, wax and
-        detail suggestions?", "created_utc": 1490193225.0, "distinguished": null,
-        "media": null, "num_comments": 0, "visited": false, "subreddit_type": "public",
-        "ups": 2}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by": null,
-        "media_embed": {}, "subreddit": "Tucson", "selftext_html": "&lt;!-- SC_OFF
-        --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;There was some discussion in &lt;a
-        href=\"/r/Phoenix\"&gt;/r/Phoenix&lt;/a&gt; about setting up a chat system
-        of some kind, and we decided to make it more of an overall Arizona one for
-        anyone who wants to join it.&lt;/p&gt;\n\n&lt;p&gt;There&amp;#39;s a #tucson
-        channel, as well as #phoenix, #flagstaff, and #arizona (our state&amp;#39;s
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;There was some discussion
+        in &lt;a href=\"/r/Phoenix\"&gt;/r/Phoenix&lt;/a&gt; about setting up a chat
+        system of some kind, and we decided to make it more of an overall Arizona
+        one for anyone who wants to join it.&lt;/p&gt;\n\n&lt;p&gt;There&amp;#39;s
+        a #tucson channel, as well as #phoenix, #flagstaff, and #arizona (our state&amp;#39;s
         largest subs).&lt;/p&gt;\n\n&lt;p&gt;If you&amp;#39;d like to join in, the
-        invite is: &lt;a href=\"https://discord.gg/tydSZEB\"&gt;https://discord.gg/tydSZEB&lt;/a&gt;
-        &lt;/p&gt;\n\n&lt;p&gt;Suggestions are welcome!&lt;/p&gt;\n&lt;/div&gt;&lt;!--
-        SC_ON --&gt;", "selftext": "There was some discussion in /r/Phoenix about
-        setting up a chat system of some kind, and we decided to make it more of an
-        overall Arizona one for anyone who wants to join it.\n\nThere''s a #tucson
-        channel, as well as #phoenix, #flagstaff, and #arizona (our state''s largest
-        subs).\n\nIf you''d like to join in, the invite is: https://discord.gg/tydSZEB
-        \n\nSuggestions are welcome!", "likes": null, "suggested_sort": null, "user_reports":
-        [], "secure_media": null, "link_flair_text": null, "id": "60s5tn", "gilded":
-        0, "secure_media_embed": {}, "clicked": false, "score": 14, "report_reasons":
-        null, "author": "jmoriarty", "saved": false, "mod_reports": [], "name": "t3_60s5tn",
-        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "over_18": false,
-        "domain": "self.Tucson", "hidden": false, "thumbnail": "self", "subreddit_id":
-        "t5_2qmno", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
-        null, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
-        null, "is_self": true, "hide_score": false, "spoiler": false, "permalink":
-        "/r/Tucson/comments/60s5tn/discord_chat_server_set_up_for_arizona_tucson/",
+        invite is: &lt;a href=\"https://discord.gg/gvukCKG\"&gt;https://discord.gg/gvukCKG&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;Suggestions
+        are welcome!&lt;/p&gt;\n\n&lt;p&gt;&lt;em&gt;EDIT: Updated invite to link
+        to entire AZ server&lt;/em&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+        "selftext": "There was some discussion in /r/Phoenix about setting up a chat
+        system of some kind, and we decided to make it more of an overall Arizona
+        one for anyone who wants to join it.\n\nThere''s a #tucson channel, as well
+        as #phoenix, #flagstaff, and #arizona (our state''s largest subs).\n\nIf you''d
+        like to join in, the invite is: https://discord.gg/gvukCKG\n\nSuggestions
+        are welcome!\n\n_EDIT: Updated invite to link to entire AZ server_", "likes":
+        null, "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "60s5tn", "gilded": 0, "secure_media_embed": {}, "clicked": false,
+        "score": 13, "report_reasons": null, "author": "jmoriarty", "saved": false,
+        "mod_reports": [], "name": "t3_60s5tn", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "over_18": false, "domain": "self.Tucson", "hidden":
+        false, "thumbnail": "self", "subreddit_id": "t5_2qmno", "edited": 1490291616.0,
+        "link_flair_css_class": null, "author_flair_css_class": null, "downs": 0,
+        "brand_safe": true, "archived": false, "removal_reason": null, "is_self":
+        true, "hide_score": false, "spoiler": false, "permalink": "/r/Tucson/comments/60s5tn/discord_chat_server_set_up_for_arizona_tucson/",
         "num_reports": null, "locked": false, "stickied": false, "created": 1490179674.0,
         "url": "https://www.reddit.com/r/Tucson/comments/60s5tn/discord_chat_server_set_up_for_arizona_tucson/",
         "author_flair_text": null, "quarantine": false, "title": "Discord chat server
         set up for Arizona &amp; Tucson", "created_utc": 1490150874.0, "distinguished":
-        null, "media": null, "num_comments": 0, "visited": false, "subreddit_type":
-        "public", "ups": 14}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by":
+        null, "media": null, "num_comments": 1, "visited": false, "subreddit_type":
+        "public", "ups": 13}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by":
         null, "media_embed": {}, "subreddit": "Tucson", "selftext_html": "&lt;!--
         SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hi, I&amp;#39;m visiting from
         Nebraska and am a recreational runner who frequents 5ks and half marathons,
@@ -564,7 +659,7 @@ http_interactions:
         roads at all hours. Thankyou!\n\nTldr: Can I go running up the Sabino canyon
         park road at any hour of the morning?", "likes": null, "suggested_sort": null,
         "user_reports": [], "secure_media": null, "link_flair_text": null, "id": "60sx7m",
-        "gilded": 0, "secure_media_embed": {}, "clicked": false, "score": 5, "report_reasons":
+        "gilded": 0, "secure_media_embed": {}, "clicked": false, "score": 7, "report_reasons":
         null, "author": "KoenigCook", "saved": false, "mod_reports": [], "name": "t3_60sx7m",
         "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "over_18": false,
         "domain": "self.Tucson", "hidden": false, "thumbnail": "self", "subreddit_id":
@@ -575,12 +670,12 @@ http_interactions:
         "locked": false, "stickied": false, "created": 1490190625.0, "url": "https://www.reddit.com/r/Tucson/comments/60sx7m/running_up_sabino_canyon/",
         "author_flair_text": null, "quarantine": false, "title": "Running Up Sabino
         Canyon", "created_utc": 1490161825.0, "distinguished": null, "media": null,
-        "num_comments": 4, "visited": false, "subreddit_type": "public", "ups": 5}},
+        "num_comments": 4, "visited": false, "subreddit_type": "public", "ups": 7}},
         {"kind": "t3", "data": {"contest_mode": false, "banned_by": null, "media_embed":
         {}, "subreddit": "Tucson", "selftext_html": null, "selftext": "", "likes":
         null, "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
         null, "id": "60lod4", "gilded": 0, "secure_media_embed": {}, "clicked": false,
-        "score": 106, "report_reasons": null, "author": "DrSparkle713", "saved": false,
+        "score": 109, "report_reasons": null, "author": "DrSparkle713", "saved": false,
         "mod_reports": [], "name": "t3_60lod4", "subreddit_name_prefixed": "r/Tucson",
         "approved_by": null, "over_18": false, "domain": "i.redd.it", "hidden": false,
         "preview": {"images": [{"source": {"url": "https://i.redditmedia.com/WQGT7vMWs9BTYVAWYqqRT0XHFHn_G9geb1ab7Qh7e48.jpg?s=40e4d89baa1cb937d122633d11c42992",
@@ -601,11 +696,11 @@ http_interactions:
         false, "title": "On the way up the Finger Rock Trail. Having lived my whole
         life north of Indiana, the desert feels like a different planet.", "created_utc":
         1490071549.0, "distinguished": null, "media": null, "num_comments": 18, "visited":
-        false, "subreddit_type": "public", "ups": 106}}, {"kind": "t3", "data": {"contest_mode":
+        false, "subreddit_type": "public", "ups": 109}}, {"kind": "t3", "data": {"contest_mode":
         false, "banned_by": null, "media_embed": {}, "subreddit": "Tucson", "selftext_html":
         null, "selftext": "", "likes": null, "suggested_sort": null, "user_reports":
         [], "secure_media": null, "link_flair_text": null, "id": "60lr3b", "gilded":
-        0, "secure_media_embed": {}, "clicked": false, "score": 71, "report_reasons":
+        0, "secure_media_embed": {}, "clicked": false, "score": 73, "report_reasons":
         null, "author": "etinder121", "saved": false, "mod_reports": [], "name": "t3_60lr3b",
         "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "over_18": false,
         "domain": "i.redd.it", "hidden": false, "preview": {"images": [{"source":
@@ -626,9 +721,29 @@ http_interactions:
         "url": "https://i.redd.it/yhrf2car1pmy.jpg", "author_flair_text": null, "quarantine":
         false, "title": "Love this view from Campbell.", "created_utc": 1490072736.0,
         "distinguished": null, "media": null, "num_comments": 2, "visited": false,
-        "subreddit_type": "public", "ups": 71}}, {"kind": "t3", "data": {"contest_mode":
-        false, "banned_by": null, "media_embed": {"content": "&lt;iframe class=\"embedly-embed\"
-        src=\"//cdn.embedly.com/widgets/media.html?src=%2F%2Fimgur.com%2Fa%2FNObVW%2Fembed&amp;url=http%3A%2F%2Fimgur.com%2Fa%2FNObVW&amp;image=http%3A%2F%2Fi.imgur.com%2FNKJV0GA.jpg%3Ffb&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=imgur\"
+        "subreddit_type": "public", "ups": 73}}, {"kind": "t3", "data": {"contest_mode":
+        false, "banned_by": null, "media_embed": {}, "subreddit": "Tucson", "selftext_html":
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m guessing
+        this is a long shot, but does anyone know of any places that may be playing
+        the game? &lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext": "I''m
+        guessing this is a long shot, but does anyone know of any places that may
+        be playing the game? ", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "link_flair_text": null, "id": "60pk63", "gilded":
+        0, "secure_media_embed": {}, "clicked": false, "score": 2, "report_reasons":
+        null, "author": "skarabokantoj", "saved": false, "mod_reports": [], "name":
+        "t3_60pk63", "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "over_18":
+        false, "domain": "self.Tucson", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2qmno", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "is_self": true, "hide_score": false, "spoiler": false, "permalink":
+        "/r/Tucson/comments/60pk63/place_to_watch_chile_vs_argentina_on_thursday/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1490151811.0,
+        "url": "https://www.reddit.com/r/Tucson/comments/60pk63/place_to_watch_chile_vs_argentina_on_thursday/",
+        "author_flair_text": null, "quarantine": false, "title": "Place to watch Chile
+        vs Argentina on Thursday?", "created_utc": 1490123011.0, "distinguished":
+        null, "media": null, "num_comments": 1, "visited": false, "subreddit_type":
+        "public", "ups": 2}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by":
+        null, "media_embed": {"content": "&lt;iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=%2F%2Fimgur.com%2Fa%2FNObVW%2Fembed&amp;url=http%3A%2F%2Fimgur.com%2Fa%2FNObVW&amp;image=http%3A%2F%2Fi.imgur.com%2FNKJV0GA.jpg%3Ffb&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=imgur\"
         width=\"550\" height=\"550\" scrolling=\"no\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;",
         "width": 550, "scrolling": false, "height": 550}, "subreddit": "Tucson", "selftext_html":
         null, "selftext": "", "likes": null, "suggested_sort": null, "user_reports":
@@ -643,7 +758,7 @@ http_interactions:
         src=\"https://cdn.embedly.com/widgets/media.html?src=%2F%2Fimgur.com%2Fa%2FNObVW%2Fembed&amp;url=http%3A%2F%2Fimgur.com%2Fa%2FNObVW&amp;image=http%3A%2F%2Fi.imgur.com%2FNKJV0GA.jpg%3Ffb&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=imgur\"
         width=\"550\" height=\"550\" scrolling=\"no\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;",
         "width": 550, "scrolling": false, "height": 550}, "clicked": false, "score":
-        27, "report_reasons": null, "author": "tehchief117", "saved": false, "mod_reports":
+        28, "report_reasons": null, "author": "tehchief117", "saved": false, "mod_reports":
         [], "name": "t3_60l30m", "subreddit_name_prefixed": "r/Tucson", "approved_by":
         null, "over_18": false, "domain": "imgur.com", "hidden": false, "preview":
         {"images": [{"source": {"url": "https://i.redditmedia.com/irM49Blmm9PqgxBU2UlSCNHJu_kzAi6V3VjkLyfLw5k.jpg?s=4b5a32a5a0d0050bc0b42b65ecfac003",
@@ -670,39 +785,18 @@ http_interactions:
         width=\"550\" height=\"550\" scrolling=\"no\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;",
         "version": "1.0", "provider_name": "Imgur", "thumbnail_url": "http://i.imgur.com/NKJV0GA.jpg?fb",
         "thumbnail_height": 315}, "type": "imgur.com"}, "num_comments": 3, "visited":
-        false, "subreddit_type": "public", "ups": 27}}, {"kind": "t3", "data": {"contest_mode":
+        false, "subreddit_type": "public", "ups": 28}}, {"kind": "t3", "data": {"contest_mode":
         false, "banned_by": null, "media_embed": {}, "subreddit": "Tucson", "selftext_html":
-        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m guessing
-        this is a long shot, but does anyone know of any places that may be playing
-        the game? &lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext": "I''m
-        guessing this is a long shot, but does anyone know of any places that may
-        be playing the game? ", "likes": null, "suggested_sort": null, "user_reports":
-        [], "secure_media": null, "link_flair_text": null, "id": "60pk63", "gilded":
-        0, "secure_media_embed": {}, "clicked": false, "score": 1, "report_reasons":
-        null, "author": "skarabokantoj", "saved": false, "mod_reports": [], "name":
-        "t3_60pk63", "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "over_18":
-        false, "domain": "self.Tucson", "hidden": false, "thumbnail": "self", "subreddit_id":
-        "t5_2qmno", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
-        null, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
-        null, "is_self": true, "hide_score": false, "spoiler": false, "permalink":
-        "/r/Tucson/comments/60pk63/place_to_watch_chile_vs_argentina_on_thursday/",
-        "num_reports": null, "locked": false, "stickied": false, "created": 1490151811.0,
-        "url": "https://www.reddit.com/r/Tucson/comments/60pk63/place_to_watch_chile_vs_argentina_on_thursday/",
-        "author_flair_text": null, "quarantine": false, "title": "Place to watch Chile
-        vs Argentina on Thursday?", "created_utc": 1490123011.0, "distinguished":
-        null, "media": null, "num_comments": 0, "visited": false, "subreddit_type":
-        "public", "ups": 1}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by":
-        null, "media_embed": {}, "subreddit": "Tucson", "selftext_html": "&lt;!--
-        SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I am going to be moving to Tucson
-        in a few months to start a new job.  After reading about some of the wildlife
-        down there like rattlesnakes, scorpions, Gila monsters, mountain lions, Africanized
-        bees, tarantulas, etc. I am starting to become nervous.  I\u2019ve lived my
-        whole life in a suburb just outside NYC so I\u2019ve never had to worry about
-        exotic wildlife.   &lt;/p&gt;\n\n&lt;p&gt;So how concerned should I be about
-        the wildlife in Tucson?  Have you had problems with the wildlife in Tucson?  How
-        cautious are you when walking around town (or even your own household) during
-        the day/night?  Do the people who get bitten by snakes usually provoke them
-        beforehand or are they bitten unexpectedly?  What about scorpions?  I\u2019m
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I am going to be moving
+        to Tucson in a few months to start a new job.  After reading about some of
+        the wildlife down there like rattlesnakes, scorpions, Gila monsters, mountain
+        lions, Africanized bees, tarantulas, etc. I am starting to become nervous.  I\u2019ve
+        lived my whole life in a suburb just outside NYC so I\u2019ve never had to
+        worry about exotic wildlife.   &lt;/p&gt;\n\n&lt;p&gt;So how concerned should
+        I be about the wildlife in Tucson?  Have you had problems with the wildlife
+        in Tucson?  How cautious are you when walking around town (or even your own
+        household) during the day/night?  Do the people who get bitten by snakes usually
+        provoke them beforehand or are they bitten unexpectedly?  What about scorpions?  I\u2019m
         a little worried because I tend to be oblivious to my surroundings.  I\u2019m
         the kind of person who could walk right into a rattlesnake den without realizing
         it.  Well, not really, but I am pretty absent-minded.&lt;/p&gt;\n&lt;/div&gt;&lt;!--
@@ -720,7 +814,7 @@ http_interactions:
         could walk right into a rattlesnake den without realizing it.  Well, not really,
         but I am pretty absent-minded.\n\n\n", "likes": null, "suggested_sort": null,
         "user_reports": [], "secure_media": null, "link_flair_text": null, "id": "60iqbt",
-        "gilded": 0, "secure_media_embed": {}, "clicked": false, "score": 28, "report_reasons":
+        "gilded": 0, "secure_media_embed": {}, "clicked": false, "score": 27, "report_reasons":
         null, "author": "soretravail", "saved": false, "mod_reports": [], "name":
         "t3_60iqbt", "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "over_18":
         false, "domain": "self.Tucson", "hidden": false, "thumbnail": "self", "subreddit_id":
@@ -732,8 +826,8 @@ http_interactions:
         "url": "https://www.reddit.com/r/Tucson/comments/60iqbt/how_concerned_should_i_be_about_wildlife_in_tucson/",
         "author_flair_text": null, "quarantine": false, "title": "How concerned should
         I be about wildlife in Tucson?", "created_utc": 1490039036.0, "distinguished":
-        null, "media": null, "num_comments": 71, "visited": false, "subreddit_type":
-        "public", "ups": 28}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by":
+        null, "media": null, "num_comments": 75, "visited": false, "subreddit_type":
+        "public", "ups": 27}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by":
         null, "media_embed": {}, "subreddit": "Tucson", "selftext_html": "&lt;!--
         SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hi everyone! &lt;/p&gt;\n\n&lt;p&gt;Our
         first hike will be this Saturday, March 25. For the inaugural hike, we decided
@@ -764,7 +858,7 @@ http_interactions:
         pups at home for this one. Sadly, dogs are not allowed. ", "likes": null,
         "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
         null, "id": "60hjgk", "gilded": 0, "secure_media_embed": {}, "clicked": false,
-        "score": 23, "report_reasons": null, "author": "readytorumbl", "saved": false,
+        "score": 21, "report_reasons": null, "author": "readytorumbl", "saved": false,
         "mod_reports": [], "name": "t3_60hjgk", "subreddit_name_prefixed": "r/Tucson",
         "approved_by": null, "over_18": false, "domain": "self.Tucson", "hidden":
         false, "thumbnail": "self", "subreddit_id": "t5_2qmno", "edited": false, "link_flair_css_class":
@@ -776,7 +870,7 @@ http_interactions:
         "author_flair_text": null, "quarantine": false, "title": "1st Tucson Trekkers
         Hike This Saturday!", "created_utc": 1490027595.0, "distinguished": null,
         "media": null, "num_comments": 2, "visited": false, "subreddit_type": "public",
-        "ups": 23}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by": null,
+        "ups": 21}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by": null,
         "media_embed": {}, "subreddit": "Tucson", "selftext_html": "&lt;!-- SC_OFF
         --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hey!&lt;/p&gt;\n\n&lt;pre&gt;&lt;code&gt;       Is
         there somebody in your life who really deserves a night out and would love
@@ -798,7 +892,7 @@ http_interactions:
         4/10. Good luck!\n\n\nSincerely,\n             SuicideGirls: Blackheart Burlesque",
         "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
         null, "link_flair_text": null, "id": "60jlve", "gilded": 0, "secure_media_embed":
-        {}, "clicked": false, "score": 6, "report_reasons": null, "author": "ClarissaSG",
+        {}, "clicked": false, "score": 8, "report_reasons": null, "author": "ClarissaSG",
         "saved": false, "mod_reports": [], "name": "t3_60jlve", "subreddit_name_prefixed":
         "r/Tucson", "approved_by": null, "over_18": false, "domain": "self.Tucson",
         "hidden": false, "preview": {"images": [{"source": {"url": "https://i.redditmedia.com/En-l_Pp2b28JgbHDwbYjekC3kpfZJb4XBmktgToWUPY.jpg?s=d15288cbaec68d6c1a3484c7462ecff8",
@@ -816,8 +910,8 @@ http_interactions:
         "url": "https://www.reddit.com/r/Tucson/comments/60jlve/our_event_win_tickets_to_suicidegirls_blackheart/",
         "author_flair_text": null, "quarantine": false, "title": "[Our Event] Win
         tickets to SuicideGirls: Blackheart Burlesque on 4/16!", "created_utc": 1490047527.0,
-        "distinguished": null, "media": null, "num_comments": 8, "visited": false,
-        "subreddit_type": "public", "ups": 6}}, {"kind": "t3", "data": {"contest_mode":
+        "distinguished": null, "media": null, "num_comments": 9, "visited": false,
+        "subreddit_type": "public", "ups": 8}}, {"kind": "t3", "data": {"contest_mode":
         false, "banned_by": null, "media_embed": {}, "subreddit": "Tucson", "selftext_html":
         "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;m
         going on vacation in San Diego this summer. It&amp;#39;s been a while since
@@ -831,7 +925,7 @@ http_interactions:
         my personal medical marijuana so I don''t have to buy any when I get there.
         Thanks!", "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
         null, "link_flair_text": null, "id": "60jaoj", "gilded": 0, "secure_media_embed":
-        {}, "clicked": false, "score": 7, "report_reasons": null, "author": "BaginaJon",
+        {}, "clicked": false, "score": 6, "report_reasons": null, "author": "BaginaJon",
         "saved": false, "mod_reports": [], "name": "t3_60jaoj", "subreddit_name_prefixed":
         "r/Tucson", "approved_by": null, "over_18": false, "domain": "self.Tucson",
         "hidden": false, "thumbnail": "self", "subreddit_id": "t5_2qmno", "edited":
@@ -843,11 +937,11 @@ http_interactions:
         "author_flair_text": null, "quarantine": false, "title": "Drive from tucson
         to san diego", "created_utc": 1490044466.0, "distinguished": null, "media":
         null, "num_comments": 9, "visited": false, "subreddit_type": "public", "ups":
-        7}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by": null, "media_embed":
+        6}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by": null, "media_embed":
         {}, "subreddit": "Tucson", "selftext_html": null, "selftext": "", "likes":
         null, "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
         null, "id": "60di47", "gilded": 0, "secure_media_embed": {}, "clicked": false,
-        "score": 150, "report_reasons": null, "author": "jburnxxvi", "saved": false,
+        "score": 146, "report_reasons": null, "author": "jburnxxvi", "saved": false,
         "mod_reports": [], "name": "t3_60di47", "subreddit_name_prefixed": "r/Tucson",
         "approved_by": null, "over_18": false, "domain": "i.redd.it", "hidden": false,
         "preview": {"images": [{"source": {"url": "https://i.redditmedia.com/QhgPgWaYsz3KiM7HBFuggjqONtgOKkyt7JXDdkW3Aao.jpg?s=ddaf1e5e06d6f20dcfb26fbd68f14280",
@@ -867,8 +961,8 @@ http_interactions:
         "url": "https://i.redd.it/jq633bf6lgmy.jpg", "author_flair_text": null, "quarantine":
         false, "title": "To anyone who hasn''t been to Mt Lemmon at night, I highly
         recommend it!", "created_utc": 1489970336.0, "distinguished": null, "media":
-        null, "num_comments": 13, "visited": false, "subreddit_type": "public", "ups":
-        150}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by": null, "media_embed":
+        null, "num_comments": 14, "visited": false, "subreddit_type": "public", "ups":
+        146}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by": null, "media_embed":
         {}, "subreddit": "Tucson", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
         class=\"md\"&gt;&lt;p&gt;I&amp;#39;m planning a trip to Tucson next week and
         would like to ride the full Lemon Drop but noticed someone posted on MTB project
@@ -880,7 +974,7 @@ http_interactions:
         rideable, what would be another epic ride to do?", "likes": null, "suggested_sort":
         null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
         "60grpk", "gilded": 0, "secure_media_embed": {}, "clicked": false, "score":
-        10, "report_reasons": null, "author": "wildkilliams", "saved": false, "mod_reports":
+        11, "report_reasons": null, "author": "wildkilliams", "saved": false, "mod_reports":
         [], "name": "t3_60grpk", "subreddit_name_prefixed": "r/Tucson", "approved_by":
         null, "over_18": false, "domain": "self.Tucson", "hidden": false, "thumbnail":
         "self", "subreddit_id": "t5_2qmno", "edited": false, "link_flair_css_class":
@@ -892,131 +986,1260 @@ http_interactions:
         "author_flair_text": null, "quarantine": false, "title": "MTBers, is the Full
         Lemon Drop rideable?", "created_utc": 1490019806.0, "distinguished": null,
         "media": null, "num_comments": 12, "visited": false, "subreddit_type": "public",
-        "ups": 10}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by": null,
-        "media_embed": {}, "subreddit": "Tucson", "selftext_html": null, "selftext":
-        "", "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
-        null, "link_flair_text": null, "id": "60dd08", "gilded": 0, "secure_media_embed":
-        {}, "clicked": false, "score": 29, "report_reasons": null, "author": "DrSparkle713",
-        "saved": false, "mod_reports": [], "name": "t3_60dd08", "subreddit_name_prefixed":
-        "r/Tucson", "approved_by": null, "over_18": false, "domain": "i.redd.it",
-        "hidden": false, "preview": {"images": [{"source": {"url": "https://i.redditmedia.com/rWha5QIbB0wiYVJa4DuGo6ho9wMk7yrMunDx0dtqHy8.jpg?s=7463775f2968dd35b805324589532f1a",
-        "width": 3456, "height": 4608}, "resolutions": [{"url": "https://i.redditmedia.com/rWha5QIbB0wiYVJa4DuGo6ho9wMk7yrMunDx0dtqHy8.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=c006e0faba351a7c4b85f84659dac7b2",
-        "width": 108, "height": 144}, {"url": "https://i.redditmedia.com/rWha5QIbB0wiYVJa4DuGo6ho9wMk7yrMunDx0dtqHy8.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=e9acd0fc7bd20b6482c566b29352ca68",
-        "width": 216, "height": 288}, {"url": "https://i.redditmedia.com/rWha5QIbB0wiYVJa4DuGo6ho9wMk7yrMunDx0dtqHy8.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=c99097739e96516ad2238d6a135604ea",
-        "width": 320, "height": 426}, {"url": "https://i.redditmedia.com/rWha5QIbB0wiYVJa4DuGo6ho9wMk7yrMunDx0dtqHy8.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=559ad256b82f01b40f09094df8f9c839",
-        "width": 640, "height": 853}, {"url": "https://i.redditmedia.com/rWha5QIbB0wiYVJa4DuGo6ho9wMk7yrMunDx0dtqHy8.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=960&amp;s=486ee19941193951c5350b9939217210",
-        "width": 960, "height": 1280}, {"url": "https://i.redditmedia.com/rWha5QIbB0wiYVJa4DuGo6ho9wMk7yrMunDx0dtqHy8.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=1080&amp;s=31abaa51b136510d40ff99262420eb81",
-        "width": 1080, "height": 1440}], "variants": {}, "id": "fTqLNAq4y0H1Kw5YW_7CqWSzn-dt4rrj606J-FOjVlo"}],
-        "enabled": true}, "thumbnail": "https://b.thumbs.redditmedia.com/ey7Bc8lb5wEskP_nDNPat6U_VlCd187lx96PbECXqxc.jpg",
-        "subreddit_id": "t5_2qmno", "edited": false, "link_flair_css_class": null,
-        "author_flair_css_class": null, "downs": 0, "brand_safe": true, "archived":
-        false, "removal_reason": null, "post_hint": "image", "is_self": false, "hide_score":
-        false, "spoiler": false, "permalink": "/r/Tucson/comments/60dd08/white_building_on_a_very_bright_sunny_day_this/",
-        "num_reports": null, "locked": false, "stickied": false, "created": 1489997474.0,
-        "url": "https://i.redd.it/s5y8ib9ufgmy.jpg", "author_flair_text": null, "quarantine":
-        false, "title": "White building on a very bright sunny day this weekend.",
-        "created_utc": 1489968674.0, "distinguished": null, "media": null, "num_comments":
-        5, "visited": false, "subreddit_type": "public", "ups": 29}}, {"kind": "t3",
-        "data": {"contest_mode": false, "banned_by": null, "media_embed": {}, "subreddit":
-        "Tucson", "selftext_html": null, "selftext": "", "likes": null, "suggested_sort":
-        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
-        "60ausl", "gilded": 0, "secure_media_embed": {}, "clicked": false, "score":
-        77, "report_reasons": null, "author": "jumpropeharder", "saved": false, "mod_reports":
-        [], "name": "t3_60ausl", "subreddit_name_prefixed": "r/Tucson", "approved_by":
-        null, "over_18": false, "domain": "imgur.com", "hidden": false, "preview":
-        {"images": [{"source": {"url": "https://i.redditmedia.com/2Fx3MZ0nCyHWRRB0clzwxIKJeU9R3r9-yT529TRjOOY.jpg?s=bfcd4b3d1b998b26316cbfc65d7d5760",
-        "width": 1967, "height": 2778}, "resolutions": [{"url": "https://i.redditmedia.com/2Fx3MZ0nCyHWRRB0clzwxIKJeU9R3r9-yT529TRjOOY.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=f45d281c2842d6e9e2fec6dfc56be916",
-        "width": 108, "height": 152}, {"url": "https://i.redditmedia.com/2Fx3MZ0nCyHWRRB0clzwxIKJeU9R3r9-yT529TRjOOY.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=051f6eaa110ad534ae46e81e56d78c83",
-        "width": 216, "height": 305}, {"url": "https://i.redditmedia.com/2Fx3MZ0nCyHWRRB0clzwxIKJeU9R3r9-yT529TRjOOY.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=ad0afc91bf91f2c844bcf8740c2f8c7b",
-        "width": 320, "height": 451}, {"url": "https://i.redditmedia.com/2Fx3MZ0nCyHWRRB0clzwxIKJeU9R3r9-yT529TRjOOY.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=2514d90f99652fb393d8ce6bcbfb2475",
-        "width": 640, "height": 903}, {"url": "https://i.redditmedia.com/2Fx3MZ0nCyHWRRB0clzwxIKJeU9R3r9-yT529TRjOOY.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=960&amp;s=1c6b8acc1d9154fd85610e605d031b2e",
-        "width": 960, "height": 1355}, {"url": "https://i.redditmedia.com/2Fx3MZ0nCyHWRRB0clzwxIKJeU9R3r9-yT529TRjOOY.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=1080&amp;s=413c429880a22536de95bb0f7980c0f7",
-        "width": 1080, "height": 1525}], "variants": {}, "id": "iwXjNcVviNT1bjcIkTo4zRVS3ZD5c7--emXZSZPDsMA"}],
-        "enabled": false}, "thumbnail": "https://b.thumbs.redditmedia.com/_a-GCmHG-5j6qHqY96KWZqxc4vEzBSunUwxvjLVJPkw.jpg",
-        "subreddit_id": "t5_2qmno", "edited": false, "link_flair_css_class": null,
-        "author_flair_css_class": null, "downs": 0, "brand_safe": true, "archived":
-        false, "removal_reason": null, "post_hint": "link", "is_self": false, "hide_score":
-        false, "spoiler": false, "permalink": "/r/Tucson/comments/60ausl/found_this_nifty_vintage_map_of_the_santa/",
-        "num_reports": null, "locked": false, "stickied": false, "created": 1489969362.0,
-        "url": "http://imgur.com/tbnF5HZ", "author_flair_text": null, "quarantine":
-        false, "title": "Found this nifty vintage map of the Santa Catalina mountains
-        in an old Arizona Highways magazine", "created_utc": 1489940562.0, "distinguished":
-        null, "media": null, "num_comments": 29, "visited": false, "subreddit_type":
-        "public", "ups": 77}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by":
-        null, "media_embed": {}, "subreddit": "Tucson", "selftext_html": null, "selftext":
-        "", "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
-        null, "link_flair_text": null, "id": "60c47m", "gilded": 0, "secure_media_embed":
-        {}, "clicked": false, "score": 13, "report_reasons": null, "author": "MrVisible",
-        "saved": false, "mod_reports": [], "name": "t3_60c47m", "subreddit_name_prefixed":
-        "r/Tucson", "approved_by": null, "over_18": false, "domain": "kvoa.com", "hidden":
-        false, "preview": {"images": [{"source": {"url": "https://i.redditmedia.com/0ZYVh5lnI6H2LouiGDAXC6IzcpM7AiLNRdwaZvAZ57A.jpg?s=47b92ee0659b9471d53e333e275ba9d7",
-        "width": 1009, "height": 569}, "resolutions": [{"url": "https://i.redditmedia.com/0ZYVh5lnI6H2LouiGDAXC6IzcpM7AiLNRdwaZvAZ57A.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=0a90ffa7f6819912b5bb235cbf213fc3",
-        "width": 108, "height": 60}, {"url": "https://i.redditmedia.com/0ZYVh5lnI6H2LouiGDAXC6IzcpM7AiLNRdwaZvAZ57A.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=b44f0c681cdd67dcb7265b2de1d1fb74",
-        "width": 216, "height": 121}, {"url": "https://i.redditmedia.com/0ZYVh5lnI6H2LouiGDAXC6IzcpM7AiLNRdwaZvAZ57A.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=3cb08025e4ef930b26f4c41813a44b83",
-        "width": 320, "height": 180}, {"url": "https://i.redditmedia.com/0ZYVh5lnI6H2LouiGDAXC6IzcpM7AiLNRdwaZvAZ57A.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=ec8ba5739f4bfba8a431e8aba2437cce",
-        "width": 640, "height": 360}, {"url": "https://i.redditmedia.com/0ZYVh5lnI6H2LouiGDAXC6IzcpM7AiLNRdwaZvAZ57A.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=960&amp;s=88a03895bc51b016b39b74fa733dd459",
-        "width": 960, "height": 541}], "variants": {}, "id": "9trFSIhJ1SaTwHpCjtv--Vp7g3KMb9MYiUYSG3JrE9Y"}],
-        "enabled": false}, "thumbnail": "https://b.thumbs.redditmedia.com/fWEflLPCx-338gjBSviVMBY7WDBlVOwmMixyhl6X-kc.jpg",
-        "subreddit_id": "t5_2qmno", "edited": false, "link_flair_css_class": null,
-        "author_flair_css_class": null, "downs": 0, "brand_safe": true, "archived":
-        false, "removal_reason": null, "post_hint": "link", "is_self": false, "hide_score":
-        false, "spoiler": false, "permalink": "/r/Tucson/comments/60c47m/tucson_sets_new_march_heat_record/",
-        "num_reports": null, "locked": false, "stickied": false, "created": 1489983207.0,
-        "url": "http://www.kvoa.com/story/34946770/tucson-sets-new-march-heat-record",
-        "author_flair_text": null, "quarantine": false, "title": "Tucson sets new
-        March heat record", "created_utc": 1489954407.0, "distinguished": null, "media":
-        null, "num_comments": 2, "visited": false, "subreddit_type": "public", "ups":
-        13}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by": null, "media_embed":
-        {}, "subreddit": "Tucson", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
-        class=\"md\"&gt;&lt;p&gt;Hey guys, I&amp;#39;ll be moving to Tucson here in
-        the next couple months. I interviewed at U of A for an ob/gyn residency position
-        and absolutely loved it. Any advice you all can give about where to live,
-        neighborhoods to avoid, etc.? How driveable is the city? will I get stuck
-        in bad traffic? Are the areas around the university medical center safe, or
-        would it be better to get a place in another neighborhood and just commute
-        (preferable not more than a 10m commute). I&amp;#39;m moving to Tucson from
-        Morgantown, WV, so I&amp;#39;m pretty familiar w/ college town life, although
-        Tucson is probably the largest &amp;quot;college town&amp;quot; I&amp;#39;ve
-        been to and is like 10x the population of Morgantown lol. i should also point
-        out that although I&amp;#39;m not coming w/ a wife or kids or anything, my
-        grandma and mom will be visiting frequently so I&amp;#39;m definitely looking
-        for at least a 2bed/2bath type situation. Sorry if these questions are vague
-        or naive sounding, I&amp;#39;ve never lived anwhere except for the east coast
-        and honestly any advice given is appreciated it.&lt;/p&gt;\n\n&lt;p&gt;edit:
-        thank you all so much for your answers! I really appreciate it. I may not
-        respond to all of your comments individually but rest assured I am reading
-        them and am grateful for them : )&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-        "selftext": "Hey guys, I''ll be moving to Tucson here in the next couple months.
-        I interviewed at U of A for an ob/gyn residency position and absolutely loved
-        it. Any advice you all can give about where to live, neighborhoods to avoid,
-        etc.? How driveable is the city? will I get stuck in bad traffic? Are the
-        areas around the university medical center safe, or would it be better to
-        get a place in another neighborhood and just commute (preferable not more
-        than a 10m commute). I''m moving to Tucson from Morgantown, WV, so I''m pretty
-        familiar w/ college town life, although Tucson is probably the largest \"college
-        town\" I''ve been to and is like 10x the population of Morgantown lol. i should
-        also point out that although I''m not coming w/ a wife or kids or anything,
-        my grandma and mom will be visiting frequently so I''m definitely looking
-        for at least a 2bed/2bath type situation. Sorry if these questions are vague
-        or naive sounding, I''ve never lived anwhere except for the east coast and
-        honestly any advice given is appreciated it.\n\nedit: thank you all so much
-        for your answers! I really appreciate it. I may not respond to all of your
-        comments individually but rest assured I am reading them and am grateful for
-        them : )", "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
-        null, "link_flair_text": null, "id": "60bjvv", "gilded": 0, "secure_media_embed":
-        {}, "clicked": false, "score": 7, "report_reasons": null, "author": "mrhuggables",
-        "saved": false, "mod_reports": [], "name": "t3_60bjvv", "subreddit_name_prefixed":
-        "r/Tucson", "approved_by": null, "over_18": false, "domain": "self.Tucson",
-        "hidden": false, "thumbnail": "self", "subreddit_id": "t5_2qmno", "edited":
-        1490020112.0, "link_flair_css_class": null, "author_flair_css_class": null,
-        "downs": 0, "brand_safe": true, "archived": false, "removal_reason": null,
-        "is_self": true, "hide_score": false, "spoiler": false, "permalink": "/r/Tucson/comments/60bjvv/moving_to_tucson_soon_to_start_residency/",
-        "num_reports": null, "locked": false, "stickied": false, "created": 1489977028.0,
-        "url": "https://www.reddit.com/r/Tucson/comments/60bjvv/moving_to_tucson_soon_to_start_residency/",
-        "author_flair_text": null, "quarantine": false, "title": "Moving to Tucson
-        soon to start residency training--any advice?", "created_utc": 1489948228.0,
-        "distinguished": null, "media": null, "num_comments": 22, "visited": false,
-        "subreddit_type": "public", "ups": 7}}], "after": "t3_60bjvv", "before": null}}'
-    http_version: 
-  recorded_at: Thu, 23 Mar 2017 02:20:00 GMT
-recorded_with: VCR 3.0.3
+        "ups": 11}}], "after": "t3_60grpk", "before": null}}'
+    http_version:
+  recorded_at: Thu, 23 Mar 2017 22:20:32 GMT
+- request:
+    method: get
+    uri: https://www.reddit.com/r/tucson/comments/5wt8jd/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - edgebucket=4li3lvbQzGoYKXNrYW; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loid=Vx9U38V3ij3bruZmxf.1.1490307632726.Z0FBQUFBQlkxRW93dFM0SmcyNUZaU1hHUWwzYXpmNFdmNk1pLVdvNXdFZmpqYzRBOG5kRkp4NFNtQmt2a1pCU0JxU3Q3MFJjYV9BcTM2SEp3ODNZeEUweVdIN2NNOG8teFN0dmNCSHhYXzJwNmRXVmdpWFJCWFBWZzczc3FWaHRMM3lMLVd6a3gtQlU;
+        Domain=reddit.com; Max-Age=63071999; Path=/; expires=Sat, 23-Mar-2019 22:20:32
+        GMT; secure
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Reddit-Tracking, X-Moose
+      X-Reddit-Tracking:
+      - https://pixel.redditmedia.com/pixel/of_destiny.png?v=mbjD%2BRcR%2B05MaREKzeS9GJftEq0fbLGdmKK4dx3DDYJUp1Di7KTjNAutYkPc0MCfUzV4y1f7qIM%3D
+      Cache-Control:
+      - max-age=0, must-revalidate
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '6619'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 23 Mar 2017 22:20:32 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-den6026-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1490307632.691177,VS0,VE225
+      Vary:
+      - accept-encoding
+      Server:
+      - snooserv
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+        "t3", "data": {"contest_mode": false, "banned_by": null, "media_embed": {},
+        "subreddit": "Tucson", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;&lt;strong&gt;ALL
+        classified-type posts must be posted in this thread and not in the main sub.&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;Topics
+        that are appropriate for this thread include:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;p&gt;Buy/Sell/Trade
+        of: propery, vehicles, goods (&lt;em&gt;nothing illegal&lt;/em&gt;)&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Cross
+        posts from Craigslist&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Roommate(s)
+        wanted/needed&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Sublets/vacancies available&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Residential
+        and/or commercial real estate for sale/lease&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Questions
+        about neighborhoods/where to live or rent&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Garage
+        sale announcements&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Job seekers/employers
+        looking to hire&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Self-promotion (businesses,
+        including artists, musicians, etc sharing their work)&lt;/p&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;For
+        selling items, please remember to list some of the basics for potential buyers:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;p&gt;Price&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Item
+        details (condition, date of purchase, etc.)&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Your
+        general location (Tucson, Oro Valley, Marana, etc.  No addresses, save that
+        for PM.)&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Anything else that&amp;#39;s
+        relevant&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;Nothing illegal
+        is allowed&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;All
+        posts of this nature will be directed out of the main sub and into this thread.  If
+        you think you have a compelling reason to post in the main sub, please message
+        the mods and we will evaluate the request.  Thanks!&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "**ALL classified-type posts must be posted in
+        this thread and not in the main sub.**\n\nTopics that are appropriate for
+        this thread include:\n\n* Buy/Sell/Trade of: propery, vehicles, goods (*nothing
+        illegal*)\n\n* Cross posts from Craigslist\n\n* Roommate(s) wanted/needed\n\n*
+        Sublets/vacancies available\n\n* Residential and/or commercial real estate
+        for sale/lease\n\n* Questions about neighborhoods/where to live or rent\n\n*
+        Garage sale announcements\n\n* Job seekers/employers looking to hire\n\n*
+        Self-promotion (businesses, including artists, musicians, etc sharing their
+        work)\n\n****\n\nFor selling items, please remember to list some of the basics
+        for potential buyers:\n\n* Price\n\n* Item details (condition, date of purchase,
+        etc.)\n\n* Your general location (Tucson, Oro Valley, Marana, etc.  No addresses,
+        save that for PM.)\n\n* Anything else that''s relevant\n\n* **Nothing illegal
+        is allowed**\n\n****\n\n\nAll posts of this nature will be directed out of
+        the main sub and into this thread.  If you think you have a compelling reason
+        to post in the main sub, please message the mods and we will evaluate the
+        request.  Thanks!", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "saved": false, "id": "5wt8jd", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "score": 9, "report_reasons": null, "author": "CompletelyLurker",
+        "link_flair_text": "Monthly Discussion", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "over_18": false, "domain": "self.Tucson", "hidden":
+        false, "num_comments": 31, "thumbnail": "self", "subreddit_id": "t5_2qmno",
+        "edited": 1489997702.0, "link_flair_css_class": "medblue", "author_flair_css_class":
+        null, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "stickied": true, "is_self": true, "hide_score": false, "spoiler": false,
+        "permalink": "/r/Tucson/comments/5wt8jd/buyselltradehousing_march_2017/",
+        "subreddit_type": "public", "locked": false, "name": "t3_5wt8jd", "created":
+        1488373002.0, "url": "https://www.reddit.com/r/Tucson/comments/5wt8jd/buyselltradehousing_march_2017/",
+        "author_flair_text": "\ud83c\udd91 Currently Lurking", "quarantine": false,
+        "title": "Buy/Sell/Trade/Housing: March 2017", "created_utc": 1488344202.0,
+        "ups": 9, "media": null, "upvote_ratio": 0.79, "mod_reports": [], "visited":
+        false, "num_reports": null, "distinguished": "moderator"}}], "after": null,
+        "before": null}}, {"kind": "Listing", "data": {"modhash": "", "children":
+        [{"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "decv3ts", "gilded": 0, "archived": false, "score":
+        4, "report_reasons": null, "author": "DonNewKirk", "parent_id": "t3_5wt8jd",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Looking to rent 2 or 3 bedroom house/condo/townhouse or apartment
+        --Central Tucson, April 1. Not too picky $1100 limit", "edited": 1488391870.0,
+        "author_flair_css_class": null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Looking
+        to rent 2 or 3 bedroom house/condo/townhouse or apartment --Central Tucson,
+        April 1. Not too picky $1100 limit&lt;/p&gt;\n&lt;/div&gt;", "stickied": false,
+        "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_decv3ts", "created": 1488375680.0, "author_flair_text": null,
+        "created_utc": 1488346880.0, "ups": 4, "depth": 0, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno",
+        "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd", "likes":
+        null, "replies": "", "user_reports": [], "saved": false, "id": "dedv0tq",
+        "gilded": 0, "archived": false, "score": 2, "report_reasons": null, "author":
+        "chewbi", "parent_id": "t3_5wt8jd", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "controversiality": 0, "body": "Looking for somebody
+        to sublease my room until August 2017. It''s a 4 room house, but only two
+        other dudes and a cat live there. $484 a month +utilities. It''s about mile
+        from UA campus. PM me for deets.", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Looking for
+        somebody to sublease my room until August 2017. It&amp;#39;s a 4 room house,
+        but only two other dudes and a cat live there. $484 a month +utilities. It&amp;#39;s
+        about mile from UA campus. PM me for deets.&lt;/p&gt;\n&lt;/div&gt;", "stickied":
+        false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_dedv0tq", "created": 1488431294.0, "author_flair_text": null,
+        "created_utc": 1488402494.0, "ups": 2, "depth": 0, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno",
+        "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd", "likes":
+        null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+        "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": {"kind": "Listing",
+        "data": {"modhash": "", "children": [{"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd",
+        "likes": null, "replies": "", "user_reports": [], "saved": false, "id": "dej0blu",
+        "gilded": 0, "archived": false, "score": 1, "report_reasons": null, "author":
+        "BelligerentBacteria", "parent_id": "t1_deizzqr", "subreddit_name_prefixed":
+        "r/Tucson", "approved_by": null, "controversiality": 0, "body": "its a 2014
+        vizio, no issues of note. In the effort of honesty it may actually be a 49
+        inch.", "edited": false, "author_flair_css_class": null, "downs": 0, "body_html":
+        "&lt;div class=\"md\"&gt;&lt;p&gt;its a 2014 vizio, no issues of note. In
+        the effort of honesty it may actually be a 49 inch.&lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_dej0blu", "created": 1488722571.0, "author_flair_text":
+        null, "created_utc": 1488693771.0, "ups": 1, "depth": 2, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd",
+        "likes": null, "replies": {"kind": "Listing", "data": {"modhash": "", "children":
+        [{"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": {"kind": "Listing",
+        "data": {"modhash": "", "children": [{"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd",
+        "likes": null, "replies": {"kind": "Listing", "data": {"modhash": "", "children":
+        [{"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": {"kind": "Listing",
+        "data": {"modhash": "", "children": [{"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd",
+        "likes": null, "replies": {"kind": "Listing", "data": {"modhash": "", "children":
+        [{"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": {"kind": "Listing",
+        "data": {"modhash": "", "children": [{"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd",
+        "likes": null, "replies": {"kind": "Listing", "data": {"modhash": "", "children":
+        [{"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": {"kind": "Listing",
+        "data": {"modhash": "", "children": [{"kind": "more", "data": {"count": 0,
+        "name": "t1__", "id": "_", "parent_id": "t1_dekg8w0", "depth": 10, "children":
+        []}}], "after": null, "before": null}}, "user_reports": [], "saved": false,
+        "id": "dekg8w0", "gilded": 0, "archived": false, "score": 1, "report_reasons":
+        null, "author": "Sarsoar", "parent_id": "t1_dekg0uz", "subreddit_name_prefixed":
+        "r/Tucson", "approved_by": null, "controversiality": 0, "body": "The one next
+        to melt right? I can do tuesday after work, so any time between 5 and 7? I
+        would also like a place to plug it in to test it. Maybe we can go inside or
+        look for an external one somewhere. ", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;The one next
+        to melt right? I can do tuesday after work, so any time between 5 and 7? I
+        would also like a place to plug it in to test it. Maybe we can go inside or
+        look for an external one somewhere. &lt;/p&gt;\n&lt;/div&gt;", "stickied":
+        false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_dekg8w0", "created": 1488817059.0, "author_flair_text": null,
+        "created_utc": 1488788259.0, "ups": 1, "depth": 9, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}], "after": null, "before": null}}, "user_reports":
+        [], "saved": false, "id": "dekg0uz", "gilded": 0, "archived": false, "score":
+        2, "report_reasons": null, "author": "BelligerentBacteria", "parent_id": "t1_dekfg85",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "When works for you? Lets meet at the Barnes and Noble on broadway
+        in the parking lot", "edited": false, "author_flair_css_class": null, "downs":
+        0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;When works for you? Lets
+        meet at the Barnes and Noble on broadway in the parking lot&lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_dekg0uz", "created": 1488816437.0, "author_flair_text":
+        null, "created_utc": 1488787637.0, "ups": 2, "depth": 8, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}], "after": null, "before": null}},
+        "user_reports": [], "saved": false, "id": "dekfg85", "gilded": 0, "archived":
+        false, "score": 1, "report_reasons": null, "author": "Sarsoar", "parent_id":
+        "t1_dejpp3r", "subreddit_name_prefixed": "r/Tucson", "approved_by": null,
+        "controversiality": 0, "body": "Ok, that works. I live on east side. But anywhere
+        on broadway works for me. ", "edited": false, "author_flair_css_class": null,
+        "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Ok, that works.
+        I live on east side. But anywhere on broadway works for me. &lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_dekfg85", "created": 1488814865.0, "author_flair_text":
+        null, "created_utc": 1488786065.0, "ups": 1, "depth": 7, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}], "after": null, "before": null}},
+        "user_reports": [], "saved": false, "id": "dejpp3r", "gilded": 0, "archived":
+        false, "score": 2, "report_reasons": null, "author": "BelligerentBacteria",
+        "parent_id": "t1_dejpgdh", "subreddit_name_prefixed": "r/Tucson", "approved_by":
+        null, "controversiality": 0, "body": "Yeah sure, $400 works! Let me know when/
+        where, I''d prefer close to campus. ", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Yeah sure,
+        $400 works! Let me know when/ where, I&amp;#39;d prefer close to campus. &lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_dejpp3r", "created": 1488774800.0, "author_flair_text":
+        null, "created_utc": 1488746000.0, "ups": 2, "depth": 6, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}], "after": null, "before": null}},
+        "user_reports": [], "saved": false, "id": "dejpgdh", "gilded": 0, "archived":
+        false, "score": 1, "report_reasons": null, "author": "Sarsoar", "parent_id":
+        "t1_dejmgkt", "subreddit_name_prefixed": "r/Tucson", "approved_by": null,
+        "controversiality": 0, "body": "Yea probably. I have to see if I have enough
+        to spare. Can you do closer to 350-400 range?", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Yea probably.
+        I have to see if I have enough to spare. Can you do closer to 350-400 range?&lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_dejpgdh", "created": 1488774463.0, "author_flair_text":
+        null, "created_utc": 1488745663.0, "ups": 1, "depth": 5, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}], "after": null, "before": null}},
+        "user_reports": [], "saved": false, "id": "dejmgkt", "gilded": 0, "archived":
+        false, "score": 2, "report_reasons": null, "author": "BelligerentBacteria",
+        "parent_id": "t1_dej0pr7", "subreddit_name_prefixed": "r/Tucson", "approved_by":
+        null, "controversiality": 0, "body": "Still interested?", "edited": false,
+        "author_flair_css_class": null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Still
+        interested?&lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit": "Tucson",
+        "score_hidden": false, "subreddit_type": "public", "name": "t1_dejmgkt", "created":
+        1488770278.0, "author_flair_text": null, "created_utc": 1488741478.0, "ups":
+        2, "depth": 4, "mod_reports": [], "num_reports": null, "distinguished": null}},
+        {"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "dej0xfz", "gilded": 0, "archived": false, "score":
+        1, "report_reasons": null, "author": "BelligerentBacteria", "parent_id": "t1_dej0pr7",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Of note means anything I can find. Pretty sure we have taken care
+        of it well. \n\nHow does 450 sound? Seeing as its on amazon for 500+shipping+tax.
+        \n\n", "edited": false, "author_flair_css_class": null, "downs": 0, "body_html":
+        "&lt;div class=\"md\"&gt;&lt;p&gt;Of note means anything I can find. Pretty
+        sure we have taken care of it well. &lt;/p&gt;\n\n&lt;p&gt;How does 450 sound?
+        Seeing as its on amazon for 500+shipping+tax. &lt;/p&gt;\n&lt;/div&gt;", "stickied":
+        false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_dej0xfz", "created": 1488723788.0, "author_flair_text": null,
+        "created_utc": 1488694988.0, "ups": 1, "depth": 4, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno",
+        "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd", "likes":
+        null, "replies": "", "user_reports": [], "saved": false, "id": "dej12c4",
+        "gilded": 0, "archived": false, "score": 1, "report_reasons": null, "author":
+        "BelligerentBacteria", "parent_id": "t1_dej0pr7", "subreddit_name_prefixed":
+        "r/Tucson", "approved_by": null, "controversiality": 0, "body": "Oh, there
+        is a missing button for iHeart Radio on the remote. ", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Oh, there
+        is a missing button for iHeart Radio on the remote. &lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_dej12c4", "created": 1488724076.0, "author_flair_text":
+        null, "created_utc": 1488695276.0, "ups": 1, "depth": 4, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}], "after": null, "before": null}},
+        "user_reports": [], "saved": false, "id": "dej0pr7", "gilded": 0, "archived":
+        false, "score": 1, "report_reasons": null, "author": "Sarsoar", "parent_id":
+        "t1_dej0ius", "subreddit_name_prefixed": "r/Tucson", "approved_by": null,
+        "controversiality": 0, "body": "How much do you want for it. It doesnt have
+        any dead pixels or damaged areas right? Just making sure what \"of note\"
+        means. ", "edited": false, "author_flair_css_class": null, "downs": 0, "body_html":
+        "&lt;div class=\"md\"&gt;&lt;p&gt;How much do you want for it. It doesnt have
+        any dead pixels or damaged areas right? Just making sure what &amp;quot;of
+        note&amp;quot; means. &lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit":
+        "Tucson", "score_hidden": false, "subreddit_type": "public", "name": "t1_dej0pr7",
+        "created": 1488723356.0, "author_flair_text": null, "created_utc": 1488694556.0,
+        "ups": 1, "depth": 3, "mod_reports": [], "num_reports": null, "distinguished":
+        null}}], "after": null, "before": null}}, "user_reports": [], "saved": false,
+        "id": "dej0ius", "gilded": 0, "archived": false, "score": 1, "report_reasons":
+        null, "author": "BelligerentBacteria", "parent_id": "t1_deizzqr", "subreddit_name_prefixed":
+        "r/Tucson", "approved_by": null, "controversiality": 0, "body": "https://www.amazon.com/VIZIO-M492i-B2-49-Inch-1080p-Smart/dp/B00JP7OW58/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8\n\nthis
+        is the exact tv", "edited": false, "author_flair_css_class": null, "downs":
+        0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&lt;a href=\"https://www.amazon.com/VIZIO-M492i-B2-49-Inch-1080p-Smart/dp/B00JP7OW58/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8\"&gt;https://www.amazon.com/VIZIO-M492i-B2-49-Inch-1080p-Smart/dp/B00JP7OW58/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;this
+        is the exact tv&lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit":
+        "Tucson", "score_hidden": false, "subreddit_type": "public", "name": "t1_dej0ius",
+        "created": 1488722961.0, "author_flair_text": null, "created_utc": 1488694161.0,
+        "ups": 1, "depth": 2, "mod_reports": [], "num_reports": null, "distinguished":
+        null}}], "after": null, "before": null}}, "user_reports": [], "saved": false,
+        "id": "deizzqr", "gilded": 0, "archived": false, "score": 1, "report_reasons":
+        null, "author": "Sarsoar", "parent_id": "t1_dee43to", "subreddit_name_prefixed":
+        "r/Tucson", "approved_by": null, "controversiality": 0, "body": "How old,
+        model number, any issues with the display?", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How old,
+        model number, any issues with the display?&lt;/p&gt;\n&lt;/div&gt;", "stickied":
+        false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_deizzqr", "created": 1488722004.0, "author_flair_text": null,
+        "created_utc": 1488693204.0, "ups": 1, "depth": 1, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}], "after": null, "before": null}}, "user_reports":
+        [], "saved": false, "id": "dee43to", "gilded": 0, "archived": false, "score":
+        2, "report_reasons": null, "author": "BelligerentBacteria", "parent_id": "t3_5wt8jd",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "anyone looking to buy a 50 inch tv? 1080p vizio. Looking to upgrade/
+        moving", "edited": false, "author_flair_css_class": null, "downs": 0, "body_html":
+        "&lt;div class=\"md\"&gt;&lt;p&gt;anyone looking to buy a 50 inch tv? 1080p
+        vizio. Looking to upgrade/ moving&lt;/p&gt;\n&lt;/div&gt;", "stickied": false,
+        "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_dee43to", "created": 1488441997.0, "author_flair_text": null,
+        "created_utc": 1488413197.0, "ups": 2, "depth": 0, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno",
+        "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd", "likes":
+        null, "replies": "", "user_reports": [], "saved": false, "id": "dehe2xy",
+        "gilded": 0, "archived": false, "score": 2, "report_reasons": null, "author":
+        "doveenigma13", "parent_id": "t3_5wt8jd", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "controversiality": 0, "body": "I''m looking to sell
+        my PlayStation 4. Special edition uncharted 4 edition. The gray PS4 with Nathan
+        on it. Two gray special edition controllers. Six games. Final fantasy 15,
+        uncharted collection, uncharted 4, the last of us, blood born, and the newest
+        destiny. $300. ", "edited": false, "author_flair_css_class": null, "downs":
+        0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m looking to sell
+        my PlayStation 4. Special edition uncharted 4 edition. The gray PS4 with Nathan
+        on it. Two gray special edition controllers. Six games. Final fantasy 15,
+        uncharted collection, uncharted 4, the last of us, blood born, and the newest
+        destiny. $300. &lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit":
+        "Tucson", "score_hidden": false, "subreddit_type": "public", "name": "t1_dehe2xy",
+        "created": 1488618200.0, "author_flair_text": null, "created_utc": 1488589400.0,
+        "ups": 2, "depth": 0, "mod_reports": [], "num_reports": null, "distinguished":
+        null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null,
+        "removal_reason": null, "link_id": "t3_5wt8jd", "likes": null, "replies":
+        "", "user_reports": [], "saved": false, "id": "dehttzr", "gilded": 0, "archived":
+        false, "score": 2, "report_reasons": null, "author": "cactipack", "parent_id":
+        "t3_5wt8jd", "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Looking to rent a 2-3 bed 2 bath home with a yard. Preferably
+        on the west side for easy access to the freeway. Pricing around $850 a month.
+        No breed restrictions on dogs. ", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Looking to
+        rent a 2-3 bed 2 bath home with a yard. Preferably on the west side for easy
+        access to the freeway. Pricing around $850 a month. No breed restrictions
+        on dogs. &lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit": "Tucson",
+        "score_hidden": false, "subreddit_type": "public", "name": "t1_dehttzr", "created":
+        1488649405.0, "author_flair_text": null, "created_utc": 1488620605.0, "ups":
+        2, "depth": 0, "mod_reports": [], "num_reports": null, "distinguished": null}},
+        {"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "derf7yu", "gilded": 0, "archived": false, "score":
+        2, "report_reasons": null, "author": "leonoel", "parent_id": "t3_5wt8jd",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Selling an SUV\n\n- Maza Tribute Sport, 2005\n- $3000\n- 2005,
+        only one owner, 126,000 miles, 25 mpg (city)\n- Couple of bumps\n- Tires have
+        only 20K on them\n- Color gray\n", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Selling an
+        SUV&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Maza Tribute Sport, 2005&lt;/li&gt;\n&lt;li&gt;$3000&lt;/li&gt;\n&lt;li&gt;2005,
+        only one owner, 126,000 miles, 25 mpg (city)&lt;/li&gt;\n&lt;li&gt;Couple
+        of bumps&lt;/li&gt;\n&lt;li&gt;Tires have only 20K on them&lt;/li&gt;\n&lt;li&gt;Color
+        gray&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;", "stickied": false, "subreddit":
+        "Tucson", "score_hidden": false, "subreddit_type": "public", "name": "t1_derf7yu",
+        "created": 1489196872.0, "author_flair_text": null, "created_utc": 1489168072.0,
+        "ups": 2, "depth": 0, "mod_reports": [], "num_reports": null, "distinguished":
+        null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null,
+        "removal_reason": null, "link_id": "t3_5wt8jd", "likes": null, "replies":
+        "", "user_reports": [], "saved": false, "id": "deucrph", "gilded": 0, "archived":
+        false, "score": 2, "report_reasons": null, "author": "Zebrashirt", "parent_id":
+        "t3_5wt8jd", "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Looking to rent a 3 bedroom stand alone house near UofA. Dog friendly
+        with a large fenced in yard, maximum price 1700. ", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Looking to
+        rent a 3 bedroom stand alone house near UofA. Dog friendly with a large fenced
+        in yard, maximum price 1700. &lt;/p&gt;\n&lt;/div&gt;", "stickied": false,
+        "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_deucrph", "created": 1489379663.0, "author_flair_text": null,
+        "created_utc": 1489350863.0, "ups": 2, "depth": 0, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno",
+        "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd", "likes":
+        null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+        "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "df6ceb4", "gilded": 0, "archived": false, "score":
+        2, "report_reasons": null, "author": "aribrona", "parent_id": "t1_dexh49x",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "I believe I have a Fig bush in my backyard. If you would like
+        to re-home it you''re more than welcome to it.", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I believe
+        I have a Fig bush in my backyard. If you would like to re-home it you&amp;#39;re
+        more than welcome to it.&lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit":
+        "Tucson", "score_hidden": false, "subreddit_type": "public", "name": "t1_df6ceb4",
+        "created": 1490054061.0, "author_flair_text": null, "created_utc": 1490025261.0,
+        "ups": 2, "depth": 1, "mod_reports": [], "num_reports": null, "distinguished":
+        null}}], "after": null, "before": null}}, "user_reports": [], "saved": false,
+        "id": "dexh49x", "gilded": 0, "archived": false, "score": 2, "report_reasons":
+        null, "author": "Tucsononly", "parent_id": "t3_5wt8jd", "subreddit_name_prefixed":
+        "r/Tucson", "approved_by": null, "controversiality": 0, "body": "Anyone in
+        Tucson grow figs? I''m looking for these varieties: \n\nGalicia negra\nBlack
+        madeira\nItalian 258\nGenovese nero (AF/Rafed)\nJH adriatic\n\nIf you have
+        any of these and would like to trade for my rooted RdB cutting or sell me
+        a cutting, please contact me. I also have an unknown backyard fig that is
+        probably a brown turkey or black mission if you want to trade for it.", "edited":
+        false, "author_flair_css_class": null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Anyone
+        in Tucson grow figs? I&amp;#39;m looking for these varieties: &lt;/p&gt;\n\n&lt;p&gt;Galicia
+        negra\nBlack madeira\nItalian 258\nGenovese nero (AF/Rafed)\nJH adriatic&lt;/p&gt;\n\n&lt;p&gt;If
+        you have any of these and would like to trade for my rooted RdB cutting or
+        sell me a cutting, please contact me. I also have an unknown backyard fig
+        that is probably a brown turkey or black mission if you want to trade for
+        it.&lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit": "Tucson", "score_hidden":
+        false, "subreddit_type": "public", "name": "t1_dexh49x", "created": 1489551921.0,
+        "author_flair_text": null, "created_utc": 1489523121.0, "ups": 2, "depth":
+        0, "mod_reports": [], "num_reports": null, "distinguished": null}}, {"kind":
+        "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "dei2n7q", "gilded": 0, "archived": false, "score":
+        1, "report_reasons": null, "author": "ipomopsis", "parent_id": "t3_5wt8jd",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Hey, we have a Nuna Sena Travel Crib for babies under 1 year for
+        sale. Asking $120, it''s about $200 new. Used for less than a year (duh,)
+        and in excellent condition. We are in Tucson close to Broadway and Campbell.",
+        "edited": false, "author_flair_css_class": null, "downs": 0, "body_html":
+        "&lt;div class=\"md\"&gt;&lt;p&gt;Hey, we have a Nuna Sena Travel Crib for
+        babies under 1 year for sale. Asking $120, it&amp;#39;s about $200 new. Used
+        for less than a year (duh,) and in excellent condition. We are in Tucson close
+        to Broadway and Campbell.&lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit":
+        "Tucson", "score_hidden": false, "subreddit_type": "public", "name": "t1_dei2n7q",
+        "created": 1488671174.0, "author_flair_text": null, "created_utc": 1488642374.0,
+        "ups": 1, "depth": 0, "mod_reports": [], "num_reports": null, "distinguished":
+        null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null,
+        "removal_reason": null, "link_id": "t3_5wt8jd", "likes": null, "replies":
+        "", "user_reports": [], "saved": false, "id": "dencim1", "gilded": 0, "archived":
+        false, "score": 1, "report_reasons": null, "author": "mreowmix", "parent_id":
+        "t3_5wt8jd", "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": " Selling: 2013 Luna Butterfly Cutaway Acoustic Electric Guitar
+        - $400\n\n****I am including a soft case as well as the Dean Markley acoustic
+        guitar pickup!!!****\n\nThis is the 2013 Luna Fau Butterfly Acoustic Electric
+        Guitar. 25.5\" scale. 1.67\" nut width. 15\" bottom bout. 4 3/16\" deep. \n\nIt
+        features a maple body with a mahogany neck. This creates a great balance between
+        lows and highs. The mid sized body offers exceptional natural projection.
+        Luna also has the B-Band active preamp onboard.\n\nThe neck has a comfortable
+        feel- just .82\" deep at the 5th fret with a C profile. \n\nHas a natural
+        finish showing off the quilted top, Butterfly &amp; Flower rosette inlay,
+        bound body/fingerboard, moon inlays, and chrome hardware. \n\nhttps://tucson.craigslist.org/msg/6033057854.html",
+        "edited": false, "author_flair_css_class": null, "downs": 0, "body_html":
+        "&lt;div class=\"md\"&gt;&lt;p&gt;Selling: 2013 Luna Butterfly Cutaway Acoustic
+        Electric Guitar - $400&lt;/p&gt;\n\n&lt;p&gt;*&lt;strong&gt;&lt;em&gt;I am
+        including a soft case as well as the Dean Markley acoustic guitar pickup!!!&lt;/em&gt;&lt;/strong&gt;*&lt;/p&gt;\n\n&lt;p&gt;This
+        is the 2013 Luna Fau Butterfly Acoustic Electric Guitar. 25.5&amp;quot; scale.
+        1.67&amp;quot; nut width. 15&amp;quot; bottom bout. 4 3/16&amp;quot; deep.
+        &lt;/p&gt;\n\n&lt;p&gt;It features a maple body with a mahogany neck. This
+        creates a great balance between lows and highs. The mid sized body offers
+        exceptional natural projection. Luna also has the B-Band active preamp onboard.&lt;/p&gt;\n\n&lt;p&gt;The
+        neck has a comfortable feel- just .82&amp;quot; deep at the 5th fret with
+        a C profile. &lt;/p&gt;\n\n&lt;p&gt;Has a natural finish showing off the quilted
+        top, Butterfly &amp;amp; Flower rosette inlay, bound body/fingerboard, moon
+        inlays, and chrome hardware. &lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://tucson.craigslist.org/msg/6033057854.html\"&gt;https://tucson.craigslist.org/msg/6033057854.html&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_dencim1", "created": 1488971959.0, "author_flair_text":
+        null, "created_utc": 1488943159.0, "ups": 1, "depth": 0, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd",
+        "likes": null, "replies": "", "user_reports": [], "saved": false, "id": "deuoqon",
+        "gilded": 0, "archived": false, "score": 1, "report_reasons": null, "author":
+        "sierrakelly", "parent_id": "t3_5wt8jd", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "controversiality": 0, "body": "1 Portugal. The Man Rialto
+        concert ticket for 3/17 ($30)", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;1 Portugal.
+        The Man Rialto concert ticket for 3/17 ($30)&lt;/p&gt;\n&lt;/div&gt;", "stickied":
+        false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_deuoqon", "created": 1489395807.0, "author_flair_text": null,
+        "created_utc": 1489367007.0, "ups": 1, "depth": 0, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno",
+        "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd", "likes":
+        null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+        "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "df642c9", "gilded": 0, "archived": false, "score":
+        1, "report_reasons": null, "author": "AGNermal", "parent_id": "t1_devks9i",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Which console were you looking at trading for?", "edited": false,
+        "author_flair_css_class": null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Which
+        console were you looking at trading for?&lt;/p&gt;\n&lt;/div&gt;", "stickied":
+        false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_df642c9", "created": 1490043060.0, "author_flair_text": null,
+        "created_utc": 1490014260.0, "ups": 1, "depth": 1, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}], "after": null, "before": null}}, "user_reports":
+        [], "saved": false, "id": "devks9i", "gilded": 0, "archived": false, "score":
+        1, "report_reasons": null, "author": "[deleted]", "parent_id": "t3_5wt8jd",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "[deleted]", "edited": 1489442396.0, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[deleted]&lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_devks9i", "created": 1489454227.0, "author_flair_text":
+        null, "created_utc": 1489425427.0, "ups": 1, "depth": 0, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd",
+        "likes": null, "replies": "", "user_reports": [], "saved": false, "id": "dewi7aq",
+        "gilded": 0, "archived": false, "score": 1, "report_reasons": null, "author":
+        "firestartinontheroof", "parent_id": "t3_5wt8jd", "subreddit_name_prefixed":
+        "r/Tucson", "approved_by": null, "controversiality": 0, "body": "Looking for
+        a modern-style love seat (straight lines, raised, etc.) for sale. Please let
+        me know if you''re selling something similar. ", "edited": 1489466580.0, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Looking for
+        a modern-style love seat (straight lines, raised, etc.) for sale. Please let
+        me know if you&amp;#39;re selling something similar. &lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_dewi7aq", "created": 1489494697.0, "author_flair_text":
+        null, "created_utc": 1489465897.0, "ups": 1, "depth": 0, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd",
+        "likes": null, "replies": "", "user_reports": [], "saved": false, "id": "df5hjpq",
+        "gilded": 0, "archived": false, "score": 1, "report_reasons": null, "author":
+        "Iamdillweed333", "parent_id": "t3_5wt8jd", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "controversiality": 0, "body": "SAPPHIRE R7 260X graphics
+        card. 100 obo\nUpdated my graphics so looking to get rid of this one. If interested
+        shoot me a pm very open to negotiations ", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;SAPPHIRE
+        R7 260X graphics card. 100 obo\nUpdated my graphics so looking to get rid
+        of this one. If interested shoot me a pm very open to negotiations &lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_df5hjpq", "created": 1489998338.0, "author_flair_text":
+        null, "created_utc": 1489969538.0, "ups": 1, "depth": 0, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd",
+        "likes": null, "replies": {"kind": "Listing", "data": {"modhash": "", "children":
+        [{"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "df8iaa5", "gilded": 0, "archived": false, "score":
+        1, "report_reasons": null, "author": "pibbletucson", "parent_id": "t1_df6zwaf",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Also for sale:\n\n32\" Samsung TV - $85\n\nDining Set (table,
+        5 chairs, bench) - $250\n\nRound Glass Table - $120\n\n2 broken laptops and
+        xbox 360s. Not sure if anyone wants broken electronics.\n\n1985 Honda Elite
+        80 motor scooter. Ran only once and never again since.\n\nI can PM the craigslist
+        links to anyone who wants more information.", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Also for
+        sale:&lt;/p&gt;\n\n&lt;p&gt;32&amp;quot; Samsung TV - $85&lt;/p&gt;\n\n&lt;p&gt;Dining
+        Set (table, 5 chairs, bench) - $250&lt;/p&gt;\n\n&lt;p&gt;Round Glass Table
+        - $120&lt;/p&gt;\n\n&lt;p&gt;2 broken laptops and xbox 360s. Not sure if anyone
+        wants broken electronics.&lt;/p&gt;\n\n&lt;p&gt;1985 Honda Elite 80 motor
+        scooter. Ran only once and never again since.&lt;/p&gt;\n\n&lt;p&gt;I can
+        PM the craigslist links to anyone who wants more information.&lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_df8iaa5", "created": 1490162883.0, "author_flair_text":
+        null, "created_utc": 1490134083.0, "ups": 1, "depth": 1, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}], "after": null, "before": null}},
+        "user_reports": [], "saved": false, "id": "df6zwaf", "gilded": 0, "archived":
+        false, "score": 1, "report_reasons": null, "author": "pibbletucson", "parent_id":
+        "t3_5wt8jd", "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Looking for a roommate for now until July 31. Master bedroom of
+        2 bedroom loft downtown available. $510/month + electricity and internet.
+        Bedroom and bathroom are on their own floor with a porch. I''m a senior at
+        the UA and have a pitbull who loves people but not other pets. House is furnished,
+        but bedroom only has a bed if you want it.", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Looking for
+        a roommate for now until July 31. Master bedroom of 2 bedroom loft downtown
+        available. $510/month + electricity and internet. Bedroom and bathroom are
+        on their own floor with a porch. I&amp;#39;m a senior at the UA and have a
+        pitbull who loves people but not other pets. House is furnished, but bedroom
+        only has a bed if you want it.&lt;/p&gt;\n&lt;/div&gt;", "stickied": false,
+        "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_df6zwaf", "created": 1490080704.0, "author_flair_text": null,
+        "created_utc": 1490051904.0, "ups": 1, "depth": 0, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno",
+        "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd", "likes":
+        null, "replies": "", "user_reports": [], "saved": false, "id": "df90a8i",
+        "gilded": 0, "archived": false, "score": 1, "report_reasons": null, "author":
+        "middlenamesneak", "parent_id": "t3_5wt8jd", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "controversiality": 0, "body": "Selling two (2) Sunday
+        tickets to Phoenix Lights festival on 4/9. $170 takes both of them, which
+        is cheaper than face value. Great lineup if you''re into electronic and EDM.
+        ", "edited": false, "author_flair_css_class": null, "downs": 0, "body_html":
+        "&lt;div class=\"md\"&gt;&lt;p&gt;Selling two (2) Sunday tickets to Phoenix
+        Lights festival on 4/9. $170 takes both of them, which is cheaper than face
+        value. Great lineup if you&amp;#39;re into electronic and EDM. &lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_df90a8i", "created": 1490187646.0, "author_flair_text":
+        null, "created_utc": 1490158846.0, "ups": 1, "depth": 0, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}], "after": null, "before": null}}]'
+    http_version:
+  recorded_at: Thu, 23 Mar 2017 22:20:32 GMT
+- request:
+    method: get
+    uri: https://www.reddit.com/r/tucson/comments/5wta3j/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - edgebucket=JkceRYPmdYoXNehK9g; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loid=M4hSFK3iw2EpPfiRDq.1.1490307633179.Z0FBQUFBQlkxRW94R0hsLTNZdUVhcEFaUGp2eVZYeDBrYWd3b1dSQlFpOGFBODZaRmlXempKRjZOT29xZFVZRnYtc2FvQUVKa3dkb1R3YmdiaDA4VDhKbVppVk5lM1pCbTc5b2xwbXh2NEpRTFVUR19GWkpQY3lOLUxQRkpsQngtZmlVMUkwU1dmWEM;
+        Domain=reddit.com; Max-Age=63071999; Path=/; expires=Sat, 23-Mar-2019 22:20:33
+        GMT; secure
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Reddit-Tracking, X-Moose
+      X-Reddit-Tracking:
+      - https://pixel.redditmedia.com/pixel/of_destiny.png?v=okgpDf%2BJKw8O3UK9%2BGp5rOoLUKez6JgsXFioGE7fF1WHaCG0XELn3BrDTrJuw50%2F1dACwPJ86e0%3D
+      Cache-Control:
+      - max-age=0, must-revalidate
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '8065'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 23 Mar 2017 22:20:33 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-den6024-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1490307632.950237,VS0,VE332
+      Vary:
+      - accept-encoding
+      Server:
+      - snooserv
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+        "t3", "data": {"contest_mode": false, "banned_by": null, "media_embed": {},
+        "subreddit": "Tucson", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Greetings,
+        &lt;a href=\"/r/Tucson\"&gt;/r/Tucson&lt;/a&gt;!  It&amp;#39;s the &lt;strong&gt;MARCH
+        2017&lt;/strong&gt; edition of the &lt;em&gt;Stuff to Do&lt;/em&gt; thread
+        with a &lt;strong&gt;slightly different (temporary) format&lt;/strong&gt;!  Read
+        below.&lt;/p&gt;\n\n&lt;p&gt;Use this sticky to collect general stuff going
+        on around town (including Tucson&amp;#39;s surrounding areas) in &lt;em&gt;MARCH&lt;/em&gt;.  You
+        can still start new posts about an event, especially if you need help planning
+        something.  This will just serve as an easy reference.  &lt;strong&gt;(PLEASE
+        NOTE:&lt;/strong&gt; You &lt;strong&gt;CANNOT&lt;/strong&gt; start a new post
+        if you are self-promoting a business, or if you are somehow related to the
+        person(s) that stand to profit from said event.  This is considered spam.  Don&amp;#39;t
+        do it.)&lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&lt;strong&gt;NEW FORMAT&lt;/strong&gt;
+        &lt;/p&gt;\n\n&lt;p&gt;&lt;em&gt;Due to time constraints, I can&amp;#39;t
+        put together this thread as I once was.  I sincerely apologize.  I&amp;#39;m
+        working on a new system for this thread and hope to have it ironed out in
+        a few months.  Hopefully this will work and be useful during this time.&lt;/em&gt;
+        &lt;/p&gt;\n\n&lt;p&gt;Comments submitted by users will serve as the majority
+        of the list in this post.  &lt;em&gt;Comment with the details (date, time,
+        location, admission fee, age restrictions, etc.) about any event/gathering/get-together
+        that you think people may be interested in.&lt;/em&gt;&lt;/p&gt;\n\n&lt;p&gt;Please
+        make sure comments are written as follows, to keep them consistent and easy
+        to read:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;WHAT&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;WHEN
+        (date and time)&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;WHERE
+        (no residential locations)&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;SPECIFICS
+        (cost, age reqs, etc.)&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;The
+        recurring daily/weekly list is still below.  If you have a once-a-month recurring
+        event, please make a comment for it.&lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&lt;strong&gt;Examples
+        of good stuff to tell us about include:&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;p&gt;Art
+        shows/exhibits&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Museum events&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Musical
+        acts/shows&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Gaming get-togethers&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Charity
+        events for actual charities (not kickstarter-like campaigns for your startup
+        xyz store)&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Your band&amp;#39;s upcoming
+        gig (playing at a venue that isn&amp;#39;t your house) &lt;/p&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;And
+        more!&lt;/p&gt;\n\n&lt;p&gt;&lt;sup&gt;Anything&lt;/sup&gt; &lt;sup&gt;advertising&lt;/sup&gt;
+        &lt;sup&gt;any&lt;/sup&gt; &lt;sup&gt;specific&lt;/sup&gt; &lt;sup&gt;product&lt;/sup&gt;
+        &lt;sup&gt;or&lt;/sup&gt; &lt;sup&gt;anything&lt;/sup&gt; &lt;sup&gt;illegal&lt;/sup&gt;
+        &lt;sup&gt;will&lt;/sup&gt; &lt;sup&gt;be&lt;/sup&gt; &lt;sup&gt;removed.&lt;/sup&gt;&lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&lt;strong&gt;RECURRING
+        EVENTS&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;NIGHTLY&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;em&gt;&lt;a
+        href=\"http://skycenter.arizona.edu/programs/public/skynights\"&gt;SkyNights
+        at UA Mt. Lemmon SkyCenter&lt;/a&gt; - 9800 East Ski Run Rd. - starts around
+        3PM - $65 Adults , $40 Youth (7-17 yrs) includes a light dinner&lt;/em&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;WEEKLY&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;em&gt;&lt;a
+        href=\"http://www.geekswhodrink.com/pages/venues?action=getVenuesByCity\"&gt;Geeks
+        Who Drink&lt;/a&gt; - different venues every day&lt;/em&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;Monday
+        - Public Brewhouse - 7:30 PM&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;Tuesday
+        - Hotel Congress - 8:00 PM&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;Wednesday
+        - Gentle Ben&amp;#39;s Brewing Co - 8:00 PM / Trident Grill - 8:00 PM / Playground
+        Bar &amp;amp; Lounge - 7:30 PM / Arizona Beer House - 7:00PM&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;Thursday
+        - The Canyon&amp;#39;s Crown Restaurant &amp;amp; Pub - 8:00 PM&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;Sunday
+        - Aloft Tucson - 7:30PM&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;&lt;strong&gt;MONDAYS&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;em&gt;Laughs
+        and Draughts (Open mic comedy &amp;amp; draught beer specials) - at The Flycatcher
+        - 10PM - 21+&lt;/em&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;TUESDAYS&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;&lt;a
+        href=\"http://www.tucsonhistoricfencing.com/\"&gt;Tucson Historic Fencing
+        Club&amp;#39;s Practice&lt;/a&gt; - at 252 S Plumer Ave. - 5PM&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;&lt;a
+        href=\"http://tucsonbluesdance.com/\"&gt;Tucson Blues Dancers&lt;/a&gt; -
+        at The Movement Shala on 435 E. 9th St - 7PM - free hour long lesson followed
+        by 2.5hrs of social dance&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;&lt;a
+        href=\"https://www.facebook.com/TheRetroRoom\"&gt;Retro Room Board Game Nights&lt;/a&gt;
+        - 337 E. Fort Lowell - 6PM&lt;/em&gt;  &lt;strong&gt;MAYBE, NEEDS TO BE CONFIRMED&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;&lt;a
+        href=\"http://www.bicycletucson.com/calendar/events/index.php?com=detail&amp;amp;eID=487\"&gt;Tuesday
+        Night Community Bike Ride&lt;/a&gt; - meet near UofA flagpole - 8:30PM&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;Comedy
+        open mic at Shooter&amp;#39;s - 3115 E Prince Rd - Sign up at 8PM/show at
+        8:30PM&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;&lt;a
+        href=\"https://www.facebook.com/PaleBlue.comedy?fref=ts\"&gt;Pale Blue Comedy
+        Open Mic&lt;/a&gt; - O&amp;#39;Malley&amp;#39;s on 4th - sign up at 9:30PM
+        / show at 10PM&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;&lt;a
+        href=\"http://www.huttucson.com/\"&gt;Video Game/$2.50 You-call-it drink night
+        with /u/WTFAlex&lt;/a&gt; - 9PM - 21+&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;Open
+        mic at Delectables - 7PM-11PM&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;&lt;strong&gt;WEDNESDAYS&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;&lt;a
+        href=\"http://www.tucsonhistoricfencing.com/\"&gt;Tucson Historic Fencing
+        Club&amp;#39;s Practice&lt;/a&gt; - at 252 S Plumer Ave. - 5:30PM&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;&lt;a
+        href=\"http://www.grandmasspinningwheel.com/\"&gt;Knitting Group&lt;/a&gt;
+        - at Grandma&amp;#39;s Spinning Wheel - 6544 E Tanque Verde Rd - 5PM-8PM&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;&lt;a
+        href=\"http://www.uniontucson.com/#home-section\"&gt;Whiskey Wednesdays&lt;/a&gt;
+        - Union Public House - no cover&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;&lt;strong&gt;THURSDAYS&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;&lt;a
+        href=\"https://www.tucsonbotanical.org/event/twilight-thursday/\"&gt;Twilight
+        Thursdays at Tucson Botanical Gardens&lt;/a&gt; - 5PM-8PM - $9 Adults/$5 Children&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;&lt;a
+        href=\"http://www.laffstucson.com/\"&gt;Comedy Open Mic at Laff&amp;#39;s&lt;/a&gt;
+        - doors at 7PM / show at 8PM&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;&lt;strong&gt;FRIDAYS&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;&lt;a
+        href=\"http://www.tucsonhistoricfencing.com/\"&gt;Tucson Historic Fencing
+        Club&amp;#39;s Practice&lt;/a&gt; - at 252 S Plumer Ave. - 5:30PM&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;&lt;a
+        href=\"http://www.meetup.com/FreeEventsTucson/events/226647391/\"&gt;Free
+        Women&amp;#39;s Self-Defense Class&lt;/a&gt; - at Rising Phoenix Fitness -
+        2201 E. Broadway - 5PM&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;&lt;a
+        href=\"http://tucsonjazz.org/jazz-connection/\"&gt;Live Jazz at Pastiche&lt;/a&gt;
+        - at Pastiche restaurant - 7PM-10PM - see website for more info and events&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;&lt;strong&gt;SATURDAYS&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;&lt;a
+        href=\"https://www.reddit.com/r/Tucson/comments/4rs15u/board_game_meetup/\"&gt;Board
+        Game Meetup&lt;/a&gt; - at Tucson Games &amp;amp; Gadget - 1PM&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;&lt;a
+        href=\"http://www.tucsonclayco-op.com/special-events.html\"&gt;Saturday Night
+        Clay Parties&lt;/a&gt; - at The Tucson Clay Co-op - 3326 N. Dodge Blvd. -
+        6:30-8PM - $20/person (+$5 to fire pieces to keep) - see website for more
+        details and to make reservations&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;&lt;strong&gt;SUNDAYS&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;&lt;a
+        href=\"http://tucsonjazz.org/jazz-connection/\"&gt;Live Jazz at Pastiche&lt;/a&gt;
+        - at Pastiche restaurant - 7PM-10PM - see website for more info and events&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;em&gt;Juggling
+        Club - at Himmel Park, behind the library - 4PM&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "Greetings, /r/Tucson!  It''s the **MARCH 2017**
+        edition of the *Stuff to Do* thread with a **slightly different (temporary)
+        format**!  Read below.\n\nUse this sticky to collect general stuff going on
+        around town (including Tucson''s surrounding areas) in *MARCH*.  You can still
+        start new posts about an event, especially if you need help planning something.  This
+        will just serve as an easy reference.  **(PLEASE NOTE:** You **CANNOT** start
+        a new post if you are self-promoting a business, or if you are somehow related
+        to the person(s) that stand to profit from said event.  This is considered
+        spam.  Don''t do it.)\n\n***\n\n**NEW FORMAT** \n\n*Due to time constraints,
+        I can''t put together this thread as I once was.  I sincerely apologize.  I''m
+        working on a new system for this thread and hope to have it ironed out in
+        a few months.  Hopefully this will work and be useful during this time.* \n\nComments
+        submitted by users will serve as the majority of the list in this post.  *Comment
+        with the details (date, time, location, admission fee, age restrictions, etc.)
+        about any event/gathering/get-together that you think people may be interested
+        in.*\n\nPlease make sure comments are written as follows, to keep them consistent
+        and easy to read:\n\n* **WHAT**\n\n* **WHEN (date and time)**\n\n* **WHERE
+        (no residential locations)**\n\n* **SPECIFICS (cost, age reqs, etc.)**\n\nThe
+        recurring daily/weekly list is still below.  If you have a once-a-month recurring
+        event, please make a comment for it.\n\n*****\n\n**Examples of good stuff
+        to tell us about include:**\n\n\n* Art shows/exhibits\n\n* Museum events\n\n*
+        Musical acts/shows\n\n* Gaming get-togethers\n\n* Charity events for actual
+        charities (not kickstarter-like campaigns for your startup xyz store)\n\n*
+        Your band''s upcoming gig (playing at a venue that isn''t your house) \n\nAnd
+        more!\n\n^Anything ^advertising ^any ^specific ^product ^or ^anything ^illegal
+        ^will ^be ^removed.\n\n****\n\n**RECURRING EVENTS**\n\n**NIGHTLY**\n\n*[SkyNights
+        at UA Mt. Lemmon SkyCenter](http://skycenter.arizona.edu/programs/public/skynights)
+        - 9800 East Ski Run Rd. - starts around 3PM - $65 Adults , $40 Youth (7-17
+        yrs) includes a light dinner*\n\n**WEEKLY**\n\n*[Geeks Who Drink](http://www.geekswhodrink.com/pages/venues?action=getVenuesByCity)
+        - different venues every day*\n\n* *Monday - Public Brewhouse - 7:30 PM*\n\n*
+        *Tuesday - Hotel Congress - 8:00 PM*\n\n* *Wednesday - Gentle Ben''s Brewing
+        Co - 8:00 PM / Trident Grill - 8:00 PM / Playground Bar &amp; Lounge - 7:30
+        PM / Arizona Beer House - 7:00PM*\n\n* *Thursday - The Canyon''s Crown Restaurant
+        &amp; Pub - 8:00 PM*\n\n* *Sunday - Aloft Tucson - 7:30PM*\n\n**MONDAYS**\n\n*Laughs
+        and Draughts (Open mic comedy &amp; draught beer specials) - at The Flycatcher
+        - 10PM - 21+*\n\n**TUESDAYS**\n\n* *[Tucson Historic Fencing Club''s Practice](http://www.tucsonhistoricfencing.com/)
+        - at 252 S Plumer Ave. - 5PM*\n\n* *[Tucson Blues Dancers](http://tucsonbluesdance.com/)
+        - at The Movement Shala on 435 E. 9th St - 7PM - free hour long lesson followed
+        by 2.5hrs of social dance*\n\n* *[Retro Room Board Game Nights](https://www.facebook.com/TheRetroRoom)
+        - 337 E. Fort Lowell - 6PM*  **MAYBE, NEEDS TO BE CONFIRMED**\n\n* *[Tuesday
+        Night Community Bike Ride](http://www.bicycletucson.com/calendar/events/index.php?com=detail&amp;eID=487)
+        - meet near UofA flagpole - 8:30PM*\n\n* *Comedy open mic at Shooter''s -
+        3115 E Prince Rd - Sign up at 8PM/show at 8:30PM*\n\n* *[Pale Blue Comedy
+        Open Mic](https://www.facebook.com/PaleBlue.comedy?fref=ts) - O''Malley''s
+        on 4th - sign up at 9:30PM / show at 10PM*\n\n* *[Video Game/$2.50 You-call-it
+        drink night with /u/WTFAlex](http://www.huttucson.com/) - 9PM - 21+*\n\n*
+        *Open mic at Delectables - 7PM-11PM*\n\n**WEDNESDAYS**\n\n* *[Tucson Historic
+        Fencing Club''s Practice](http://www.tucsonhistoricfencing.com/) - at 252
+        S Plumer Ave. - 5:30PM*\n\n* *[Knitting Group](http://www.grandmasspinningwheel.com/)
+        - at Grandma''s Spinning Wheel - 6544 E Tanque Verde Rd - 5PM-8PM*\n\n* *[Whiskey
+        Wednesdays](http://www.uniontucson.com/#home-section) - Union Public House
+        - no cover*\n\n\n**THURSDAYS**\n\n* *[Twilight Thursdays at Tucson Botanical
+        Gardens](https://www.tucsonbotanical.org/event/twilight-thursday/) - 5PM-8PM
+        - $9 Adults/$5 Children*\n\n* *[Comedy Open Mic at Laff''s](http://www.laffstucson.com/)
+        - doors at 7PM / show at 8PM*\n\n**FRIDAYS**\n\n* *[Tucson Historic Fencing
+        Club''s Practice](http://www.tucsonhistoricfencing.com/) - at 252 S Plumer
+        Ave. - 5:30PM*\n\n* *[Free Women''s Self-Defense Class](http://www.meetup.com/FreeEventsTucson/events/226647391/)
+        - at Rising Phoenix Fitness - 2201 E. Broadway - 5PM*\n\n* *[Live Jazz at
+        Pastiche](http://tucsonjazz.org/jazz-connection/) - at Pastiche restaurant
+        - 7PM-10PM - see website for more info and events*\n\n**SATURDAYS**\n\n* *[Board
+        Game Meetup](https://www.reddit.com/r/Tucson/comments/4rs15u/board_game_meetup/)
+        - at Tucson Games &amp; Gadget - 1PM*\n\n* *[Saturday Night Clay Parties](http://www.tucsonclayco-op.com/special-events.html)
+        - at The Tucson Clay Co-op - 3326 N. Dodge Blvd. - 6:30-8PM - $20/person (+$5
+        to fire pieces to keep) - see website for more details and to make reservations*\n\n**SUNDAYS**\n\n*
+        *[Live Jazz at Pastiche](http://tucsonjazz.org/jazz-connection/) - at Pastiche
+        restaurant - 7PM-10PM - see website for more info and events*\n\n* *Juggling
+        Club - at Himmel Park, behind the library - 4PM*", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "saved": false, "id": "5wta3j",
+        "gilded": 0, "secure_media_embed": {}, "clicked": false, "score": 33, "report_reasons":
+        null, "author": "CompletelyLurker", "link_flair_text": "Monthly Discussion",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "over_18": false,
+        "domain": "self.Tucson", "hidden": false, "preview": {"images": [{"source":
+        {"url": "https://i.redditmedia.com/EYRNT0pQxMdKt0-e96RyTzs3STS6YE4MkIctoc-V19g.jpg?s=162822dfa85213cffd70a7636ebfc9dd",
+        "width": 1200, "height": 800}, "resolutions": [{"url": "https://i.redditmedia.com/EYRNT0pQxMdKt0-e96RyTzs3STS6YE4MkIctoc-V19g.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=637cf38fc827584c31c3e3f2ea754b4e",
+        "width": 108, "height": 72}, {"url": "https://i.redditmedia.com/EYRNT0pQxMdKt0-e96RyTzs3STS6YE4MkIctoc-V19g.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=04bdf9cb008c7f40b9ce0e94f73c6b7d",
+        "width": 216, "height": 144}, {"url": "https://i.redditmedia.com/EYRNT0pQxMdKt0-e96RyTzs3STS6YE4MkIctoc-V19g.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=837d2bd77db7f2ef11f027d8bcfca251",
+        "width": 320, "height": 213}, {"url": "https://i.redditmedia.com/EYRNT0pQxMdKt0-e96RyTzs3STS6YE4MkIctoc-V19g.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=be910a89f4252724473fddc48f38ae00",
+        "width": 640, "height": 426}, {"url": "https://i.redditmedia.com/EYRNT0pQxMdKt0-e96RyTzs3STS6YE4MkIctoc-V19g.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=960&amp;s=02214472e093dce08925fb0c8959a638",
+        "width": 960, "height": 640}, {"url": "https://i.redditmedia.com/EYRNT0pQxMdKt0-e96RyTzs3STS6YE4MkIctoc-V19g.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=1080&amp;s=1416c16fd1aeb23c10d5975361d22fcc",
+        "width": 1080, "height": 720}], "variants": {}, "id": "XJxZW3eBNM6k9A8-1N7-I8QrLsSdE_isYnjHW2f7RHQ"}],
+        "enabled": false}, "num_comments": 19, "thumbnail": "self", "subreddit_id":
+        "t5_2qmno", "edited": 1488394649.0, "link_flair_css_class": "medblue", "author_flair_css_class":
+        null, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "post_hint": "self", "stickied": true, "is_self": true, "hide_score":
+        false, "spoiler": false, "permalink": "/r/Tucson/comments/5wta3j/stuff_to_do_in_tucson_march_2017/",
+        "subreddit_type": "public", "locked": false, "name": "t3_5wta3j", "created":
+        1488373393.0, "url": "https://www.reddit.com/r/Tucson/comments/5wta3j/stuff_to_do_in_tucson_march_2017/",
+        "author_flair_text": "\ud83c\udd91 Currently Lurking", "quarantine": false,
+        "title": "Stuff To Do in Tucson: March 2017", "created_utc": 1488344593.0,
+        "ups": 33, "media": null, "upvote_ratio": 0.98, "mod_reports": [], "visited":
+        false, "num_reports": null, "distinguished": "moderator"}}], "after": null,
+        "before": null}}, {"kind": "Listing", "data": {"modhash": "", "children":
+        [{"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wta3j", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "dectpx1", "gilded": 0, "archived": false, "score":
+        10, "report_reasons": null, "author": "CompletelyLurker", "parent_id": "t3_5wta3j",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "**[Tucson Festival of Books](http://tucsonfestivalofbooks.org/)**\n\n**March
+        11 - 12, 2017  \u2022  9:30am to 5:30pm**\n\n**U of A campus**", "edited":
+        false, "author_flair_css_class": null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&lt;strong&gt;&lt;a
+        href=\"http://tucsonfestivalofbooks.org/\"&gt;Tucson Festival of Books&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;March
+        11 - 12, 2017  \u2022  9:30am to 5:30pm&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;U
+        of A campus&lt;/strong&gt;&lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit":
+        "Tucson", "score_hidden": false, "subreddit_type": "public", "name": "t1_dectpx1",
+        "created": 1488373481.0, "author_flair_text": "\ud83c\udd91 Currently Lurking",
+        "created_utc": 1488344681.0, "ups": 10, "depth": 0, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno",
+        "banned_by": null, "removal_reason": null, "link_id": "t3_5wta3j", "likes":
+        null, "replies": "", "user_reports": [], "saved": false, "id": "dectsoe",
+        "gilded": 0, "archived": false, "score": 7, "report_reasons": null, "author":
+        "CompletelyLurker", "parent_id": "t3_5wta3j", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "controversiality": 0, "body": "**[4th Avenue Spring
+        Street Fair](http://www.fourthavenue.org/general-information/)**\n\n**March
+        24-26**\n\n**4th Ave between 8th Street and University Boulevard**", "edited":
+        false, "author_flair_css_class": null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&lt;strong&gt;&lt;a
+        href=\"http://www.fourthavenue.org/general-information/\"&gt;4th Avenue Spring
+        Street Fair&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;March
+        24-26&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;4th Ave between 8th
+        Street and University Boulevard&lt;/strong&gt;&lt;/p&gt;\n&lt;/div&gt;", "stickied":
+        false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_dectsoe", "created": 1488373596.0, "author_flair_text": "\ud83c\udd91
+        Currently Lurking", "created_utc": 1488344796.0, "ups": 7, "depth": 0, "mod_reports":
+        [], "num_reports": null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wta3j",
+        "likes": null, "replies": {"kind": "Listing", "data": {"modhash": "", "children":
+        [{"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wta3j", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "dectvxn", "gilded": 0, "archived": false, "score":
+        3, "report_reasons": null, "author": "CompletelyLurker", "parent_id": "t1_dectt43",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Thank you!", "edited": false, "author_flair_css_class": null,
+        "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Thank you!&lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_dectvxn", "created": 1488373733.0, "author_flair_text":
+        "\ud83c\udd91 Currently Lurking", "created_utc": 1488344933.0, "ups": 3, "depth":
+        1, "mod_reports": [], "num_reports": null, "distinguished": null}}], "after":
+        null, "before": null}}, "user_reports": [], "saved": false, "id": "dectt43",
+        "gilded": 0, "archived": false, "score": 2, "report_reasons": null, "author":
+        "JZBreeze", "parent_id": "t3_5wta3j", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "controversiality": 0, "body": "geeks who drink is out
+        of date.  copy and pasted form their site\n\nSunday\nAloft Tucson University
+        (Tucson) 7:30 pm\n\n \nMonday\nPublic Brewhouse (Tucson) 7:30 pm\n\n \nTuesday\nHotel
+        Congress (Tucson) 8:00 pm\n\n \nWednesday\nArizona Beer House (Tucson) 7:00
+        pm\nGentle Ben''s Brewing Company (Tucson) 8:00 pm (new!)\nPlayground Bar
+        &amp; Lounge (Tucson) 7:30 pm\nTrident Grill (Tucson) 8:00 pm\n\n \nThursday\nThe
+        Canyon''s Crown Restaurant &amp; Pub (Tucson) 8:00 pm\n\n ", "edited": false,
+        "author_flair_css_class": null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;geeks
+        who drink is out of date.  copy and pasted form their site&lt;/p&gt;\n\n&lt;p&gt;Sunday\nAloft
+        Tucson University (Tucson) 7:30 pm&lt;/p&gt;\n\n&lt;p&gt;Monday\nPublic Brewhouse
+        (Tucson) 7:30 pm&lt;/p&gt;\n\n&lt;p&gt;Tuesday\nHotel Congress (Tucson) 8:00
+        pm&lt;/p&gt;\n\n&lt;p&gt;Wednesday\nArizona Beer House (Tucson) 7:00 pm\nGentle
+        Ben&amp;#39;s Brewing Company (Tucson) 8:00 pm (new!)\nPlayground Bar &amp;amp;
+        Lounge (Tucson) 7:30 pm\nTrident Grill (Tucson) 8:00 pm&lt;/p&gt;\n\n&lt;p&gt;Thursday\nThe
+        Canyon&amp;#39;s Crown Restaurant &amp;amp; Pub (Tucson) 8:00 pm&lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_dectt43", "created": 1488373614.0, "author_flair_text":
+        null, "created_utc": 1488344814.0, "ups": 2, "depth": 0, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wta3j",
+        "likes": null, "replies": "", "user_reports": [], "saved": false, "id": "ded9zm3",
+        "gilded": 0, "archived": false, "score": 2, "report_reasons": null, "author":
+        "taksihat", "parent_id": "t3_5wta3j", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "controversiality": 0, "body": "[Tucson Historic Fencing
+        Club](http://www.tucsonhistoricfencing.com)\n\n* Beginner''s Saturday (1st
+        Saturday of every month)\n* March 4th, 9am-Noon\n* 252 S Plumer Ave.\n* Contact
+        us at tucsonhistoricdfencing@gmail.com\n\nThis takes the place of our usual
+        Saturday practice, which is otherwise held in the same time and place.", "edited":
+        false, "author_flair_css_class": null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&lt;a
+        href=\"http://www.tucsonhistoricfencing.com\"&gt;Tucson Historic Fencing Club&lt;/a&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Beginner&amp;#39;s
+        Saturday (1st Saturday of every month)&lt;/li&gt;\n&lt;li&gt;March 4th, 9am-Noon&lt;/li&gt;\n&lt;li&gt;252
+        S Plumer Ave.&lt;/li&gt;\n&lt;li&gt;Contact us at &lt;a href=\"mailto:tucsonhistoricdfencing@gmail.com\"&gt;tucsonhistoricdfencing@gmail.com&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;This
+        takes the place of our usual Saturday practice, which is otherwise held in
+        the same time and place.&lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit":
+        "Tucson", "score_hidden": false, "subreddit_type": "public", "name": "t1_ded9zm3",
+        "created": 1488408680.0, "author_flair_text": null, "created_utc": 1488379880.0,
+        "ups": 2, "depth": 0, "mod_reports": [], "num_reports": null, "distinguished":
+        null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null,
+        "removal_reason": null, "link_id": "t3_5wta3j", "likes": null, "replies":
+        {"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "t1", "data":
+        {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id":
+        "t3_5wta3j", "likes": null, "replies": "", "user_reports": [], "saved": false,
+        "id": "dednk9t", "gilded": 0, "archived": false, "score": 1, "report_reasons":
+        null, "author": "CompletelyLurker", "parent_id": "t1_dedde3z", "subreddit_name_prefixed":
+        "r/Tucson", "approved_by": null, "controversiality": 0, "body": "Yeah, I wasn''t
+        sure either.  They had disappeared for a bit then popped up again, but I''m
+        not sure what their status is now.  I added a note in the list that it needs
+        confirming.", "edited": false, "author_flair_css_class": null, "downs": 0,
+        "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Yeah, I wasn&amp;#39;t sure
+        either.  They had disappeared for a bit then popped up again, but I&amp;#39;m
+        not sure what their status is now.  I added a note in the list that it needs
+        confirming.&lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit": "Tucson",
+        "score_hidden": false, "subreddit_type": "public", "name": "t1_dednk9t", "created":
+        1488423488.0, "author_flair_text": "\ud83c\udd91 Currently Lurking", "created_utc":
+        1488394688.0, "ups": 1, "depth": 1, "mod_reports": [], "num_reports": null,
+        "distinguished": null}}], "after": null, "before": null}}, "user_reports":
+        [], "saved": false, "id": "dedde3z", "gilded": 0, "archived": false, "score":
+        2, "report_reasons": null, "author": "shoegoo", "parent_id": "t3_5wta3j",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "I don''t think the Retro Room is open any more. Can anyone confirm
+        that?", "edited": false, "author_flair_css_class": null, "downs": 0, "body_html":
+        "&lt;div class=\"md\"&gt;&lt;p&gt;I don&amp;#39;t think the Retro Room is
+        open any more. Can anyone confirm that?&lt;/p&gt;\n&lt;/div&gt;", "stickied":
+        false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_dedde3z", "created": 1488412687.0, "author_flair_text": null,
+        "created_utc": 1488383887.0, "ups": 2, "depth": 0, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno",
+        "banned_by": null, "removal_reason": null, "link_id": "t3_5wta3j", "likes":
+        null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+        "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wta3j", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "dez34wq", "gilded": 0, "archived": false, "score":
+        2, "report_reasons": null, "author": "CustosClavium", "parent_id": "t1_dejy3uu",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Best. Icecream. Ever. \n\nThe birthday cake flavor is divine.",
+        "edited": false, "author_flair_css_class": null, "downs": 0, "body_html":
+        "&lt;div class=\"md\"&gt;&lt;p&gt;Best. Icecream. Ever. &lt;/p&gt;\n\n&lt;p&gt;The
+        birthday cake flavor is divine.&lt;/p&gt;\n&lt;/div&gt;", "stickied": false,
+        "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_dez34wq", "created": 1489637406.0, "author_flair_text": null,
+        "created_utc": 1489608606.0, "ups": 2, "depth": 1, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}], "after": null, "before": null}}, "user_reports":
+        [], "saved": false, "id": "dejy3uu", "gilded": 0, "archived": false, "score":
+        2, "report_reasons": null, "author": "jf0314", "parent_id": "t3_5wta3j", "subreddit_name_prefixed":
+        "r/Tucson", "approved_by": null, "controversiality": 0, "body": "March 6th,
+        buy Bluebell ice cream. ", "edited": false, "author_flair_css_class": null,
+        "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;March 6th, buy
+        Bluebell ice cream. &lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit":
+        "Tucson", "score_hidden": false, "subreddit_type": "public", "name": "t1_dejy3uu",
+        "created": 1488786359.0, "author_flair_text": null, "created_utc": 1488757559.0,
+        "ups": 2, "depth": 0, "mod_reports": [], "num_reports": null, "distinguished":
+        null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null,
+        "removal_reason": null, "link_id": "t3_5wta3j", "likes": null, "replies":
+        "", "user_reports": [], "saved": false, "id": "decy7mr", "gilded": 0, "archived":
+        false, "score": 1, "report_reasons": null, "author": "Karnas", "parent_id":
+        "t3_5wta3j", "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "[Second Saturdays with Don''t Blink Burlesque](https://www.facebook.com/events/257138831391605/)\n\nSaturday,
+        11 March 2017  \n\nDoors @ 8P/Show @ 9P\n  \nThe Hut on 4th Avenue  \n\n21+
+        GA$10/VIP$20", "edited": 1488353956.0, "author_flair_css_class": null, "downs":
+        0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&lt;a href=\"https://www.facebook.com/events/257138831391605/\"&gt;Second
+        Saturdays with Don&amp;#39;t Blink Burlesque&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;Saturday,
+        11 March 2017  &lt;/p&gt;\n\n&lt;p&gt;Doors @ 8P/Show @ 9P&lt;/p&gt;\n\n&lt;p&gt;The
+        Hut on 4th Avenue  &lt;/p&gt;\n\n&lt;p&gt;21+ GA$10/VIP$20&lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_decy7mr", "created": 1488381865.0, "author_flair_text":
+        null, "created_utc": 1488353065.0, "ups": 1, "depth": 0, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wta3j",
+        "likes": null, "replies": "", "user_reports": [], "saved": false, "id": "def9dos",
+        "gilded": 0, "archived": false, "score": 1, "report_reasons": null, "author":
+        "Mattzlo", "parent_id": "t3_5wta3j", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "controversiality": 0, "body": "[March 4th Set Unlisted
+        at Tucson Improv Movement!](https://www.facebook.com/events/1838085023124654/)\n\n[March
+        8th Brew Ha-Ha at Borderlands Brewery (119 E Toole.) FREE](https://www.facebook.com/events/1452402898134917/)\n\n[March
+        26th  Set Unlisted al Laffs Comedy Cafe! (2900 E Broadway.) FREE](https://www.facebook.com/events/1361360553927228/)",
+        "edited": false, "author_flair_css_class": "", "downs": 0, "body_html": "&lt;div
+        class=\"md\"&gt;&lt;p&gt;&lt;a href=\"https://www.facebook.com/events/1838085023124654/\"&gt;March
+        4th Set Unlisted at Tucson Improv Movement!&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"https://www.facebook.com/events/1452402898134917/\"&gt;March 8th Brew
+        Ha-Ha at Borderlands Brewery (119 E Toole.) FREE&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"https://www.facebook.com/events/1361360553927228/\"&gt;March 26th  Set
+        Unlisted al Laffs Comedy Cafe! (2900 E Broadway.) FREE&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_def9dos", "created": 1488508789.0, "author_flair_text":
+        "Support Local Comedy", "created_utc": 1488479989.0, "ups": 1, "depth": 0,
+        "mod_reports": [], "num_reports": null, "distinguished": null}}, {"kind":
+        "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wta3j", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "defyv70", "gilded": 0, "archived": false, "score":
+        1, "report_reasons": null, "author": "spinaz", "parent_id": "t3_5wta3j", "subreddit_name_prefixed":
+        "r/Tucson", "approved_by": null, "controversiality": 0, "body": "Tucson Miniature
+        Auto Club Toy and Collectible Show March 5 [TMAC](http://www.tucsonminiatureautoclub.org/)  Tucson
+        Expo Center", "edited": false, "author_flair_css_class": null, "downs": 0,
+        "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Tucson Miniature Auto Club
+        Toy and Collectible Show March 5 &lt;a href=\"http://www.tucsonminiatureautoclub.org/\"&gt;TMAC&lt;/a&gt;  Tucson
+        Expo Center&lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit": "Tucson",
+        "score_hidden": false, "subreddit_type": "public", "name": "t1_defyv70", "created":
+        1488538393.0, "author_flair_text": null, "created_utc": 1488509593.0, "ups":
+        1, "depth": 0, "mod_reports": [], "num_reports": null, "distinguished": null}},
+        {"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wta3j", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "dekq137", "gilded": 0, "archived": false, "score":
+        1, "report_reasons": null, "author": "sealless", "parent_id": "t3_5wta3j",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "**[SIRSY](http://sirsy.com)**\n\n&gt; \"...a rock and soul duo
+        with lots of pop sensibility and just the right amount of sass. \"\n\nThursday
+        March 9, 8:30-10:30\n\n**[Tap &amp; Bottle Tap Room](http://www.thetapandbottle.com/)**\n\n21+
+        No Cover", "edited": false, "author_flair_css_class": null, "downs": 0, "body_html":
+        "&lt;div class=\"md\"&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=\"http://sirsy.com\"&gt;SIRSY&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;\n\n&lt;blockquote&gt;\n&lt;p&gt;&amp;quot;...a
+        rock and soul duo with lots of pop sensibility and just the right amount of
+        sass. &amp;quot;&lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;p&gt;Thursday March
+        9, 8:30-10:30&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;&lt;a href=\"http://www.thetapandbottle.com/\"&gt;Tap
+        &amp;amp; Bottle Tap Room&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;21+
+        No Cover&lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit": "Tucson",
+        "score_hidden": false, "subreddit_type": "public", "name": "t1_dekq137", "created":
+        1488840839.0, "author_flair_text": null, "created_utc": 1488812039.0, "ups":
+        1, "depth": 0, "mod_reports": [], "num_reports": null, "distinguished": null}},
+        {"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wta3j", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "dekq8dq", "gilded": 0, "archived": false, "score":
+        1, "report_reasons": null, "author": "sealless", "parent_id": "t3_5wta3j",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "**[SIRSY](http://sirsy.com)**\n\n&gt; \"...a rock and soul duo
+        with lots of pop sensibility and just the right amount of sass. \"\n\nFriday
+        March 10, 9:00\n\n**[The Flycatcher](http://www.flycatchertucson.com/)**\n\nw/
+        The Darts and Clay Dudash\n\n21+ No Cover", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&lt;strong&gt;&lt;a
+        href=\"http://sirsy.com\"&gt;SIRSY&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;\n\n&lt;blockquote&gt;\n&lt;p&gt;&amp;quot;...a
+        rock and soul duo with lots of pop sensibility and just the right amount of
+        sass. &amp;quot;&lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;p&gt;Friday March 10,
+        9:00&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;&lt;a href=\"http://www.flycatchertucson.com/\"&gt;The
+        Flycatcher&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;w/ The Darts and
+        Clay Dudash&lt;/p&gt;\n\n&lt;p&gt;21+ No Cover&lt;/p&gt;\n&lt;/div&gt;", "stickied":
+        false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_dekq8dq", "created": 1488841120.0, "author_flair_text": null,
+        "created_utc": 1488812320.0, "ups": 1, "depth": 0, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno",
+        "banned_by": null, "removal_reason": null, "link_id": "t3_5wta3j", "likes":
+        null, "replies": "", "user_reports": [], "saved": false, "id": "dekwt1w",
+        "gilded": 0, "archived": false, "score": 1, "report_reasons": null, "author":
+        "along87", "parent_id": "t3_5wta3j", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "controversiality": 0, "body": "Not sure if this is spam
+        since I am self-promoting on this post. Please let me know and I will remove
+        if so!\n\n[Dillinger Brewing Monday Running Club](https://www.meetup.com/Dillinger-Brewings-Monday-Running-Club/events/238215275/)\n\nMonday''s
+        at 6pm, $2 off Pints after a group jog\n\nDillinger Brewing Co (3895 N Oracle
+        Rd) ", "edited": false, "author_flair_css_class": null, "downs": 0, "body_html":
+        "&lt;div class=\"md\"&gt;&lt;p&gt;Not sure if this is spam since I am self-promoting
+        on this post. Please let me know and I will remove if so!&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"https://www.meetup.com/Dillinger-Brewings-Monday-Running-Club/events/238215275/\"&gt;Dillinger
+        Brewing Monday Running Club&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;Monday&amp;#39;s
+        at 6pm, $2 off Pints after a group jog&lt;/p&gt;\n\n&lt;p&gt;Dillinger Brewing
+        Co (3895 N Oracle Rd) &lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit":
+        "Tucson", "score_hidden": false, "subreddit_type": "public", "name": "t1_dekwt1w",
+        "created": 1488849331.0, "author_flair_text": null, "created_utc": 1488820531.0,
+        "ups": 1, "depth": 0, "mod_reports": [], "num_reports": null, "distinguished":
+        null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null,
+        "removal_reason": null, "link_id": "t3_5wta3j", "likes": null, "replies":
+        "", "user_reports": [], "saved": false, "id": "dembb5q", "gilded": 0, "archived":
+        false, "score": 1, "report_reasons": null, "author": "tucsonana", "parent_id":
+        "t3_5wta3j", "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "[Southern Arizona Symphony Orchestra](https://www.facebook.com/events/1794346137555777/)\n\nMarch
+        18, 3 PM\n\nSt. Andrew''s Presbyterian Church\n\nGlazunov Saxophone Concerto,
+        Faure Requiem with SASO Chorus, and Ravel Piano Concerto, tickets $25 at door",
+        "edited": false, "author_flair_css_class": null, "downs": 0, "body_html":
+        "&lt;div class=\"md\"&gt;&lt;p&gt;&lt;a href=\"https://www.facebook.com/events/1794346137555777/\"&gt;Southern
+        Arizona Symphony Orchestra&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;March 18, 3 PM&lt;/p&gt;\n\n&lt;p&gt;St.
+        Andrew&amp;#39;s Presbyterian Church&lt;/p&gt;\n\n&lt;p&gt;Glazunov Saxophone
+        Concerto, Faure Requiem with SASO Chorus, and Ravel Piano Concerto, tickets
+        $25 at door&lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit": "Tucson",
+        "score_hidden": false, "subreddit_type": "public", "name": "t1_dembb5q", "created":
+        1488927966.0, "author_flair_text": null, "created_utc": 1488899166.0, "ups":
+        1, "depth": 0, "mod_reports": [], "num_reports": null, "distinguished": null}},
+        {"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wta3j", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "df3eqm5", "gilded": 0, "archived": false, "score":
+        1, "report_reasons": null, "author": "TikiJeff", "parent_id": "t3_5wta3j",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "The Spring Fundraiser for the non-profit Valley of the Moon Historical
+        Park is going on this month\n\"Scarlet and the Wolf\"\n\nhttp://www.tucsonvalleyofthemoon.com/scarlet.html\n\nDATES:
+        March 10, 11, 12, 17, 18, 19, 24, 25, 26\n\n\"edit\" added dates.", "edited":
+        false, "author_flair_css_class": null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;The
+        Spring Fundraiser for the non-profit Valley of the Moon Historical Park is
+        going on this month\n&amp;quot;Scarlet and the Wolf&amp;quot;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"http://www.tucsonvalleyofthemoon.com/scarlet.html\"&gt;http://www.tucsonvalleyofthemoon.com/scarlet.html&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;DATES:
+        March 10, 11, 12, 17, 18, 19, 24, 25, 26&lt;/p&gt;\n\n&lt;p&gt;&amp;quot;edit&amp;quot;
+        added dates.&lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit": "Tucson",
+        "score_hidden": false, "subreddit_type": "public", "name": "t1_df3eqm5", "created":
+        1489880307.0, "author_flair_text": null, "created_utc": 1489851507.0, "ups":
+        1, "depth": 0, "mod_reports": [], "num_reports": null, "distinguished": null}},
+        {"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wta3j", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "df6bmoo", "gilded": 0, "archived": false, "score":
+        1, "report_reasons": null, "author": "DrSparkle713", "parent_id": "t3_5wta3j",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Tucson Go (Baduk) Club\n\nSundays starting at 4:00 PM at Panera
+        on Broadway. ", "edited": false, "author_flair_css_class": null, "downs":
+        0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Tucson Go (Baduk) Club&lt;/p&gt;\n\n&lt;p&gt;Sundays
+        starting at 4:00 PM at Panera on Broadway. &lt;/p&gt;\n&lt;/div&gt;", "stickied":
+        false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_df6bmoo", "created": 1490053198.0, "author_flair_text": null,
+        "created_utc": 1490024398.0, "ups": 1, "depth": 0, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}], "after": null, "before": null}}]'
+    http_version:
+  recorded_at: Thu, 23 Mar 2017 22:20:33 GMT
+- request:
+    method: get
+    uri: https://www.reddit.com/r/tucson/comments/614mv6/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - edgebucket=kbJlzbVCxtM0QwQ18b; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loid=ysq7Qp8PBSbTCJ2Djk.1.1490307633389.Z0FBQUFBQlkxRW94NC1KNUx0Rm5FeFA3aU9hTlNaenJZY205N3Z0RlB4N3I1Sks0bnNZUmNFeWtBTEpEYWFqaVNDT1lmSWhMT2JGVWhrWVllU3ZPWkFuZWU3MEhOR09xY1ZpRy1lWG8yTUNrZkFOalVmLVNJR0hJaHNaYWJWMnBURDNDY0owUmxZUnE;
+        Domain=reddit.com; Max-Age=63071999; Path=/; expires=Sat, 23-Mar-2019 22:20:33
+        GMT; secure
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Reddit-Tracking, X-Moose
+      X-Reddit-Tracking:
+      - https://pixel.redditmedia.com/pixel/of_destiny.png?v=TYCwz9VCaUFxQgiaNFSOupNjQqFo3mzrmv8asScFxs7ObKMV6ShIVtxUljLaMq5D8N1ro1KkCpM%3D
+      Cache-Control:
+      - max-age=0, must-revalidate
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '1091'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 23 Mar 2017 22:20:33 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-den6024-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1490307633.358025,VS0,VE84
+      Vary:
+      - accept-encoding
+      Server:
+      - snooserv
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+        "t3", "data": {"contest_mode": false, "banned_by": null, "media_embed": {},
+        "subreddit": "Tucson", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Looking
+        for a place to watch the Aussie GP this weekend. I don&amp;#39;t have cable,
+        so would love to find a place that would play it while eating lunch and/or
+        drinking a beer. &lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext":
+        "Looking for a place to watch the Aussie GP this weekend. I don''t have cable,
+        so would love to find a place that would play it while eating lunch and/or
+        drinking a beer. ", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "saved": false, "id": "614mv6", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "score": 5, "report_reasons": null, "author": "Sidecarguy",
+        "link_flair_text": null, "subreddit_name_prefixed": "r/Tucson", "approved_by":
+        null, "over_18": false, "domain": "self.Tucson", "hidden": false, "num_comments":
+        1, "thumbnail": "self", "subreddit_id": "t5_2qmno", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "brand_safe": true, "archived":
+        false, "removal_reason": null, "stickied": false, "is_self": true, "hide_score":
+        true, "spoiler": false, "permalink": "/r/Tucson/comments/614mv6/formula_1_friendly_places/",
+        "subreddit_type": "public", "locked": false, "name": "t3_614mv6", "created":
+        1490331725.0, "url": "https://www.reddit.com/r/Tucson/comments/614mv6/formula_1_friendly_places/",
+        "author_flair_text": null, "quarantine": false, "title": "Formula 1 Friendly
+        Places", "created_utc": 1490302925.0, "ups": 5, "media": null, "upvote_ratio":
+        1.0, "mod_reports": [], "visited": false, "num_reports": null, "distinguished":
+        null}}], "after": null, "before": null}}, {"kind": "Listing", "data": {"modhash":
+        "", "children": [{"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by":
+        null, "removal_reason": null, "link_id": "t3_614mv6", "likes": null, "replies":
+        "", "user_reports": [], "saved": false, "id": "dfbo820", "gilded": 0, "archived":
+        false, "score": 5, "report_reasons": null, "author": "Theblandyman", "parent_id":
+        "t3_614mv6", "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "I usually have the bartender at Ilegal Pete''s put the race on
+        for me, if it isn''t already. \n\nIf anyone has ideas for a bar with a bunch
+        of f1 fans, count me in. ", "edited": false, "author_flair_css_class": null,
+        "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I usually have
+        the bartender at Ilegal Pete&amp;#39;s put the race on for me, if it isn&amp;#39;t
+        already. &lt;/p&gt;\n\n&lt;p&gt;If anyone has ideas for a bar with a bunch
+        of f1 fans, count me in. &lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit":
+        "Tucson", "score_hidden": false, "subreddit_type": "public", "name": "t1_dfbo820",
+        "created": 1490332722.0, "author_flair_text": null, "created_utc": 1490303922.0,
+        "ups": 5, "depth": 0, "mod_reports": [], "num_reports": null, "distinguished":
+        null}}], "after": null, "before": null}}]'
+    http_version:
+  recorded_at: Thu, 23 Mar 2017 22:20:33 GMT

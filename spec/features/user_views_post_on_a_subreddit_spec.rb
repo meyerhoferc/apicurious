@@ -4,8 +4,8 @@ describe "user visits subreddit show page" do
   describe "it can view an individual post" do
     it "and see post features displayed" do
       VCR.use_cassette("/features/view_post_on_a_subreddit") do
-        tucson_subreddit = Subreddit.new("tucson", '/r/tucson', "tucson things")
-        pics_subreddit = Subreddit.new("pics", '/r/pics', "pic things")
+        tucson_subreddit = Subreddit.new("tucson")
+        pics_subreddit = Subreddit.new("pics")
         subreddits = [tucson_subreddit, pics_subreddit]
         user = Fabricate(:user)
 
@@ -35,9 +35,9 @@ describe "user visits subreddit show page" do
 
   describe "user can see the comments" do
     it "visually nested as replies" do
-      VCR.use_cassette("/features/view_post_on_a_subreddit") do
-        tucson_subreddit = Subreddit.new("tucson", '/r/tucson', "tucson things")
-        pics_subreddit = Subreddit.new("pics", '/r/pics', "pic things")
+      VCR.use_cassette("/features/view_post_on_a_subreddit", allow_playback_repeats: true) do
+        tucson_subreddit = Subreddit.new("tucson")
+        pics_subreddit = Subreddit.new("pics")
         subreddits = [tucson_subreddit, pics_subreddit]
         user = Fabricate(:user)
 

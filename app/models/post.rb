@@ -1,6 +1,6 @@
 require 'htmlentities'
 class Post
-  attr_reader :coder
+  attr_reader :coder, :comments
   def initialize(contents)
     @contents = contents
     @reddit_service = RedditService.new()
@@ -18,13 +18,26 @@ class Post
     @contents[:url] = attributes[:url]
   end
 
-  def comments
-    fetch_comments
-    @comments
+  def fetch_comments
+    @reddit_service.get_comments_for_post(self.id, self.subreddit).each do |comment|
+      insert_comment(comment)
+    end
   end
 
-  def fetch_comments
-    @reddit_service.get_comments_for_post(self.id, self.subreddit)
+  def insert_comment(comment_data, parent_comment = nil)
+    comment = Comment.new(comment_data[:data])
+    if parent_comment
+      parent_comment.replies << comment
+    end
+    if parent_comment == nil && comment_data[:kind] != "more"
+      @comments << comment
+    end
+    if comment_data[:data][:replies] != "" && comment_data[:kind] != "more"
+      replies = comment_data[:data][:replies][:data][:children]
+      replies.each do |reply|
+        insert_comment(reply, comment)
+      end
+    end
   end
 
   def decode_text

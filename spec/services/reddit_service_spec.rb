@@ -62,7 +62,7 @@ describe RedditService do
 
   describe "#get_post_attributes(id, subreddit)" do
     it "returns valid post information for a post" do
-      VCR.use_cassette("/models/update_subreddit_information") do
+      VCR.use_cassette("/models/update_subreddit_information", allow_playback_repeats: true) do
         post = Post.new(id: "5wt8jd", subreddit: "tucson")
         service = RedditService.new()
         attributes = service.get_post_attributes(post.id, post.subreddit)
@@ -76,7 +76,7 @@ describe RedditService do
 
   describe "#get_comments_for_posts(id, subreddit)" do
     it "returns nested hash of JSON comments for post" do
-      VCR.use_cassette("/models/update_subreddit_information") do
+      VCR.use_cassette("/models/update_subreddit_information", allow_playback_repeats: true) do
         top_comment_body = "Looking to rent 2 or 3 bedroom house/condo/townhouse or apartment --Central Tucson, April 1. Not too picky $1100 limit"
         post = Post.new(id: "5wt8jd", subreddit: "tucson")
         service = RedditService.new()

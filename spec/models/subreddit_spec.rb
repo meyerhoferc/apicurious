@@ -39,7 +39,7 @@ describe Subreddit do
         expect(posts.first.class).to eq(Post)
         expect(posts.first.title).to eq("Buy/Sell/Trade/Housing: March 2017")
         expect(posts.first.num_comments).to eq(31)
-        expect(posts.first.score).to eq(11)
+        expect(posts.first.score).to eq(10)
         expect(posts.first.id).to eq("5wt8jd")
         expect(posts.first.subreddit.downcase).to eq("r/tucson")
       end
