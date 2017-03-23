@@ -7,17 +7,13 @@
     <h4>Hot Posts</h4>
     <% @subreddit.posts.each do |post| %>
     <div class="col s7">
-      <h5><%= post.title %></h5>
-      <div class="col s2">
-        <p><%= post.author %></p>
-      </div>
-      <div class="col s3">
+      <h5><%= post.score %>  <%= post.title %></h5>
+      <p><%= post.author %> <%= "#{post.num_comments} comments" %></p>
         <p><%#= link_to comments_path, "#{post.num_comments} comments" %></p>
-      </div>
     </div>
-
     <% end %>
   </div>
+
   <div class="col s3 offset-s1 rules">
     <h4><%= @subreddit.url %></h4>
     <p><%= @subreddit.description %></p>
