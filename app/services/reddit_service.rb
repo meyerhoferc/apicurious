@@ -33,6 +33,16 @@ class RedditService
 
   def get_post_attributes(id, subreddit)
     response = HTTParty.get("https://www.reddit.com/r/#{subreddit}/comments/#{id}/.json")
+    parsed = parse(response)
+    # parsed[1][:data][:children] => all comments in an array
+    # parsed[1][:data][:children].first[:data] => all info for the top comment
+    # comment[:link_id] will be the id to link to a post on reddit
+    # comment[:author]
+    # comment[:score]
+    # comment[:body]
+    # comment[:replies] => "" if no replies
+    # comment[:replies][:data][:children] => Array of comment replies
+    # byebug
     post_information = parse(response).first[:data][:children].first[:data]
   end
 

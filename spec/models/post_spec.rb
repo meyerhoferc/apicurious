@@ -17,4 +17,19 @@ describe Post do
       end
     end
   end
+
+  describe "#comments" do
+    it "returns a trie of all comments for a post" do
+      VCR.use_cassette("/features/view_post_on_a_subreddit") do
+        post = Post.new(id: "5wt8jd", subreddit: "tucson")
+        root_comment = post.comments
+        expect(root_comment.class).to eq(Comment)
+        parent_comments = root_comment.children
+        top_comment = root_comments.children[0]
+        expect(parent_comments.class).to eq(Array)
+        expect(parent_comments.count).to eq(16)
+        expect(top_comment.body).to eq("Looking to rent 2 or 3 bedroom house/condo/townhouse or apartment --Central Tucson, April 1. Not too picky $1100 limit")
+      end
+    end
+  end
 end
