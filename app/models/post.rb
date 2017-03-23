@@ -5,6 +5,7 @@ class Post
     @contents = contents
     @reddit_service = RedditService.new()
     @coder = HTMLEntities.new
+    @comments = []
   end
 
   def update_attributes
@@ -15,6 +16,15 @@ class Post
     @contents[:author] = attributes[:author]
     @contents[:text] = attributes[:selftext_html]
     @contents[:url] = attributes[:url]
+  end
+
+  def comments
+    fetch_comments
+    @comments
+  end
+
+  def fetch_comments
+    @reddit_service.get_comments_for_post(self.id, self.subreddit)
   end
 
   def decode_text

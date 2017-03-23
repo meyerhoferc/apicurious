@@ -73,4 +73,18 @@ describe RedditService do
       end
     end
   end
+
+  describe "#get_comments_for_posts(id, subreddit)" do
+    it "returns nested hash of JSON comments for post" do
+      VCR.use_cassette("/models/update_subreddit_information") do
+        top_commen_body = "Looking to rent 2 or 3 bedroom house/condo/townhouse or apartment --Central Tucson, April 1. Not too picky $1100 limit"
+        post = Post.new(id: "5wt8jd", subreddit: "tucson")
+        service = RedditService.new()
+        comments = service.get_comments_for_post(post.id, post.subreddit)
+        expect(comments.count).to eq(16)
+        expect(comments.class).to eq(Array)
+        expect(comments.first[:data][:body]).to eq(top_comment_body)
+      end
+    end
+  end
 end
