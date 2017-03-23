@@ -6,7 +6,7 @@
   <div class="col s8 body">
     <% if @post.text_post? %>
     <div class="container body">
-      <p><%= @post.text %></p>
+      <%= @post.decode_text %>
     </div>
     <% end %>
     <p id="author"> <%= @post.author %></p>

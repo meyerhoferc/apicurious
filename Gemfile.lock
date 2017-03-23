@@ -82,6 +82,7 @@ GEM
       activesupport (>= 4.1.0)
     hashdiff (0.3.2)
     hashie (3.5.5)
+    htmlentities (4.3.4)
     httparty (0.14.0)
       multi_xml (>= 0.5.2)
     i18n (0.8.1)
@@ -237,6 +238,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   fabrication
   figaro
+  htmlentities
   httparty
   jbuilder (~> 2.5)
   jquery-rails

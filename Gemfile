@@ -38,6 +38,7 @@ gem 'httparty'
 gem 'figaro'
 gem 'omniauth-reddit', :git => 'git://github.com/jackdempsey/omniauth-reddit.git'
 gem 'simplecov', :require => false, :group => :test
+gem 'htmlentities'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

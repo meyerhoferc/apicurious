@@ -1,7 +1,10 @@
+require 'htmlentities'
 class Post
+  attr_reader :coder
   def initialize(contents)
     @contents = contents
     @reddit_service = RedditService.new()
+    @coder = HTMLEntities.new
   end
 
   def update_attributes
@@ -12,6 +15,10 @@ class Post
     @contents[:author] = attributes[:author]
     @contents[:text] = attributes[:selftext_html]
     @contents[:url] = attributes[:url]
+  end
+
+  def decode_text
+    @coder.decode(text)
   end
 
   def title
