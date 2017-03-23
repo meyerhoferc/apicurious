@@ -49,14 +49,18 @@ describe Subreddit do
 
   describe "#posts" do
     it "returns the 15 most recent posts in the 'hot' category" do
-      subreddit = Subreddit.new("tucson")
-      posts = subreddit.posts
-      expect(posts.count).to eq(15)
-      expect(posts.first.title).to eq("Buy/Sell/Trade/Housing: March 2017")
-      expect(posts.first.num_comments).to eq(31)
-      expect(posts.first.score).to eq(10)
-      expect(posts.first.id).to eq("5wt8jd")
-      expect(posts.first.subreddit.downcase).to eq("r/tucson")
+      VCR.use_cassette("/models/15_hot_posts_for_subreddit") do
+        subreddit = Subreddit.new("tucson")
+        subreddit.posts
+        posts = subreddit.hot_posts
+        expect(posts.count).to eq(15)
+        expect(posts.first.class).to eq(Post)
+        expect(posts.first.title).to eq("Buy/Sell/Trade/Housing: March 2017")
+        expect(posts.first.num_comments).to eq(31)
+        expect(posts.first.score).to eq(11)
+        expect(posts.first.id).to eq("5wt8jd")
+        expect(posts.first.subreddit.downcase).to eq("r/tucson")
+      end
     end
   end
 end

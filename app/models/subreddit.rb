@@ -1,5 +1,5 @@
 class Subreddit
-  attr_reader :title, :rules
+  attr_reader :title, :rules, :hot_posts
   attr_accessor :url, :description
 
   def initialize(title, url = nil, description = nil)
@@ -8,6 +8,7 @@ class Subreddit
     @description = description
     @reddit_service = RedditService.new()
     @rules = []
+    @hot_posts = []
   end
 
   def update_url
@@ -29,6 +30,15 @@ class Subreddit
   end
 
   def posts
-    @reddit_service.get_hot_posts(@title)
+    @reddit_service.get_hot_posts(@title).each do |post|
+      @hot_posts << Post.new(title: post[:data][:title],
+                             num_comments: post[:data][:num_comments],
+                             score: post[:data][:score],
+                             subreddit: post[:data][:subreddit_name_prefixed],
+                             id: post[:data][:id],
+                             author: post[:data][:author],
+                             url: post[:data][:url],
+                             text: post[:data][:selftext_html])
+    end
   end
 end

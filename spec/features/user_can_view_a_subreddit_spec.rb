@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe "user can view a subreddit" do
-  it "and all of its sidebar content" do
+  xit "and all of its sidebar content" do
     VCR.use_cassette("/features/view_subreddit_show") do
       tucson_subreddit = Subreddit.new("tucson", '/r/tucson', "tucson things")
       pics_subreddit = Subreddit.new("pics", '/r/pics', "pic things")
