@@ -7,7 +7,7 @@
     <h4>Hot Posts</h4>
     <% @subreddit.posts.each do |post| %>
     <div class="col s7">
-      <h5><%= post.score %>  <%= post.title %></h5>
+      <h5><%= post.score %>  <%= link_to post.title, post_path(post.id) %></h5>
       <p><%= post.author %> <%= "#{post.num_comments} comments" %></p>
         <p><%#= link_to comments_path, "#{post.num_comments} comments" %></p>
     </div>
