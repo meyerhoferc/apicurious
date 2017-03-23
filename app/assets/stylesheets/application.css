@@ -35,6 +35,10 @@
    border: 1px solid #000000;
  }
 
+ #comment_info {
+   color: #5f99cf;
+ }
+
 /*color palette*/
 
 /*Reddit light blue: #cee3f8

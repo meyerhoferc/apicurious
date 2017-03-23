@@ -10,12 +10,15 @@
     </div>
     <% end %>
     <p id="author"> <%= @post.author %></p>
-
     <div class="comments">
       <p id="comments"><%= "#{@post.num_comments} comments" %></p>
       <% @post.comments.each do |comment| %>
-      <%= comment.author %>
-      <%= comment.body %>
+      <ul class="collection">
+       <li class="collection-item">
+         <p id="comment_info"><%= comment.author %> [<%= comment.score %> points]</p>
+         <p id=comment_<%= comment.id %>><%= comment.body %></p>
+       </li>
+     </ul>
       <% end %>
     </div>
   </div>

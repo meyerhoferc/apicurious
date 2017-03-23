@@ -18,7 +18,7 @@ class User < ApplicationRecord
   def subreddit_subscriptions
     if reddit_service.subreddits
       subreddits = reddit_service.subreddits.map do |subreddit|
-        Subreddit.new(subreddit[:data][:title], subreddit[:data][:url], subreddit[:data][:public_description])
+        Subreddit.new(subreddit[:data][:display_name], subreddit[:data][:url], subreddit[:data][:public_description])
       end
     end
   end

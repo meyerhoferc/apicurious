@@ -3,7 +3,7 @@ require 'rails_helper'
 describe "user visits subreddit show page" do
   describe "it can view an individual post" do
     it "and see post features displayed" do
-      VCR.use_cassette("/features/view_post_on_a_subreddit") do
+      VCR.use_cassette("/features/view_post_on_a_subreddit", allow_playback_repeats: true) do
         tucson_subreddit = Subreddit.new("tucson")
         pics_subreddit = Subreddit.new("pics")
         subreddits = [tucson_subreddit, pics_subreddit]
@@ -47,7 +47,6 @@ describe "user visits subreddit show page" do
         visit subreddit_path(tucson_subreddit.title)
 
         click_on "Buy/Sell/Trade/Housing: March 2017"
-
         expect(current_path).to eq(subreddit_post_path(tucson_subreddit.title, "5wt8jd"))
 
         comment_one = "its a 2014 vizio, no issues of note. In the effort of honesty it may actually be a 49 inch."
@@ -55,8 +54,14 @@ describe "user visits subreddit show page" do
 
         within(".comments") do
           expect(page).to have_content("31 comments")
-          expect(page).to have_content(comment_one)
+        end
+
+        within("#comment_decv3ts") do
           expect(page).to have_content(comment_two)
+        end
+
+        within("#comment_dej0blu") do
+          expect(page).to have_content(comment_one)
         end
       end
     end
