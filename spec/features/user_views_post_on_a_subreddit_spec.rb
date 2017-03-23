@@ -32,15 +32,8 @@ describe "user visits subreddit show page" do
           expect(page).to have_content("31 comments")
         end
 
-        within(".body") do
+        within(".container") do
           expect(page).to have_content(body)
-        end
-
-        within(".rules") do
-          expect(page).to have_content("No posting anything that violates reddit's spam or advertising policies.")
-          expect(page).to have_content("Being abusive")
-          expect(page).to have_content("No identifying info or attempts to find info on someone else.")
-          expect(page).to have_content("Not a credible news source OR misleading title")
         end
       end
     end

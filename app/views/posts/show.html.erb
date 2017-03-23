@@ -4,12 +4,12 @@
 
 <div class="row">
   <div class="col s8 body">
-    <p id="author"> <%= @post.author %></p>
     <% if @post.text_post? %>
     <div class="container body">
       <p><%= @post.text %></p>
     </div>
     <% end %>
+    <p id="author"> <%= @post.author %></p>
     <p id="comments"><%= "#{@post.num_comments} comments" %></p>
   </div>
 
