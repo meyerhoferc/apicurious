@@ -10,7 +10,14 @@
     </div>
     <% end %>
     <p id="author"> <%= @post.author %></p>
-    <p id="comments"><%= "#{@post.num_comments} comments" %></p>
+
+    <div class="comments">
+      <p id="comments"><%= "#{@post.num_comments} comments" %></p>
+      <% @post.comments.each do |comment| %>
+      <%= comment.author %>
+      <%= comment.body %>
+      <% end %>
+    </div>
   </div>
 
   <div class="col s3 offset-s1 rules">

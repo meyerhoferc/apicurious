@@ -32,4 +32,33 @@ describe "user visits subreddit show page" do
       end
     end
   end
+
+  describe "user can see the comments" do
+    it "visually nested as replies" do
+      VCR.use_cassette("/features/view_post_on_a_subreddit") do
+        tucson_subreddit = Subreddit.new("tucson", '/r/tucson', "tucson things")
+        pics_subreddit = Subreddit.new("pics", '/r/pics', "pic things")
+        subreddits = [tucson_subreddit, pics_subreddit]
+        user = Fabricate(:user)
+
+        allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
+        allow_any_instance_of(User).to receive(:subreddit_subscriptions).and_return(subreddits)
+
+        visit subreddit_path(tucson_subreddit.title)
+
+        click_on "Buy/Sell/Trade/Housing: March 2017"
+
+        expect(current_path).to eq(subreddit_post_path(tucson_subreddit.title, "5wt8jd"))
+
+        comment_one = "its a 2014 vizio, no issues of note. In the effort of honesty it may actually be a 49 inch."
+        comment_two = "Looking to rent 2 or 3 bedroom house/condo/townhouse or apartment --Central Tucson, April 1. Not too picky $1100 limit"
+
+        within(".comments") do
+          expect(page).to have_content("31 comments")
+          expect(page).to have_content(comment_one)
+          expect(page).to have_content(comment_two)
+        end
+      end
+    end
+  end
 end
