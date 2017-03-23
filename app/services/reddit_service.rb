@@ -41,6 +41,11 @@ class RedditService
     parse(response)[:data][:children][0..14]
   end
 
+  def get_post_attributes(id, subreddit)
+    response = HTTParty.get("https://www.reddit.com/r/#{subreddit}/comments/#{id}/.json")
+    post_information = parse(response).first[:data][:children].first[:data]
+  end
+
   private
 
   def parse(response)

@@ -81,13 +81,15 @@ describe RedditService do
 
   describe "#get_post_attributes(id, subreddit)" do
     it "returns valid post information for a post" do
-      post = Post.new(id: "5wt8jd", subreddit: "tucson")
-      service = RedditService.new()
-      attributes = service.get_post_attributes(post.id, post.subreddit)
-      expect(attributes[:num_comments]).to eq(31)
-      expect(attributes[:score]).to eq(11)
-      expect(attributes[:author]).to eq("CompletelyLurker")
-      expect(attributes[:url]).to eq("https://www.reddit.com/r/Tucson/comments/5wt8jd/buyselltradehousing_march_2017/")
+      VCR.use_cassette("/models/update_subreddit_information") do
+        post = Post.new(id: "5wt8jd", subreddit: "tucson")
+        service = RedditService.new()
+        attributes = service.get_post_attributes(post.id, post.subreddit)
+        expect(attributes[:num_comments]).to eq(31)
+        expect(attributes[:score]).to eq(10)
+        expect(attributes[:author]).to eq("CompletelyLurker")
+        expect(attributes[:url]).to eq("https://www.reddit.com/r/Tucson/comments/5wt8jd/buyselltradehousing_march_2017/")
+      end
     end
   end
 end

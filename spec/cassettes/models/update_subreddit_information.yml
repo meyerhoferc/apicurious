@@ -1,0 +1,593 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.reddit.com/r/tucson/comments/5wt8jd/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - edgebucket=db2NSX2D6xL9OHBb9T; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loid=Kcpwjj3oWJ4rttHPKI.1.1490289853237.Z0FBQUFBQlkxQVM5Y2ZuX185LVVWbERpNkVLWlJBbG96ZnpUY0xWUnJHY2FKdUJzZ2tHeUtlcUFWVGcxa0JtSFpZMWJEM2tVcHdVMTVZSjZVcjFBRTNxcm1jQ1cybHh0dmtSQ2k1ZnFNdWlLMm1yd1Z3emdRNzVCYWMxQU1pczFpUHM1cWZVTWV6QzM;
+        Domain=reddit.com; Max-Age=63071999; Path=/; expires=Sat, 23-Mar-2019 17:24:13
+        GMT; secure
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Reddit-Tracking, X-Moose
+      X-Reddit-Tracking:
+      - https://pixel.redditmedia.com/pixel/of_destiny.png?v=lVg1X%2FDXjEoszfF%2F3equ3KIGVKnmpRicAP3SlwLmbSrPCj%2Bl4BTTOm%2FeA4cj%2B%2FeXm%2Fl21y07oWM%3D
+      Cache-Control:
+      - max-age=0, must-revalidate
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '42716'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 23 Mar 2017 17:24:13 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-den6022-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1490289853.205532,VS0,VE196
+      Vary:
+      - accept-encoding
+      Server:
+      - snooserv
+    body:
+      encoding: UTF-8
+      string: '[{"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+        "t3", "data": {"contest_mode": false, "banned_by": null, "media_embed": {},
+        "subreddit": "Tucson", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;&lt;strong&gt;ALL
+        classified-type posts must be posted in this thread and not in the main sub.&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;Topics
+        that are appropriate for this thread include:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;p&gt;Buy/Sell/Trade
+        of: propery, vehicles, goods (&lt;em&gt;nothing illegal&lt;/em&gt;)&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Cross
+        posts from Craigslist&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Roommate(s)
+        wanted/needed&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Sublets/vacancies available&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Residential
+        and/or commercial real estate for sale/lease&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Questions
+        about neighborhoods/where to live or rent&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Garage
+        sale announcements&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Job seekers/employers
+        looking to hire&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Self-promotion (businesses,
+        including artists, musicians, etc sharing their work)&lt;/p&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;For
+        selling items, please remember to list some of the basics for potential buyers:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;p&gt;Price&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Item
+        details (condition, date of purchase, etc.)&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Your
+        general location (Tucson, Oro Valley, Marana, etc.  No addresses, save that
+        for PM.)&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Anything else that&amp;#39;s
+        relevant&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;strong&gt;Nothing illegal
+        is allowed&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;All
+        posts of this nature will be directed out of the main sub and into this thread.  If
+        you think you have a compelling reason to post in the main sub, please message
+        the mods and we will evaluate the request.  Thanks!&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "**ALL classified-type posts must be posted in
+        this thread and not in the main sub.**\n\nTopics that are appropriate for
+        this thread include:\n\n* Buy/Sell/Trade of: propery, vehicles, goods (*nothing
+        illegal*)\n\n* Cross posts from Craigslist\n\n* Roommate(s) wanted/needed\n\n*
+        Sublets/vacancies available\n\n* Residential and/or commercial real estate
+        for sale/lease\n\n* Questions about neighborhoods/where to live or rent\n\n*
+        Garage sale announcements\n\n* Job seekers/employers looking to hire\n\n*
+        Self-promotion (businesses, including artists, musicians, etc sharing their
+        work)\n\n****\n\nFor selling items, please remember to list some of the basics
+        for potential buyers:\n\n* Price\n\n* Item details (condition, date of purchase,
+        etc.)\n\n* Your general location (Tucson, Oro Valley, Marana, etc.  No addresses,
+        save that for PM.)\n\n* Anything else that''s relevant\n\n* **Nothing illegal
+        is allowed**\n\n****\n\n\nAll posts of this nature will be directed out of
+        the main sub and into this thread.  If you think you have a compelling reason
+        to post in the main sub, please message the mods and we will evaluate the
+        request.  Thanks!", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "saved": false, "id": "5wt8jd", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "score": 10, "report_reasons": null, "author": "CompletelyLurker",
+        "link_flair_text": "Monthly Discussion", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "over_18": false, "domain": "self.Tucson", "hidden":
+        false, "num_comments": 31, "thumbnail": "self", "subreddit_id": "t5_2qmno",
+        "edited": 1489997702.0, "link_flair_css_class": "medblue", "author_flair_css_class":
+        null, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "stickied": true, "is_self": true, "hide_score": false, "spoiler": false,
+        "permalink": "/r/Tucson/comments/5wt8jd/buyselltradehousing_march_2017/",
+        "subreddit_type": "public", "locked": false, "name": "t3_5wt8jd", "created":
+        1488373002.0, "url": "https://www.reddit.com/r/Tucson/comments/5wt8jd/buyselltradehousing_march_2017/",
+        "author_flair_text": "\ud83c\udd91 Currently Lurking", "quarantine": false,
+        "title": "Buy/Sell/Trade/Housing: March 2017", "created_utc": 1488344202.0,
+        "ups": 10, "media": null, "upvote_ratio": 0.8, "mod_reports": [], "visited":
+        false, "num_reports": null, "distinguished": "moderator"}}], "after": null,
+        "before": null}}, {"kind": "Listing", "data": {"modhash": "", "children":
+        [{"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "decv3ts", "gilded": 0, "archived": false, "score":
+        3, "report_reasons": null, "author": "DonNewKirk", "parent_id": "t3_5wt8jd",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Looking to rent 2 or 3 bedroom house/condo/townhouse or apartment
+        --Central Tucson, April 1. Not too picky $1100 limit", "edited": 1488391870.0,
+        "author_flair_css_class": null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Looking
+        to rent 2 or 3 bedroom house/condo/townhouse or apartment --Central Tucson,
+        April 1. Not too picky $1100 limit&lt;/p&gt;\n&lt;/div&gt;", "stickied": false,
+        "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_decv3ts", "created": 1488375680.0, "author_flair_text": null,
+        "created_utc": 1488346880.0, "ups": 3, "depth": 0, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno",
+        "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd", "likes":
+        null, "replies": "", "user_reports": [], "saved": false, "id": "dedv0tq",
+        "gilded": 0, "archived": false, "score": 2, "report_reasons": null, "author":
+        "chewbi", "parent_id": "t3_5wt8jd", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "controversiality": 0, "body": "Looking for somebody
+        to sublease my room until August 2017. It''s a 4 room house, but only two
+        other dudes and a cat live there. $484 a month +utilities. It''s about mile
+        from UA campus. PM me for deets.", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Looking for
+        somebody to sublease my room until August 2017. It&amp;#39;s a 4 room house,
+        but only two other dudes and a cat live there. $484 a month +utilities. It&amp;#39;s
+        about mile from UA campus. PM me for deets.&lt;/p&gt;\n&lt;/div&gt;", "stickied":
+        false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_dedv0tq", "created": 1488431294.0, "author_flair_text": null,
+        "created_utc": 1488402494.0, "ups": 2, "depth": 0, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno",
+        "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd", "likes":
+        null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+        "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": {"kind": "Listing",
+        "data": {"modhash": "", "children": [{"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd",
+        "likes": null, "replies": "", "user_reports": [], "saved": false, "id": "dej0blu",
+        "gilded": 0, "archived": false, "score": 1, "report_reasons": null, "author":
+        "BelligerentBacteria", "parent_id": "t1_deizzqr", "subreddit_name_prefixed":
+        "r/Tucson", "approved_by": null, "controversiality": 0, "body": "its a 2014
+        vizio, no issues of note. In the effort of honesty it may actually be a 49
+        inch.", "edited": false, "author_flair_css_class": null, "downs": 0, "body_html":
+        "&lt;div class=\"md\"&gt;&lt;p&gt;its a 2014 vizio, no issues of note. In
+        the effort of honesty it may actually be a 49 inch.&lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_dej0blu", "created": 1488722571.0, "author_flair_text":
+        null, "created_utc": 1488693771.0, "ups": 1, "depth": 2, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd",
+        "likes": null, "replies": {"kind": "Listing", "data": {"modhash": "", "children":
+        [{"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": {"kind": "Listing",
+        "data": {"modhash": "", "children": [{"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd",
+        "likes": null, "replies": {"kind": "Listing", "data": {"modhash": "", "children":
+        [{"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": {"kind": "Listing",
+        "data": {"modhash": "", "children": [{"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd",
+        "likes": null, "replies": {"kind": "Listing", "data": {"modhash": "", "children":
+        [{"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": {"kind": "Listing",
+        "data": {"modhash": "", "children": [{"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd",
+        "likes": null, "replies": {"kind": "Listing", "data": {"modhash": "", "children":
+        [{"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": {"kind": "Listing",
+        "data": {"modhash": "", "children": [{"kind": "more", "data": {"count": 0,
+        "name": "t1__", "id": "_", "parent_id": "t1_dekg8w0", "depth": 10, "children":
+        []}}], "after": null, "before": null}}, "user_reports": [], "saved": false,
+        "id": "dekg8w0", "gilded": 0, "archived": false, "score": 1, "report_reasons":
+        null, "author": "Sarsoar", "parent_id": "t1_dekg0uz", "subreddit_name_prefixed":
+        "r/Tucson", "approved_by": null, "controversiality": 0, "body": "The one next
+        to melt right? I can do tuesday after work, so any time between 5 and 7? I
+        would also like a place to plug it in to test it. Maybe we can go inside or
+        look for an external one somewhere. ", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;The one next
+        to melt right? I can do tuesday after work, so any time between 5 and 7? I
+        would also like a place to plug it in to test it. Maybe we can go inside or
+        look for an external one somewhere. &lt;/p&gt;\n&lt;/div&gt;", "stickied":
+        false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_dekg8w0", "created": 1488817059.0, "author_flair_text": null,
+        "created_utc": 1488788259.0, "ups": 1, "depth": 9, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}], "after": null, "before": null}}, "user_reports":
+        [], "saved": false, "id": "dekg0uz", "gilded": 0, "archived": false, "score":
+        2, "report_reasons": null, "author": "BelligerentBacteria", "parent_id": "t1_dekfg85",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "When works for you? Lets meet at the Barnes and Noble on broadway
+        in the parking lot", "edited": false, "author_flair_css_class": null, "downs":
+        0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;When works for you? Lets
+        meet at the Barnes and Noble on broadway in the parking lot&lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_dekg0uz", "created": 1488816437.0, "author_flair_text":
+        null, "created_utc": 1488787637.0, "ups": 2, "depth": 8, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}], "after": null, "before": null}},
+        "user_reports": [], "saved": false, "id": "dekfg85", "gilded": 0, "archived":
+        false, "score": 1, "report_reasons": null, "author": "Sarsoar", "parent_id":
+        "t1_dejpp3r", "subreddit_name_prefixed": "r/Tucson", "approved_by": null,
+        "controversiality": 0, "body": "Ok, that works. I live on east side. But anywhere
+        on broadway works for me. ", "edited": false, "author_flair_css_class": null,
+        "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Ok, that works.
+        I live on east side. But anywhere on broadway works for me. &lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_dekfg85", "created": 1488814865.0, "author_flair_text":
+        null, "created_utc": 1488786065.0, "ups": 1, "depth": 7, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}], "after": null, "before": null}},
+        "user_reports": [], "saved": false, "id": "dejpp3r", "gilded": 0, "archived":
+        false, "score": 2, "report_reasons": null, "author": "BelligerentBacteria",
+        "parent_id": "t1_dejpgdh", "subreddit_name_prefixed": "r/Tucson", "approved_by":
+        null, "controversiality": 0, "body": "Yeah sure, $400 works! Let me know when/
+        where, I''d prefer close to campus. ", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Yeah sure,
+        $400 works! Let me know when/ where, I&amp;#39;d prefer close to campus. &lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_dejpp3r", "created": 1488774800.0, "author_flair_text":
+        null, "created_utc": 1488746000.0, "ups": 2, "depth": 6, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}], "after": null, "before": null}},
+        "user_reports": [], "saved": false, "id": "dejpgdh", "gilded": 0, "archived":
+        false, "score": 1, "report_reasons": null, "author": "Sarsoar", "parent_id":
+        "t1_dejmgkt", "subreddit_name_prefixed": "r/Tucson", "approved_by": null,
+        "controversiality": 0, "body": "Yea probably. I have to see if I have enough
+        to spare. Can you do closer to 350-400 range?", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Yea probably.
+        I have to see if I have enough to spare. Can you do closer to 350-400 range?&lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_dejpgdh", "created": 1488774463.0, "author_flair_text":
+        null, "created_utc": 1488745663.0, "ups": 1, "depth": 5, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}], "after": null, "before": null}},
+        "user_reports": [], "saved": false, "id": "dejmgkt", "gilded": 0, "archived":
+        false, "score": 2, "report_reasons": null, "author": "BelligerentBacteria",
+        "parent_id": "t1_dej0pr7", "subreddit_name_prefixed": "r/Tucson", "approved_by":
+        null, "controversiality": 0, "body": "Still interested?", "edited": false,
+        "author_flair_css_class": null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Still
+        interested?&lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit": "Tucson",
+        "score_hidden": false, "subreddit_type": "public", "name": "t1_dejmgkt", "created":
+        1488770278.0, "author_flair_text": null, "created_utc": 1488741478.0, "ups":
+        2, "depth": 4, "mod_reports": [], "num_reports": null, "distinguished": null}},
+        {"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "dej0xfz", "gilded": 0, "archived": false, "score":
+        1, "report_reasons": null, "author": "BelligerentBacteria", "parent_id": "t1_dej0pr7",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Of note means anything I can find. Pretty sure we have taken care
+        of it well. \n\nHow does 450 sound? Seeing as its on amazon for 500+shipping+tax.
+        \n\n", "edited": false, "author_flair_css_class": null, "downs": 0, "body_html":
+        "&lt;div class=\"md\"&gt;&lt;p&gt;Of note means anything I can find. Pretty
+        sure we have taken care of it well. &lt;/p&gt;\n\n&lt;p&gt;How does 450 sound?
+        Seeing as its on amazon for 500+shipping+tax. &lt;/p&gt;\n&lt;/div&gt;", "stickied":
+        false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_dej0xfz", "created": 1488723788.0, "author_flair_text": null,
+        "created_utc": 1488694988.0, "ups": 1, "depth": 4, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno",
+        "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd", "likes":
+        null, "replies": "", "user_reports": [], "saved": false, "id": "dej12c4",
+        "gilded": 0, "archived": false, "score": 1, "report_reasons": null, "author":
+        "BelligerentBacteria", "parent_id": "t1_dej0pr7", "subreddit_name_prefixed":
+        "r/Tucson", "approved_by": null, "controversiality": 0, "body": "Oh, there
+        is a missing button for iHeart Radio on the remote. ", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Oh, there
+        is a missing button for iHeart Radio on the remote. &lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_dej12c4", "created": 1488724076.0, "author_flair_text":
+        null, "created_utc": 1488695276.0, "ups": 1, "depth": 4, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}], "after": null, "before": null}},
+        "user_reports": [], "saved": false, "id": "dej0pr7", "gilded": 0, "archived":
+        false, "score": 1, "report_reasons": null, "author": "Sarsoar", "parent_id":
+        "t1_dej0ius", "subreddit_name_prefixed": "r/Tucson", "approved_by": null,
+        "controversiality": 0, "body": "How much do you want for it. It doesnt have
+        any dead pixels or damaged areas right? Just making sure what \"of note\"
+        means. ", "edited": false, "author_flair_css_class": null, "downs": 0, "body_html":
+        "&lt;div class=\"md\"&gt;&lt;p&gt;How much do you want for it. It doesnt have
+        any dead pixels or damaged areas right? Just making sure what &amp;quot;of
+        note&amp;quot; means. &lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit":
+        "Tucson", "score_hidden": false, "subreddit_type": "public", "name": "t1_dej0pr7",
+        "created": 1488723356.0, "author_flair_text": null, "created_utc": 1488694556.0,
+        "ups": 1, "depth": 3, "mod_reports": [], "num_reports": null, "distinguished":
+        null}}], "after": null, "before": null}}, "user_reports": [], "saved": false,
+        "id": "dej0ius", "gilded": 0, "archived": false, "score": 1, "report_reasons":
+        null, "author": "BelligerentBacteria", "parent_id": "t1_deizzqr", "subreddit_name_prefixed":
+        "r/Tucson", "approved_by": null, "controversiality": 0, "body": "https://www.amazon.com/VIZIO-M492i-B2-49-Inch-1080p-Smart/dp/B00JP7OW58/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8\n\nthis
+        is the exact tv", "edited": false, "author_flair_css_class": null, "downs":
+        0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&lt;a href=\"https://www.amazon.com/VIZIO-M492i-B2-49-Inch-1080p-Smart/dp/B00JP7OW58/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8\"&gt;https://www.amazon.com/VIZIO-M492i-B2-49-Inch-1080p-Smart/dp/B00JP7OW58/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;this
+        is the exact tv&lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit":
+        "Tucson", "score_hidden": false, "subreddit_type": "public", "name": "t1_dej0ius",
+        "created": 1488722961.0, "author_flair_text": null, "created_utc": 1488694161.0,
+        "ups": 1, "depth": 2, "mod_reports": [], "num_reports": null, "distinguished":
+        null}}], "after": null, "before": null}}, "user_reports": [], "saved": false,
+        "id": "deizzqr", "gilded": 0, "archived": false, "score": 1, "report_reasons":
+        null, "author": "Sarsoar", "parent_id": "t1_dee43to", "subreddit_name_prefixed":
+        "r/Tucson", "approved_by": null, "controversiality": 0, "body": "How old,
+        model number, any issues with the display?", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How old,
+        model number, any issues with the display?&lt;/p&gt;\n&lt;/div&gt;", "stickied":
+        false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_deizzqr", "created": 1488722004.0, "author_flair_text": null,
+        "created_utc": 1488693204.0, "ups": 1, "depth": 1, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}], "after": null, "before": null}}, "user_reports":
+        [], "saved": false, "id": "dee43to", "gilded": 0, "archived": false, "score":
+        2, "report_reasons": null, "author": "BelligerentBacteria", "parent_id": "t3_5wt8jd",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "anyone looking to buy a 50 inch tv? 1080p vizio. Looking to upgrade/
+        moving", "edited": false, "author_flair_css_class": null, "downs": 0, "body_html":
+        "&lt;div class=\"md\"&gt;&lt;p&gt;anyone looking to buy a 50 inch tv? 1080p
+        vizio. Looking to upgrade/ moving&lt;/p&gt;\n&lt;/div&gt;", "stickied": false,
+        "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_dee43to", "created": 1488441997.0, "author_flair_text": null,
+        "created_utc": 1488413197.0, "ups": 2, "depth": 0, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno",
+        "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd", "likes":
+        null, "replies": "", "user_reports": [], "saved": false, "id": "dehe2xy",
+        "gilded": 0, "archived": false, "score": 2, "report_reasons": null, "author":
+        "doveenigma13", "parent_id": "t3_5wt8jd", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "controversiality": 0, "body": "I''m looking to sell
+        my PlayStation 4. Special edition uncharted 4 edition. The gray PS4 with Nathan
+        on it. Two gray special edition controllers. Six games. Final fantasy 15,
+        uncharted collection, uncharted 4, the last of us, blood born, and the newest
+        destiny. $300. ", "edited": false, "author_flair_css_class": null, "downs":
+        0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m looking to sell
+        my PlayStation 4. Special edition uncharted 4 edition. The gray PS4 with Nathan
+        on it. Two gray special edition controllers. Six games. Final fantasy 15,
+        uncharted collection, uncharted 4, the last of us, blood born, and the newest
+        destiny. $300. &lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit":
+        "Tucson", "score_hidden": false, "subreddit_type": "public", "name": "t1_dehe2xy",
+        "created": 1488618200.0, "author_flair_text": null, "created_utc": 1488589400.0,
+        "ups": 2, "depth": 0, "mod_reports": [], "num_reports": null, "distinguished":
+        null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null,
+        "removal_reason": null, "link_id": "t3_5wt8jd", "likes": null, "replies":
+        "", "user_reports": [], "saved": false, "id": "dehttzr", "gilded": 0, "archived":
+        false, "score": 2, "report_reasons": null, "author": "cactipack", "parent_id":
+        "t3_5wt8jd", "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Looking to rent a 2-3 bed 2 bath home with a yard. Preferably
+        on the west side for easy access to the freeway. Pricing around $850 a month.
+        No breed restrictions on dogs. ", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Looking to
+        rent a 2-3 bed 2 bath home with a yard. Preferably on the west side for easy
+        access to the freeway. Pricing around $850 a month. No breed restrictions
+        on dogs. &lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit": "Tucson",
+        "score_hidden": false, "subreddit_type": "public", "name": "t1_dehttzr", "created":
+        1488649405.0, "author_flair_text": null, "created_utc": 1488620605.0, "ups":
+        2, "depth": 0, "mod_reports": [], "num_reports": null, "distinguished": null}},
+        {"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "derf7yu", "gilded": 0, "archived": false, "score":
+        2, "report_reasons": null, "author": "leonoel", "parent_id": "t3_5wt8jd",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Selling an SUV\n\n- Maza Tribute Sport, 2005\n- $3000\n- 2005,
+        only one owner, 126,000 miles, 25 mpg (city)\n- Couple of bumps\n- Tires have
+        only 20K on them\n- Color gray\n", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Selling an
+        SUV&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Maza Tribute Sport, 2005&lt;/li&gt;\n&lt;li&gt;$3000&lt;/li&gt;\n&lt;li&gt;2005,
+        only one owner, 126,000 miles, 25 mpg (city)&lt;/li&gt;\n&lt;li&gt;Couple
+        of bumps&lt;/li&gt;\n&lt;li&gt;Tires have only 20K on them&lt;/li&gt;\n&lt;li&gt;Color
+        gray&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;", "stickied": false, "subreddit":
+        "Tucson", "score_hidden": false, "subreddit_type": "public", "name": "t1_derf7yu",
+        "created": 1489196872.0, "author_flair_text": null, "created_utc": 1489168072.0,
+        "ups": 2, "depth": 0, "mod_reports": [], "num_reports": null, "distinguished":
+        null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null,
+        "removal_reason": null, "link_id": "t3_5wt8jd", "likes": null, "replies":
+        "", "user_reports": [], "saved": false, "id": "deucrph", "gilded": 0, "archived":
+        false, "score": 2, "report_reasons": null, "author": "Zebrashirt", "parent_id":
+        "t3_5wt8jd", "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Looking to rent a 3 bedroom stand alone house near UofA. Dog friendly
+        with a large fenced in yard, maximum price 1700. ", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Looking to
+        rent a 3 bedroom stand alone house near UofA. Dog friendly with a large fenced
+        in yard, maximum price 1700. &lt;/p&gt;\n&lt;/div&gt;", "stickied": false,
+        "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_deucrph", "created": 1489379663.0, "author_flair_text": null,
+        "created_utc": 1489350863.0, "ups": 2, "depth": 0, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno",
+        "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd", "likes":
+        null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+        "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "df6ceb4", "gilded": 0, "archived": false, "score":
+        2, "report_reasons": null, "author": "aribrona", "parent_id": "t1_dexh49x",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "I believe I have a Fig bush in my backyard. If you would like
+        to re-home it you''re more than welcome to it.", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I believe
+        I have a Fig bush in my backyard. If you would like to re-home it you&amp;#39;re
+        more than welcome to it.&lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit":
+        "Tucson", "score_hidden": false, "subreddit_type": "public", "name": "t1_df6ceb4",
+        "created": 1490054061.0, "author_flair_text": null, "created_utc": 1490025261.0,
+        "ups": 2, "depth": 1, "mod_reports": [], "num_reports": null, "distinguished":
+        null}}], "after": null, "before": null}}, "user_reports": [], "saved": false,
+        "id": "dexh49x", "gilded": 0, "archived": false, "score": 2, "report_reasons":
+        null, "author": "Tucsononly", "parent_id": "t3_5wt8jd", "subreddit_name_prefixed":
+        "r/Tucson", "approved_by": null, "controversiality": 0, "body": "Anyone in
+        Tucson grow figs? I''m looking for these varieties: \n\nGalicia negra\nBlack
+        madeira\nItalian 258\nGenovese nero (AF/Rafed)\nJH adriatic\n\nIf you have
+        any of these and would like to trade for my rooted RdB cutting or sell me
+        a cutting, please contact me. I also have an unknown backyard fig that is
+        probably a brown turkey or black mission if you want to trade for it.", "edited":
+        false, "author_flair_css_class": null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Anyone
+        in Tucson grow figs? I&amp;#39;m looking for these varieties: &lt;/p&gt;\n\n&lt;p&gt;Galicia
+        negra\nBlack madeira\nItalian 258\nGenovese nero (AF/Rafed)\nJH adriatic&lt;/p&gt;\n\n&lt;p&gt;If
+        you have any of these and would like to trade for my rooted RdB cutting or
+        sell me a cutting, please contact me. I also have an unknown backyard fig
+        that is probably a brown turkey or black mission if you want to trade for
+        it.&lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit": "Tucson", "score_hidden":
+        false, "subreddit_type": "public", "name": "t1_dexh49x", "created": 1489551921.0,
+        "author_flair_text": null, "created_utc": 1489523121.0, "ups": 2, "depth":
+        0, "mod_reports": [], "num_reports": null, "distinguished": null}}, {"kind":
+        "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "dei2n7q", "gilded": 0, "archived": false, "score":
+        1, "report_reasons": null, "author": "ipomopsis", "parent_id": "t3_5wt8jd",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Hey, we have a Nuna Sena Travel Crib for babies under 1 year for
+        sale. Asking $120, it''s about $200 new. Used for less than a year (duh,)
+        and in excellent condition. We are in Tucson close to Broadway and Campbell.",
+        "edited": false, "author_flair_css_class": null, "downs": 0, "body_html":
+        "&lt;div class=\"md\"&gt;&lt;p&gt;Hey, we have a Nuna Sena Travel Crib for
+        babies under 1 year for sale. Asking $120, it&amp;#39;s about $200 new. Used
+        for less than a year (duh,) and in excellent condition. We are in Tucson close
+        to Broadway and Campbell.&lt;/p&gt;\n&lt;/div&gt;", "stickied": false, "subreddit":
+        "Tucson", "score_hidden": false, "subreddit_type": "public", "name": "t1_dei2n7q",
+        "created": 1488671174.0, "author_flair_text": null, "created_utc": 1488642374.0,
+        "ups": 1, "depth": 0, "mod_reports": [], "num_reports": null, "distinguished":
+        null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null,
+        "removal_reason": null, "link_id": "t3_5wt8jd", "likes": null, "replies":
+        "", "user_reports": [], "saved": false, "id": "dencim1", "gilded": 0, "archived":
+        false, "score": 1, "report_reasons": null, "author": "mreowmix", "parent_id":
+        "t3_5wt8jd", "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": " Selling: 2013 Luna Butterfly Cutaway Acoustic Electric Guitar
+        - $400\n\n****I am including a soft case as well as the Dean Markley acoustic
+        guitar pickup!!!****\n\nThis is the 2013 Luna Fau Butterfly Acoustic Electric
+        Guitar. 25.5\" scale. 1.67\" nut width. 15\" bottom bout. 4 3/16\" deep. \n\nIt
+        features a maple body with a mahogany neck. This creates a great balance between
+        lows and highs. The mid sized body offers exceptional natural projection.
+        Luna also has the B-Band active preamp onboard.\n\nThe neck has a comfortable
+        feel- just .82\" deep at the 5th fret with a C profile. \n\nHas a natural
+        finish showing off the quilted top, Butterfly &amp; Flower rosette inlay,
+        bound body/fingerboard, moon inlays, and chrome hardware. \n\nhttps://tucson.craigslist.org/msg/6033057854.html",
+        "edited": false, "author_flair_css_class": null, "downs": 0, "body_html":
+        "&lt;div class=\"md\"&gt;&lt;p&gt;Selling: 2013 Luna Butterfly Cutaway Acoustic
+        Electric Guitar - $400&lt;/p&gt;\n\n&lt;p&gt;*&lt;strong&gt;&lt;em&gt;I am
+        including a soft case as well as the Dean Markley acoustic guitar pickup!!!&lt;/em&gt;&lt;/strong&gt;*&lt;/p&gt;\n\n&lt;p&gt;This
+        is the 2013 Luna Fau Butterfly Acoustic Electric Guitar. 25.5&amp;quot; scale.
+        1.67&amp;quot; nut width. 15&amp;quot; bottom bout. 4 3/16&amp;quot; deep.
+        &lt;/p&gt;\n\n&lt;p&gt;It features a maple body with a mahogany neck. This
+        creates a great balance between lows and highs. The mid sized body offers
+        exceptional natural projection. Luna also has the B-Band active preamp onboard.&lt;/p&gt;\n\n&lt;p&gt;The
+        neck has a comfortable feel- just .82&amp;quot; deep at the 5th fret with
+        a C profile. &lt;/p&gt;\n\n&lt;p&gt;Has a natural finish showing off the quilted
+        top, Butterfly &amp;amp; Flower rosette inlay, bound body/fingerboard, moon
+        inlays, and chrome hardware. &lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://tucson.craigslist.org/msg/6033057854.html\"&gt;https://tucson.craigslist.org/msg/6033057854.html&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_dencim1", "created": 1488971959.0, "author_flair_text":
+        null, "created_utc": 1488943159.0, "ups": 1, "depth": 0, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd",
+        "likes": null, "replies": "", "user_reports": [], "saved": false, "id": "deuoqon",
+        "gilded": 0, "archived": false, "score": 1, "report_reasons": null, "author":
+        "sierrakelly", "parent_id": "t3_5wt8jd", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "controversiality": 0, "body": "1 Portugal. The Man Rialto
+        concert ticket for 3/17 ($30)", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;1 Portugal.
+        The Man Rialto concert ticket for 3/17 ($30)&lt;/p&gt;\n&lt;/div&gt;", "stickied":
+        false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_deuoqon", "created": 1489395807.0, "author_flair_text": null,
+        "created_utc": 1489367007.0, "ups": 1, "depth": 0, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno",
+        "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd", "likes":
+        null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+        "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "df642c9", "gilded": 0, "archived": false, "score":
+        1, "report_reasons": null, "author": "AGNermal", "parent_id": "t1_devks9i",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Which console were you looking at trading for?", "edited": false,
+        "author_flair_css_class": null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Which
+        console were you looking at trading for?&lt;/p&gt;\n&lt;/div&gt;", "stickied":
+        false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_df642c9", "created": 1490043060.0, "author_flair_text": null,
+        "created_utc": 1490014260.0, "ups": 1, "depth": 1, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}], "after": null, "before": null}}, "user_reports":
+        [], "saved": false, "id": "devks9i", "gilded": 0, "archived": false, "score":
+        1, "report_reasons": null, "author": "[deleted]", "parent_id": "t3_5wt8jd",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "[deleted]", "edited": 1489442396.0, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[deleted]&lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_devks9i", "created": 1489454227.0, "author_flair_text":
+        null, "created_utc": 1489425427.0, "ups": 1, "depth": 0, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd",
+        "likes": null, "replies": "", "user_reports": [], "saved": false, "id": "dewi7aq",
+        "gilded": 0, "archived": false, "score": 1, "report_reasons": null, "author":
+        "firestartinontheroof", "parent_id": "t3_5wt8jd", "subreddit_name_prefixed":
+        "r/Tucson", "approved_by": null, "controversiality": 0, "body": "Looking for
+        a modern-style love seat (straight lines, raised, etc.) for sale. Please let
+        me know if you''re selling something similar. ", "edited": 1489466580.0, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Looking for
+        a modern-style love seat (straight lines, raised, etc.) for sale. Please let
+        me know if you&amp;#39;re selling something similar. &lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_dewi7aq", "created": 1489494697.0, "author_flair_text":
+        null, "created_utc": 1489465897.0, "ups": 1, "depth": 0, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd",
+        "likes": null, "replies": "", "user_reports": [], "saved": false, "id": "df5hjpq",
+        "gilded": 0, "archived": false, "score": 1, "report_reasons": null, "author":
+        "Iamdillweed333", "parent_id": "t3_5wt8jd", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "controversiality": 0, "body": "SAPPHIRE R7 260X graphics
+        card. 100 obo\nUpdated my graphics so looking to get rid of this one. If interested
+        shoot me a pm very open to negotiations ", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;SAPPHIRE
+        R7 260X graphics card. 100 obo\nUpdated my graphics so looking to get rid
+        of this one. If interested shoot me a pm very open to negotiations &lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_df5hjpq", "created": 1489998338.0, "author_flair_text":
+        null, "created_utc": 1489969538.0, "ups": 1, "depth": 0, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id":
+        "t5_2qmno", "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd",
+        "likes": null, "replies": {"kind": "Listing", "data": {"modhash": "", "children":
+        [{"kind": "t1", "data": {"subreddit_id": "t5_2qmno", "banned_by": null, "removal_reason":
+        null, "link_id": "t3_5wt8jd", "likes": null, "replies": "", "user_reports":
+        [], "saved": false, "id": "df8iaa5", "gilded": 0, "archived": false, "score":
+        1, "report_reasons": null, "author": "pibbletucson", "parent_id": "t1_df6zwaf",
+        "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Also for sale:\n\n32\" Samsung TV - $85\n\nDining Set (table,
+        5 chairs, bench) - $250\n\nRound Glass Table - $120\n\n2 broken laptops and
+        xbox 360s. Not sure if anyone wants broken electronics.\n\n1985 Honda Elite
+        80 motor scooter. Ran only once and never again since.\n\nI can PM the craigslist
+        links to anyone who wants more information.", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Also for
+        sale:&lt;/p&gt;\n\n&lt;p&gt;32&amp;quot; Samsung TV - $85&lt;/p&gt;\n\n&lt;p&gt;Dining
+        Set (table, 5 chairs, bench) - $250&lt;/p&gt;\n\n&lt;p&gt;Round Glass Table
+        - $120&lt;/p&gt;\n\n&lt;p&gt;2 broken laptops and xbox 360s. Not sure if anyone
+        wants broken electronics.&lt;/p&gt;\n\n&lt;p&gt;1985 Honda Elite 80 motor
+        scooter. Ran only once and never again since.&lt;/p&gt;\n\n&lt;p&gt;I can
+        PM the craigslist links to anyone who wants more information.&lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_df8iaa5", "created": 1490162883.0, "author_flair_text":
+        null, "created_utc": 1490134083.0, "ups": 1, "depth": 1, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}], "after": null, "before": null}},
+        "user_reports": [], "saved": false, "id": "df6zwaf", "gilded": 0, "archived":
+        false, "score": 1, "report_reasons": null, "author": "pibbletucson", "parent_id":
+        "t3_5wt8jd", "subreddit_name_prefixed": "r/Tucson", "approved_by": null, "controversiality":
+        0, "body": "Looking for a roommate for now until July 31. Master bedroom of
+        2 bedroom loft downtown available. $510/month + electricity and internet.
+        Bedroom and bathroom are on their own floor with a porch. I''m a senior at
+        the UA and have a pitbull who loves people but not other pets. House is furnished,
+        but bedroom only has a bed if you want it.", "edited": false, "author_flair_css_class":
+        null, "downs": 0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Looking for
+        a roommate for now until July 31. Master bedroom of 2 bedroom loft downtown
+        available. $510/month + electricity and internet. Bedroom and bathroom are
+        on their own floor with a porch. I&amp;#39;m a senior at the UA and have a
+        pitbull who loves people but not other pets. House is furnished, but bedroom
+        only has a bed if you want it.&lt;/p&gt;\n&lt;/div&gt;", "stickied": false,
+        "subreddit": "Tucson", "score_hidden": false, "subreddit_type": "public",
+        "name": "t1_df6zwaf", "created": 1490080704.0, "author_flair_text": null,
+        "created_utc": 1490051904.0, "ups": 1, "depth": 0, "mod_reports": [], "num_reports":
+        null, "distinguished": null}}, {"kind": "t1", "data": {"subreddit_id": "t5_2qmno",
+        "banned_by": null, "removal_reason": null, "link_id": "t3_5wt8jd", "likes":
+        null, "replies": "", "user_reports": [], "saved": false, "id": "df90a8i",
+        "gilded": 0, "archived": false, "score": 1, "report_reasons": null, "author":
+        "middlenamesneak", "parent_id": "t3_5wt8jd", "subreddit_name_prefixed": "r/Tucson",
+        "approved_by": null, "controversiality": 0, "body": "Selling two (2) Sunday
+        tickets to Phoenix Lights festival on 4/9. $170 takes both of them, which
+        is cheaper than face value. Great lineup if you''re into electronic and EDM.
+        ", "edited": false, "author_flair_css_class": null, "downs": 0, "body_html":
+        "&lt;div class=\"md\"&gt;&lt;p&gt;Selling two (2) Sunday tickets to Phoenix
+        Lights festival on 4/9. $170 takes both of them, which is cheaper than face
+        value. Great lineup if you&amp;#39;re into electronic and EDM. &lt;/p&gt;\n&lt;/div&gt;",
+        "stickied": false, "subreddit": "Tucson", "score_hidden": false, "subreddit_type":
+        "public", "name": "t1_df90a8i", "created": 1490187646.0, "author_flair_text":
+        null, "created_utc": 1490158846.0, "ups": 1, "depth": 0, "mod_reports": [],
+        "num_reports": null, "distinguished": null}}], "after": null, "before": null}}]'
+    http_version: 
+  recorded_at: Thu, 23 Mar 2017 17:24:13 GMT
+recorded_with: VCR 3.0.3
