@@ -36,6 +36,11 @@ class RedditService
     parse(response)[:data][:description]
   end
 
+  def get_hot_posts(title)
+    response = HTTParty.get("https://www.reddit.com/r/#{title}/hot.json")
+    parse(response)[:data][:children][0..14]
+  end
+
   private
 
   def parse(response)
