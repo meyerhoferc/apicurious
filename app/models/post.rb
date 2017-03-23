@@ -5,7 +5,13 @@ class Post
   end
 
   def update_attributes
-    @reddit_service.update_post_attributes(self.id, self.subreddit)
+    attributes = @reddit_service.get_post_attributes(self.id, self.subreddit)
+    @contents[:title] = attributes[:title]
+    @contents[:num_comments] = attributes[:num_comments]
+    @contents[:score] = attributes[:score]
+    @contents[:author] = attributes[:author]
+    @contents[:text] = attributes[:selftext_html]
+    @contents[:url] = attributes[:url]
   end
 
   def title
