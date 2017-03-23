@@ -31,6 +31,10 @@
    color: #e7bb41;
  }
 
+ .row .container .body {
+   border: 1px solid #000000;
+ }
+
 /*color palette*/
 
 /*Reddit light blue: #cee3f8

@@ -16,24 +16,14 @@ class RedditService
     parse(response)
   end
 
-  def get_subreddit_url(title)
+  def get_subreddit_attributes(title)
     response = HTTParty.get("https://www.reddit.com/r/#{title}/about.json")
-    parse(response)[:data][:url]
-  end
-
-  def get_subreddit_description(title)
-    response = HTTParty.get("https://www.reddit.com/r/#{title}/about.json")
-    parse(response)[:data][:public_description]
+    parse(response)[:data]
   end
 
   def get_subreddit_rules(title)
     response = HTTParty.get("https://www.reddit.com/r/#{title}/about/rules.json")
     parse(response)[:rules]
-  end
-
-  def get_subreddit_about(title)
-    response = HTTParty.get("https://www.reddit.com/r/#{title}/about.json")
-    parse(response)[:data][:description]
   end
 
   def get_hot_posts(title)

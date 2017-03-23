@@ -1,0 +1,20 @@
+<div class="row">
+  <h1 class="col s12 title"><%= link_to @post.title, @post.url %></h1>
+</div>
+
+<div class="row">
+  <div class="col s8 body">
+    <p id="author"> <%= @post.author %></p>
+    <% if @post.text_post? %>
+    <div class="container body">
+      <p><%= @post.text %></p>
+    </div>
+    <% end %>
+    <p id="comments"><%= "#{@post.num_comments} comments" %></p>
+  </div>
+
+  <div class="col s3 offset-s1 rules">
+    <h4><%= @subreddit.url %></h4>
+    <p><%= @subreddit.description %></p>
+  </div>
+</div>
