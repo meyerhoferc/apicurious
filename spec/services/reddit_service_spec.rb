@@ -62,4 +62,17 @@ describe RedditService do
       end
     end
   end
+
+  describe "#get_hot_posts(title)" do
+    it "returns the 15 most recent posts for a subreddit title" do
+      subreddit = Subreddit.new("tucson")
+      service = RedditService.new()
+      posts = service.get_hot_posts(subreddit.title)
+      expect(posts.count).to eq(15)
+      expect(posts.first[:title]).to eq("Buy/Sell/Trade/Housing: March 2017")
+      expect(posts.first[:num_comments]).to eq(31)
+      expect(posts.first[:score]).to eq(12)
+      expect(posts.first[:subreddit].downcase).to eq("/r/tucson")
+    end
+  end
 end

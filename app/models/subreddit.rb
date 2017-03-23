@@ -27,4 +27,8 @@ class Subreddit
   def welcome_message
    @reddit_service.get_subreddit_about(@title)
   end
+
+  def posts
+    @reddit_service.get_hot_posts(@title)
+  end
 end
