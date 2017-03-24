@@ -16,5 +16,6 @@ class RedditOauth
     user_data = HTTParty.get("https://oauth.reddit.com/api/v1/me",
                              headers: { Authorization: "bearer #{@access_token}",
                                         "User-Agent": "apicurious by razzpudding"})
+    JSON.parse(user_data.body)
   end
 end
