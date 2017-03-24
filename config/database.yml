@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: apicurious_production
-  username: apicurious
-  password: <%= ENV['APICURIOUS_DATABASE_PASSWORD'] %>
+  # username: apicurious
+  # password: <%= ENV['APICURIOUS_DATABASE_PASSWORD'] %>
