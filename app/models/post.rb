@@ -26,12 +26,24 @@ class Post
 
   def insert_comment(comment_data, parent_comment = nil)
     comment = Comment.new(comment_data[:data])
+    add_to_parent(comment, parent_comment)
+    add_to_parent_comments(comment, parent_comment, comment_data)
+    add_children_to_current_comment(comment, comment_data)
+  end
+
+  def add_to_parent(comment, parent_comment)
     if parent_comment
       parent_comment.replies << comment
     end
+  end
+
+  def add_to_parent_comments(comment, parent_comment, comment_data)
     if parent_comment == nil && comment_data[:kind] != "more"
       @comments << comment
     end
+  end
+
+  def add_children_to_current_comment(comment, comment_data)
     if comment_data[:data][:replies] != "" && comment_data[:kind] != "more"
       replies = comment_data[:data][:replies][:data][:children]
       replies.each do |reply|
