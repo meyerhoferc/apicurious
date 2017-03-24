@@ -5,7 +5,7 @@
 <div class="row">
   <div class="col s8 body">
     <% if @post.text_post? %>
-    <div class="container body">
+    <div class="container body selftext">
       <%= @post.decode_text.html_safe %>
     </div>
     <% end %>
