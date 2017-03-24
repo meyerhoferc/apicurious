@@ -1,14 +1,12 @@
 <% unless current_user? %>
-<h1>Login with Reddit to view your Reddit feed</h1>
+<h1 class="welcome-message">Login with Reddit to view your Reddit feed</h1>
 <% else %>
-<h1><%= current_user.username %>'s Subreddits</h1>
+<h1 class="subreddit-message"><%= current_user.username %>'s Subreddits</h1>
 <div class="row">
   <div class="col s3 offset-s1 subreddits">
     <% if current_user.subreddit_subscriptions %>
       <% current_user.subreddit_subscriptions.each do |subreddit| %>
-      <div>
         <h4><%= link_to subreddit.url, subreddit_path(subreddit.title) %></h4>
-      </div>
       <% end %>
     <% end %>
   </div>

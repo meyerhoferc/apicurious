@@ -22,6 +22,30 @@
  .nav-wrapper a {
    color: #393e41;
  }
+ .nav-wrapper .brand-logo {
+   padding-left: 20px;
+ }
+
+ /*-----HOME PAGE-----*/
+
+ .welcome-message {
+   font-size: 40px;
+   text-align: center;
+   color: #393e41;
+ }
+
+ .subreddit-message {
+   font-size: 40px;
+   text-align: left;
+   color: #393e41;
+   padding-left: 20px;
+ }
+
+ /*-----DASHBOARD-----*/
+ .my-info {
+   text-align: center;
+ }
+
 
 /*-----EVERYWHERE-----*/
 

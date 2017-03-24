@@ -1,3 +1,5 @@
-<h1>Welcome, <%= current_user.username %></h1>
-<h3 class='comment_karma'>Comment Karma: <%= current_user.comment_karma %></h3>
-<h3 class='link_karma'>Link Karma: <%= current_user.post_karma %></h3>
+<h1 class="welcome-message">Welcome, <%= current_user.username %></h1>
+<div class="my-info">
+  <h5 class='comment_karma'>Comment Karma: <%= current_user.comment_karma %></h3>
+  <h5 class='link_karma'>Link Karma: <%= current_user.post_karma %></h3>
+</div>
