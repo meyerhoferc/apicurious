@@ -6,19 +6,14 @@
   <div class="col s8 body">
     <% if @post.text_post? %>
     <div class="container body">
-      <%= @post.decode_text %>
+      <%= @post.decode_text.html_safe %>
     </div>
     <% end %>
     <p id="author"> <%= @post.author %></p>
     <div class="comments">
       <p id="comments"><%= "#{@post.num_comments} comments" %></p>
       <% @post.comments.each do |comment| %>
-      <ul class="collection">
-       <li class="collection-item">
-         <p id="comment_info"><%= comment.author %> [<%= comment.score %> points]</p>
-         <p id=comment_<%= comment.id %>><%= comment.body %></p>
-       </li>
-     </ul>
+        <%= create_nested_comments(comment) %>
       <% end %>
     </div>
   </div>

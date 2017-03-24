@@ -14,7 +14,7 @@
  *= require_self
  */
 
- /*navbar styling*/
+ /*-----navbar-----*/
  .nav-wrapper {
    background-color: #cee3f8;
  }
@@ -22,6 +22,8 @@
  .nav-wrapper a {
    color: #393e41;
  }
+
+/*-----EVERYWHERE-----*/
 
  body a {
    color: #5f99cf;
@@ -31,15 +33,57 @@
    color: #e7bb41;
  }
 
- .row .container .body {
-   border: 1px solid #000000;
+ /*-----SUBREDDIT SHOW PAGE-----*/
+
+ .selftext {
+   border: 1px solid #393e41;
  }
 
  #comment_info {
    color: #5f99cf;
  }
 
-/*color palette*/
+ ul .collection{
+  border: none;
+}
+
+ .comment_0 {
+   margin-left: 10px;
+ }
+
+ .comment_1 {
+   margin-left: 20px;
+ }
+
+ .comment_2 {
+   margin-left: 40px;
+ }
+
+ .comment_3 {
+   margin-left: 60px;
+ }
+
+ .comment_4 {
+   margin-left: 80px;
+ }
+
+ .comment_5 {
+   margin-left: 100px;
+ }
+
+ .comment_6 {
+   margin-left: 120px;
+ }
+
+ .comment_7 {
+   margin-left: 140px;
+ }
+
+ .comment_8 {
+   margin-left: 160px;
+ }
+
+/*-----color palette-----*/
 
 /*Reddit light blue: #cee3f8
 Reddit dark blue: #5f99cf
